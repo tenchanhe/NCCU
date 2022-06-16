@@ -1,0 +1,75 @@
+Chanhe,male
+Cass,female
+Ahru,male
+Yaoyi,male
+Meiteng,female
+Yuzhe,male
+Chanhang,male
+Tenning,female
+Hueyyu,female
+Likkxun,male
+Likyang,male
+Yanjing,male
+Yishan,male
+Xiaoting,female
+Ahliao,female
+Pengchen,male
+Bryan,male
+Fangpo,female
+Dickson,male
+Dogking,male
+Wenxin,female
+Jiahui,female
+Nydia,female
+Carmen,female
+Karyan,female
+Micah Makanamaikalani Christenson,1993/05/08,USA,sport,volleyball
+Jenia Grebennikov,1994/07/19,France,sport,volleyball
+Facundo Conte,1989/08/25,Argentina,sport,volleyball
+Aaron Russell,1993/06/04,USA,sport,volleyball
+Matthew Anderson,1987/04.18,USA,sport,volleyball
+Pavel Moroz,1999/10/10,Italy,sport,volleyball
+Michal Winiarski,1983/09/28,Poland,sport,volleyball
+Mariusz Wlazly,1983/08/04,Poland,sport,volleyball
+Dawei Wong,1998/04/08,Taiwan,sport,volleyball
+Chanhe Ten,2001/07/19,Malaysia,sport,volleyball
+Chanhang Ten,2003/03/24,Malaysia,sport,volleyball
+Hinata Shioyo,2001/10/13,Japan,sport,volleyball
+Kageyama Tobio,2001/12/10,Japan,sport,volleyball
+Micheal Jordan,1988/05/27,USA,sport,volleyball
+Kobe Bryant,1980/10/10,USA,sport,volleyball
+Huzi Laohu,1985/03/27,Korea,sport,volleyball
+Anzhe Zheng,2002/06/06,Japan,sport,volleyball
+Weisheng Liu,1995/07/07,Brazil,sport,volleyball
+Kevin Durant,1988/08/09,Canada,sport,volleyball
+Zhong Kim,1970/01/15,Korea,sport,volleyball
+Guangzhu Li,1977/02/05,Rusia,sport,volleyball
+Duyan Zhang,1989/12/31,Korea,sport,volleyball
+Weien Huang,2000/05/15,Taiwan,sport,volleyball
+Gaozan Wu,1979/09/09,Taiwan,sport,volleyball
+Ivan Zaytsev,1988/10/30,Italy,sport,volleyball
+Jiaru Law,2001/02/28,Malaysia,basketball
+Yaoyi Zhang,2001/04/25,Malaysia,fighter
+Pengchen See,2001/01/15,China,businessman
+Zhilin Tan,2001/06/28,UK,gamer
+Meiteng Chia,2001/03/05,Korea,writer
+Giddens Jiu,1970/12/12,Taiwan,writer
+Haoyang Tan,2001/03/23,USA,accountant
+Yongxin Zhang,2001/06/06,Korea,idol
+Simon Tan,1962/01/31,USA,police
+Yuzhe Lee,1990/07/22,UK,chef
+Baoying Liao,1999/06/26,Taiwan,singer
+Zhiqian Xue,1988/04/11,China,singer
+Mi Yang,1989/07/20,China,actor
+Jingyi Ju,1990/10/28,Korea,actor
+Lifeng Bee,1999/12/20,Holand,engineer
+Mianyang Wong,1995/04/07,Malaysia,teacher
+Weiyang Chan,2001/05/23,China,model
+Nydia Neoh,2001/11/09,Japan,actor
+Weipeng Leong,1994/05/17,Newzealand,painter
+Chris Ivan,1988/10/30,USA,actor
+Dahee Lee,1980/02/22,Korea,actor
+Zaishok Law,1970/05/22,Korea,actor
+Martin Garrix,1989/08/15,Holand,singer
+Alan Walker,1980/09/29,USA,singer
+Ji Yu,2001/07/19,China,shooter

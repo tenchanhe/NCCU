@@ -1,0 +1,242 @@
+1024 skiplist0.9_insert,total_lvl=,8893,max_lvl=<< ,66,10,0.016356
+1024 skiplist0.9_find,10,0.021518
+1024 skiplist0.9_insert,total_lvl=,8747,max_lvl=<< ,82,10,0.013751
+1024 skiplist0.9_find,10,0.025023
+1024 skiplist0.9_insert,total_lvl=,9321,max_lvl=<< ,78,10,0.013084
+1024 skiplist0.9_find,10,0.024474
+1024 skiplist0.9_insert,total_lvl=,9480,max_lvl=<< ,54,10,0.012936
+1024 skiplist0.9_find,10,0.018649
+1024 skiplist0.9_insert,total_lvl=,9128,max_lvl=<< ,51,10,0.012948
+1024 skiplist0.9_find,10,0.017826
+1024 skiplist0.9_insert,total_lvl=,9706,max_lvl=<< ,73,10,0.012779
+1024 skiplist0.9_find,10,0.023059
+1024 skiplist0.9_insert,total_lvl=,9575,max_lvl=<< ,85,10,0.012828
+1024 skiplist0.9_find,10,0.025813
+1024 skiplist0.9_insert,total_lvl=,9657,max_lvl=<< ,59,10,0.012839
+1024 skiplist0.9_find,10,0.01951
+1024 skiplist0.9_insert,total_lvl=,9487,max_lvl=<< ,64,10,0.012832
+1024 skiplist0.9_find,10,0.021301
+1024 skiplist0.9_insert,total_lvl=,8848,max_lvl=<< ,58,10,0.012891
+1024 skiplist0.9_find,10,0.019836
+2048 skiplist0.9_insert,total_lvl=,18285,max_lvl=<< ,83,11,0.025771
+2048 skiplist0.9_find,11,0.02697
+2048 skiplist0.9_insert,total_lvl=,18115,max_lvl=<< ,77,11,0.025543
+2048 skiplist0.9_find,11,0.025011
+2048 skiplist0.9_insert,total_lvl=,16854,max_lvl=<< ,71,11,0.025727
+2048 skiplist0.9_find,11,0.023768
+2048 skiplist0.9_insert,total_lvl=,18235,max_lvl=<< ,73,11,0.025755
+2048 skiplist0.9_find,11,0.024417
+2048 skiplist0.9_insert,total_lvl=,18464,max_lvl=<< ,82,11,0.025868
+2048 skiplist0.9_find,11,0.02669
+2048 skiplist0.9_insert,total_lvl=,18788,max_lvl=<< ,84,11,0.025853
+2048 skiplist0.9_find,11,0.026848
+2048 skiplist0.9_insert,total_lvl=,18153,max_lvl=<< ,63,11,0.025713
+2048 skiplist0.9_find,11,0.022371
+2048 skiplist0.9_insert,total_lvl=,17725,max_lvl=<< ,74,11,0.026051
+2048 skiplist0.9_find,11,0.024338
+2048 skiplist0.9_insert,total_lvl=,17900,max_lvl=<< ,66,11,0.025695
+2048 skiplist0.9_find,11,0.022531
+2048 skiplist0.9_insert,total_lvl=,18818,max_lvl=<< ,66,11,0.026123
+2048 skiplist0.9_find,11,0.022873
+4096 skiplist0.9_insert,total_lvl=,37089,max_lvl=<< ,69,12,0.052773
+4096 skiplist0.9_find,12,0.025441
+4096 skiplist0.9_insert,total_lvl=,36175,max_lvl=<< ,84,12,0.052657
+4096 skiplist0.9_find,12,0.028873
+4096 skiplist0.9_insert,total_lvl=,35660,max_lvl=<< ,86,12,0.052286
+4096 skiplist0.9_find,12,0.029287
+4096 skiplist0.9_insert,total_lvl=,37127,max_lvl=<< ,87,12,0.053135
+4096 skiplist0.9_find,12,0.029665
+4096 skiplist0.9_insert,total_lvl=,36642,max_lvl=<< ,80,12,0.052738
+4096 skiplist0.9_find,12,0.028029
+4096 skiplist0.9_insert,total_lvl=,37131,max_lvl=<< ,88,12,0.051489
+4096 skiplist0.9_find,12,0.029975
+4096 skiplist0.9_insert,total_lvl=,37037,max_lvl=<< ,83,12,0.051533
+4096 skiplist0.9_find,12,0.028657
+4096 skiplist0.9_insert,total_lvl=,37369,max_lvl=<< ,74,12,0.052377
+4096 skiplist0.9_find,12,0.026358
+4096 skiplist0.9_insert,total_lvl=,37271,max_lvl=<< ,97,12,0.051636
+4096 skiplist0.9_find,12,0.032231
+4096 skiplist0.9_insert,total_lvl=,36821,max_lvl=<< ,87,12,0.051765
+4096 skiplist0.9_find,12,0.029148
+8192 skiplist0.9_insert,total_lvl=,74713,max_lvl=<< ,85,13,0.105221
+8192 skiplist0.9_find,13,0.032953
+8192 skiplist0.9_insert,total_lvl=,73178,max_lvl=<< ,121,13,0.108068
+8192 skiplist0.9_find,13,0.041913
+8192 skiplist0.9_insert,total_lvl=,72587,max_lvl=<< ,76,13,0.111946
+8192 skiplist0.9_find,13,0.0349
+8192 skiplist0.9_insert,total_lvl=,73700,max_lvl=<< ,82,13,0.112147
+8192 skiplist0.9_find,13,0.033258
+8192 skiplist0.9_insert,total_lvl=,74103,max_lvl=<< ,73,13,0.110494
+8192 skiplist0.9_find,13,0.031148
+8192 skiplist0.9_insert,total_lvl=,72386,max_lvl=<< ,82,13,0.106735
+8192 skiplist0.9_find,13,0.031692
+8192 skiplist0.9_insert,total_lvl=,74596,max_lvl=<< ,89,13,0.103984
+8192 skiplist0.9_find,13,0.032927
+8192 skiplist0.9_insert,total_lvl=,73276,max_lvl=<< ,94,13,0.104164
+8192 skiplist0.9_find,13,0.03645
+8192 skiplist0.9_insert,total_lvl=,71786,max_lvl=<< ,85,13,0.112199
+8192 skiplist0.9_find,13,0.03403
+8192 skiplist0.9_insert,total_lvl=,73196,max_lvl=<< ,105,13,0.110259
+8192 skiplist0.9_find,13,0.039858
+16384 skiplist0.9_insert,total_lvl=,147817,max_lvl=<< ,79,14,0.219916
+16384 skiplist0.9_find,14,0.034065
+16384 skiplist0.9_insert,total_lvl=,146381,max_lvl=<< ,79,14,0.210178
+16384 skiplist0.9_find,14,0.033148
+16384 skiplist0.9_insert,total_lvl=,148187,max_lvl=<< ,81,14,0.211561
+16384 skiplist0.9_find,14,0.035181
+16384 skiplist0.9_insert,total_lvl=,147213,max_lvl=<< ,99,14,0.213208
+16384 skiplist0.9_find,14,0.039529
+16384 skiplist0.9_insert,total_lvl=,148607,max_lvl=<< ,100,14,0.207533
+16384 skiplist0.9_find,14,0.038136
+16384 skiplist0.9_insert,total_lvl=,147714,max_lvl=<< ,112,14,0.20898
+16384 skiplist0.9_find,14,0.041427
+16384 skiplist0.9_insert,total_lvl=,148870,max_lvl=<< ,113,14,0.209349
+16384 skiplist0.9_find,14,0.042121
+16384 skiplist0.9_insert,total_lvl=,147706,max_lvl=<< ,79,14,0.208832
+16384 skiplist0.9_find,14,0.033986
+16384 skiplist0.9_insert,total_lvl=,145298,max_lvl=<< ,92,14,0.208335
+16384 skiplist0.9_find,14,0.036896
+16384 skiplist0.9_insert,total_lvl=,147001,max_lvl=<< ,88,14,0.207652
+16384 skiplist0.9_find,14,0.035651
+32768 skiplist0.9_insert,total_lvl=,293082,max_lvl=<< ,92,15,0.423851
+32768 skiplist0.9_find,15,0.04369
+32768 skiplist0.9_insert,total_lvl=,296743,max_lvl=<< ,102,15,0.421298
+32768 skiplist0.9_find,15,0.047374
+32768 skiplist0.9_insert,total_lvl=,295007,max_lvl=<< ,91,15,0.421478
+32768 skiplist0.9_find,15,0.043036
+32768 skiplist0.9_insert,total_lvl=,296472,max_lvl=<< ,90,15,0.426187
+32768 skiplist0.9_find,15,0.043908
+32768 skiplist0.9_insert,total_lvl=,294021,max_lvl=<< ,122,15,0.426169
+32768 skiplist0.9_find,15,0.05103
+32768 skiplist0.9_insert,total_lvl=,291675,max_lvl=<< ,90,15,0.42147
+32768 skiplist0.9_find,15,0.04364
+32768 skiplist0.9_insert,total_lvl=,296432,max_lvl=<< ,87,15,0.422037
+32768 skiplist0.9_find,15,0.042643
+32768 skiplist0.9_insert,total_lvl=,293601,max_lvl=<< ,93,15,0.42805
+32768 skiplist0.9_find,15,0.04504
+32768 skiplist0.9_insert,total_lvl=,296500,max_lvl=<< ,102,15,0.423727
+32768 skiplist0.9_find,15,0.050486
+32768 skiplist0.9_insert,total_lvl=,296153,max_lvl=<< ,100,15,0.424107
+32768 skiplist0.9_find,15,0.045234
+65536 skiplist0.9_insert,total_lvl=,585845,max_lvl=<< ,92,16,0.858066
+65536 skiplist0.9_find,16,0.07319
+65536 skiplist0.9_insert,total_lvl=,585476,max_lvl=<< ,119,16,0.862331
+65536 skiplist0.9_find,16,0.077034
+65536 skiplist0.9_insert,total_lvl=,588529,max_lvl=<< ,107,16,0.866482
+65536 skiplist0.9_find,16,0.074391
+65536 skiplist0.9_insert,total_lvl=,586028,max_lvl=<< ,125,16,0.866581
+65536 skiplist0.9_find,16,0.079102
+65536 skiplist0.9_insert,total_lvl=,591122,max_lvl=<< ,107,16,0.85858
+65536 skiplist0.9_find,16,0.074408
+65536 skiplist0.9_insert,total_lvl=,590114,max_lvl=<< ,100,16,0.859437
+65536 skiplist0.9_find,16,0.072517
+65536 skiplist0.9_insert,total_lvl=,588065,max_lvl=<< ,112,16,0.863232
+65536 skiplist0.9_find,16,0.075311
+65536 skiplist0.9_insert,total_lvl=,590899,max_lvl=<< ,97,16,0.859858
+65536 skiplist0.9_find,16,0.072291
+65536 skiplist0.9_insert,total_lvl=,590915,max_lvl=<< ,106,16,0.864439
+65536 skiplist0.9_find,16,0.074892
+65536 skiplist0.9_insert,total_lvl=,591821,max_lvl=<< ,114,16,0.866057
+65536 skiplist0.9_find,16,0.076953
+131072 skiplist0.9_insert,total_lvl=,1182222,max_lvl=<< ,112,17,1.76135
+131072 skiplist0.9_find,17,0.105776
+131072 skiplist0.9_insert,total_lvl=,1185605,max_lvl=<< ,119,17,1.77089
+131072 skiplist0.9_find,17,0.107367
+131072 skiplist0.9_insert,total_lvl=,1180819,max_lvl=<< ,206,17,1.76514
+131072 skiplist0.9_find,17,0.128137
+131072 skiplist0.9_insert,total_lvl=,1184324,max_lvl=<< ,129,17,1.7859
+131072 skiplist0.9_find,17,0.110433
+131072 skiplist0.9_insert,total_lvl=,1173004,max_lvl=<< ,103,17,1.76571
+131072 skiplist0.9_find,17,0.103624
+131072 skiplist0.9_insert,total_lvl=,1175327,max_lvl=<< ,103,17,1.76254
+131072 skiplist0.9_find,17,0.103531
+131072 skiplist0.9_insert,total_lvl=,1180117,max_lvl=<< ,110,17,1.76266
+131072 skiplist0.9_find,17,0.105175
+131072 skiplist0.9_insert,total_lvl=,1184687,max_lvl=<< ,99,17,1.76269
+131072 skiplist0.9_find,17,0.102547
+131072 skiplist0.9_insert,total_lvl=,1176557,max_lvl=<< ,116,17,1.77272
+131072 skiplist0.9_find,17,0.106319
+131072 skiplist0.9_insert,total_lvl=,1178146,max_lvl=<< ,120,17,1.77688
+131072 skiplist0.9_find,17,0.107787
+262144 skiplist0.9_insert,total_lvl=,2361140,max_lvl=<< ,133,18,3.64336
+262144 skiplist0.9_find,18,0.136673
+262144 skiplist0.9_insert,total_lvl=,2358984,max_lvl=<< ,114,18,3.77155
+262144 skiplist0.9_find,18,0.133632
+262144 skiplist0.9_insert,total_lvl=,2358756,max_lvl=<< ,105,18,3.62637
+262144 skiplist0.9_find,18,0.130257
+262144 skiplist0.9_insert,total_lvl=,2359032,max_lvl=<< ,136,18,3.65701
+262144 skiplist0.9_find,18,0.132468
+262144 skiplist0.9_insert,total_lvl=,2362778,max_lvl=<< ,117,18,3.64563
+262144 skiplist0.9_find,18,0.137202
+262144 skiplist0.9_insert,total_lvl=,2360996,max_lvl=<< ,112,18,3.64853
+262144 skiplist0.9_find,18,0.136406
+262144 skiplist0.9_insert,total_lvl=,2353179,max_lvl=<< ,123,18,3.64049
+262144 skiplist0.9_find,18,0.132363
+262144 skiplist0.9_insert,total_lvl=,2358512,max_lvl=<< ,110,18,3.6177
+262144 skiplist0.9_find,18,0.12649
+262144 skiplist0.9_insert,total_lvl=,2350565,max_lvl=<< ,122,18,3.64844
+262144 skiplist0.9_find,18,0.136149
+262144 skiplist0.9_insert,total_lvl=,2351562,max_lvl=<< ,110,18,3.65963
+262144 skiplist0.9_find,18,0.135409
+524288 skiplist0.9_insert,total_lvl=,4706159,max_lvl=<< ,129,19,7.46125
+524288 skiplist0.9_find,19,0.166869
+524288 skiplist0.9_insert,total_lvl=,4731252,max_lvl=<< ,130,19,7.44237
+524288 skiplist0.9_find,19,0.161413
+524288 skiplist0.9_insert,total_lvl=,4721900,max_lvl=<< ,146,19,7.53391
+524288 skiplist0.9_find,19,0.170024
+524288 skiplist0.9_insert,total_lvl=,4714239,max_lvl=<< ,119,19,7.47001
+524288 skiplist0.9_find,19,0.163439
+524288 skiplist0.9_insert,total_lvl=,4706069,max_lvl=<< ,143,19,7.50834
+524288 skiplist0.9_find,19,0.169503
+524288 skiplist0.9_insert,total_lvl=,4711114,max_lvl=<< ,124,19,7.49298
+524288 skiplist0.9_find,19,0.164395
+524288 skiplist0.9_insert,total_lvl=,4716375,max_lvl=<< ,164,19,7.51236
+524288 skiplist0.9_find,19,0.17611
+524288 skiplist0.9_insert,total_lvl=,4733392,max_lvl=<< ,116,19,7.44592
+524288 skiplist0.9_find,19,0.162995
+524288 skiplist0.9_insert,total_lvl=,4717859,max_lvl=<< ,117,19,7.41369
+524288 skiplist0.9_find,19,0.157536
+524288 skiplist0.9_insert,total_lvl=,4717934,max_lvl=<< ,138,19,7.51357
+524288 skiplist0.9_find,19,0.168202
+1048576 skiplist0.9_insert,total_lvl=,9438519,max_lvl=<< ,135,20,15.2792
+1048576 skiplist0.9_find,20,0.198019
+1048576 skiplist0.9_insert,total_lvl=,9421878,max_lvl=<< ,148,20,15.4801
+1048576 skiplist0.9_find,20,0.196841
+1048576 skiplist0.9_insert,total_lvl=,9426219,max_lvl=<< ,134,20,15.659
+1048576 skiplist0.9_find,20,0.188924
+1048576 skiplist0.9_insert,total_lvl=,9440080,max_lvl=<< ,131,20,15.4785
+1048576 skiplist0.9_find,20,0.188645
+1048576 skiplist0.9_insert,total_lvl=,9443978,max_lvl=<< ,135,20,15.4079
+1048576 skiplist0.9_find,20,0.190169
+1048576 skiplist0.9_insert,total_lvl=,9424573,max_lvl=<< ,117,20,15.2549
+1048576 skiplist0.9_find,20,0.185127
+1048576 skiplist0.9_insert,total_lvl=,9434951,max_lvl=<< ,141,20,15.4084
+1048576 skiplist0.9_find,20,0.191454
+1048576 skiplist0.9_insert,total_lvl=,9441303,max_lvl=<< ,139,20,15.6304
+1048576 skiplist0.9_find,20,0.197521
+1048576 skiplist0.9_insert,total_lvl=,9417108,max_lvl=<< ,138,20,15.4442
+1048576 skiplist0.9_find,20,0.195897
+1048576 skiplist0.9_insert,total_lvl=,9414687,max_lvl=<< ,121,20,15.4481
+1048576 skiplist0.9_find,20,0.194826
+2097152 skiplist0.9_insert,total_lvl=,18839123,max_lvl=<< ,136,21,35.3803
+2097152 skiplist0.9_find,21,0.269878
+2097152 skiplist0.9_insert,total_lvl=,18850195,max_lvl=<< ,131,21,35.0263
+2097152 skiplist0.9_find,21,0.251611
+2097152 skiplist0.9_insert,total_lvl=,18855842,max_lvl=<< ,128,21,35.4271
+2097152 skiplist0.9_find,21,0.262979
+2097152 skiplist0.9_insert,total_lvl=,18869877,max_lvl=<< ,145,21,35.2924
+2097152 skiplist0.9_find,21,0.260358
+2097152 skiplist0.9_insert,total_lvl=,18850937,max_lvl=<< ,149,21,34.7414
+2097152 skiplist0.9_find,21,0.233725
+2097152 skiplist0.9_insert,total_lvl=,18845160,max_lvl=<< ,124,21,35.415
+2097152 skiplist0.9_find,21,0.265592
+2097152 skiplist0.9_insert,total_lvl=,18826992,max_lvl=<< ,145,21,35.5249
+2097152 skiplist0.9_find,21,0.269881
+2097152 skiplist0.9_insert,total_lvl=,18860569,max_lvl=<< ,124,21,35.1199
+2097152 skiplist0.9_find,21,0.261054
+2097152 skiplist0.9_insert,total_lvl=,18844963,max_lvl=<< ,136,21,35.2299
+2097152 skiplist0.9_find,21,0.268885
+2097152 skiplist0.9_insert,total_lvl=,18856800,max_lvl=<< ,137,21,35.5637
+2097152 skiplist0.9_find,21,0.284085
+4194304 skiplist0.9_insert,total_lvl=,37663974,max_lvl=<< ,159,22,65.8326
+4194304 skiplist0.9_find,22,0.279339
