@@ -1,0 +1,3 @@
+/home/tenchanhe/CG/hw3-swgl-trans/build/CMakeFiles/rebuild_cache.dir
+/home/tenchanhe/CG/hw3-swgl-trans/build/CMakeFiles/edit_cache.dir
+/home/tenchanhe/CG/hw3-swgl-trans/build/CMakeFiles/trans.dir

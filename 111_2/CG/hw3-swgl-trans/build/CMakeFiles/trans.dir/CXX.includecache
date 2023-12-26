@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tenchanhe/CG/hw3-swgl-trans/main.cpp
+GL/glew.h
+-
+GLFW/glfw3.h
+-
+glm/glm.hpp
+-
+glm/gtc/matrix_transform.hpp
+-
+glm/vec3.hpp
+-
+glm/vec4.hpp
+-
+glm/mat4x4.hpp
+-
+math.h
+-
+iostream
+-
+stdlib.h
+-
+stdio.h
+-
+
