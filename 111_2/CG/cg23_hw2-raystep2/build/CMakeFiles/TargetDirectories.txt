@@ -1,0 +1,3 @@
+/home/tenchanhe/CG/cg23_hw2-raystep2/build/CMakeFiles/rebuild_cache.dir
+/home/tenchanhe/CG/cg23_hw2-raystep2/build/CMakeFiles/edit_cache.dir
+/home/tenchanhe/CG/cg23_hw2-raystep2/build/CMakeFiles/ray.dir
