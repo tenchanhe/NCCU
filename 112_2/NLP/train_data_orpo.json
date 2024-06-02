@@ -1,0 +1,1102 @@
+[
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\ntnt a statistical partofspeech taggertrigramsntags  is an efficient statistical partofspeech taggercontrary to claims found elsewhere in the literature we argue that a tagger based on markov models performs at least as well as other current approaches including the maximum entropy frameworka recent comparison has even shown that tnt performs significantly better for the tested corpora we describe the basic model of tnt the techniques used for smoothing and for handling unknown wordsfurthermore we present evaluations on two corporawe achieve the automated tagging of a syntacticstructurebased set of grammatical function tags including phrasechunk and syntacticrole modifiers trained in supervised mode from a tree bank of german[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* We describe the basic model of tnt...\n* Furthermore, we present evaluations on two corpora...\n* We achieve the automated tagging of a syntactic structure-based set of grammatical function tags...",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nsentence reduction for automatic text summarizationwe present a novel sentence reduction system for automatically removing extraneous phrases from sentences that are extracted from a document for summarization purposethe system uses multiple sources of knowledge to decide which phrases in an extracted sentence can be removed including syntactic knowledge context information and statistics computed from a corpus which consists of examples written by human professionalsreduction can significantly improve the conciseness of automatic summarieswe study a new method to remove extraneous phrase from sentences by using multiple source of knowledge to decide which phrase in the sentences can be removedin our approach decisions about which material to includedelete in the sentence summaries do not rely on relative frequency information on words but rather on probability models of subtree deletions that are learned from a corpus of parses for sentences and their summaries[/INST]",
+        "chosen": {
+            "content": "Here are the extracted sentences describing the experimental methods:\n\n* The system uses multiple sources of knowledge to decide which phrases in an extracted sentence can be removed...\n* ...including syntactic knowledge, context information, and statistics computed from a corpus which consists of examples written by human professionals.\n* We study a new method to remove extraneous phrase from sentences by using multiple source of knowledge to decide which phrase in the sentences can be removed.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nadvances in domain independent linear text segmentationthis paper describes a method for linear text segmentation which is twice as accurate and over seven times as fast as the stateoftheart intersentence similarity is replaced by rank in the local contextboundary locations are discovered by divisive clusteringwe design an artificial dataset built by concatenating short pieces of texts that have been extracted from the brown corpus[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* ...which is twice as accurate and over seven times as fast as the state-of-the-art...\n* Rank in the local contextboundary locations are discovered by divisive clustering.\n* We design an artificial dataset built by concatenating short pieces of texts that have been extracted from the Brown corpus.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\na simple approach to building ensembles of naive bayesian classifiers for word sense disambiguationthis paper presents a corpusbased approach to word sense disambiguation that builds an ensemble of naive bayesian classifiers each of which is based on lexical features that represent cooccurring words in varying sized windows of contextdespite the simplicity of this approach empirical results disambiguating the widely studied nouns line and interest show that such an ensemble achieves accuracy rivaling the best previously published resultswe present an ensemble of eightyone naive bayesian classifiers based on varying sized windows of context to the left and right of the target word that define cooccurrence features[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* Each of which is based on lexical features that represent cooccurring words in varying sized windows of context.\n* We present an ensemble of eighty-one naive bayesian classifiers based on varying sized windows of context to the left and right of the target word that define cooccurrence features.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\na maximumentropyinspired parserwe present a new parser for parsing down to penn treebank style parse trees that achieves 901 average precisionrecall for sentences of length 40 and less and 895 for sentences of length 100 and less when trained and tested on the previously established 59101517 standard sections of the wall street journal tree bankthis represents a 13 decrease in error rate over the best singleparser results on this corpus 9the major technical innovation is the use of a maximumentropyinspired model for conditioning and smoothing that let us successfully to test and combine many different conditioning eventswe also present some partial results showing the effects of different conditioning information including a surprising 2 improvement due to guessing the lexical head preterminal before guessing the lexical headas an alternative to hard coded heuristics we proposed to recover the penn functional tags automaticallyour parser is also a twostage ctf model where the first stage is a smoothed markov grammar  and the second stage is a lexicalized markov grammar with extra annotations about parents and grandparents[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* We present a new parser for parsing down to Penn Treebank style parse trees that achieves ...\n* The major technical innovation is the use of a maximum-entropy-inspired model for conditioning and smoothing that let us successfully test and combine many different conditioning events.\n* As an alternative to hard-coded heuristics, we proposed to recover the Penn functional tags automatically.\n* Our parser is also a two-stage CTF model where the first stage is a smoothed Markov grammar, and the second stage is a lexicalized Markov grammar with extra annotations about parents and grandparents.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nan unsupervised method for detecting grammatical errorswe present an unsupervised method for detecting grammatical errors by inferring negative evidence from edited textual corporathe system was developed and tested using essaylength responses to prompts on the test of english as a foreign language the errorrecognition system alek performs with about 80 precision and 20 recallwe attempt to identify errors on the basis of context  more specifically a 2 word window around the word of interest from which we consider function words and pos tagswe use a mutual information measure in addition to raw frequency of n gramsthe grammar feature covers errors such as sentence fragments verb form errors and pronoun errorswe utilize mutual information and chisquare statistics to identify typical contexts for a small set of targeted words from a large wellformed corpus[/INST]",
+        "chosen": {
+            "content": "Here are the extracted sentences describing the experimental methods:\n\n* The system was developed and tested using essay-length responses to prompts on the Test of English as a Foreign Language.\n* We attempt to identify errors on the basis of context, more specifically a 2-word window around the word of interest from which we consider function words and POS tags.\n* We use a mutual information measure in addition to raw frequency of N-grams.\n* We utilize mutual information and Chi-square statistics to identify typical contexts for a small set of targeted words from a large well-formed corpus.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\ncut and paste based text summarizationwe present a cut and paste based text summarizer which uses operations derived from an analysis of human written abstractsthe summarizer edits extracted sentences using reduction to remove inessential phrases and combination to merge resuiting phrases together as coherent sentencesour work includes a statistically based sentence decomposition program that identifies where the phrases of a summary originate in the original document producing an aligned corpus of summaries and articles which we used to develop the summarizerwe first extract sentences then remove redundant phrases and use  recombination rules to produce coherent outputwe manually analyze 30 humanwritten summaries and find that 19 of sentences can not be explained by cutandpaste operations from the source text[/INST]",
+        "chosen": {
+            "content": "Here are the extracted sentences describing the experimental methods:\n\n* We present a cut and paste based text summarizer which uses operations derived from an analysis of human written abstracts.\n* The summarizer edits extracted sentences using reduction to remove inessential phrases and combination to merge resulting phrases together as coherent sentences.\n* We first extract sentences then remove redundant phrases and use recombination rules to produce coherent output.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\ntrainable methods for surface natural language generationwe present three systems for surface natural language generation that are trainable from annotated corporathe first two systems called nlg1 and nlg2 require a corpus marked only with domainspecific semantic attributes while the last system called nlg3 requires a corpus marked with both semantic attributes and syntactic dependency informationall systems attempt to produce a grammatical natural language phrase from a domainspecific semantic representationnlg1 serves a baseline system and uses phrase frequencies to generate a whole phrase in one step while nlg2 and nlg3 use maximum entropy probability models to individually generate each word in the phrasethe systems nlg2 and nlg3 learn to determine both the word choice and the word order of the phrasewe present experiments in which we generate phrases to describe flights in the air travel domainwe use maximum entropy models to drive generation with word bigram or dependency representations taking into account  semantic featureswe use a large collection of generation templates for surface realizationwe present maximum entropy models to learn attribute ordering and lexical choice for sentence generation from a semantic representation of attributevalue pairs restricted to an air travel domain[/INST]",
+        "chosen": {
+            "content": "Here are the extracted sentences describing the experimental methods:\n\n* We present three systems for surface natural language generation that are trainable from annotated corpora.\n* All systems attempt to produce a grammatical natural language phrase from a domain-specific semantic representation.\n* Nlg1 serves as a baseline system and uses phrase frequencies to generate a whole phrase in one step, while nlg2 and nlg3 use maximum entropy probability models to individually generate each word in the phrase.\n* The systems nlg2 and nlg3 learn to determine both the word choice and the word order of the phrase.\n* We present maximum entropy models to drive generation with word bigram or dependency representations taking into account semantic features.\n* We use a large collection of generation templates for surface realization.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\na novel use of statistical parsing to extract information from textsince 1995 a few statistical parsing algorithms have demonstrated a breakthrough in parsing accuracy as measured against the upenn treebank as a gold standardin this paper we report adapting a lexicalized probabilistic contextfree parser to information extraction and evaluate this new technique on muc7 template elements and template relationsour rulebased methods employ a number of linguistic rules to capture relation patternswe take the view that relation extraction is just a form of probabilistic parsing where parse trees are augmented to identify all relationswe integrate various tasks such as partofspeech tagging named entity recognition template element extraction and relation extraction in a single modelwe combine entity recognition parsing and relation extraction into a jointlytrained single statistical parsing model that achieves improved performance on all the subtasks part of the contribution of the current work is to suggest that joint decoding can be effective even when joint training is not possible because jointlylabeled data is unavailable[/INST]",
+        "chosen": {
+            "content": "Here are the extracted sentences describing the experimental methods:\n\n* We adapt a lexicalized probabilistic context-free parser to information extraction and evaluate this new technique on MUC7 template elements and template relations.\n* Our rule-based methods employ a number of linguistic rules to capture relation patterns.\n* We take the view that relation extraction is just a form of probabilistic parsing where parse trees are augmented to identify all relations.\n* We integrate various tasks such as part-of-speech tagging, named entity recognition, template element extraction, and relation extraction in a single model.\n* We combine entity recognition, parsing, and relation extraction into a jointly-trained single statistical parsing model that achieves improved performance on all the subtasks.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nassigning function tags to parsed textit is generally recognized that the common nonterminal labels for syntactic constituents  do not exhaust the syntactic and semantic information one would like about parts of a syntactic treefor example the penn treebank gives each constituent zero or more function tags indicating semantic roles and other related information not easily encapsulated in the simple constituent labelswe present a statistical algorithm for assigning these function tags that on text already parsed to a simplelabel level achieves an fmeasure of 87 which rises to 99 when considering no tag as a valid choiceas an alternative to hard coded heuristics we propose to recover the penn functional tags automatically[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* We present a statistical algorithm for assigning these function tags that on text already parsed to a simple label level achieves an F-measure of 87 which rises to 99 when considering no tag as a valid choice.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nusing semantic preferences to identify verbal participation in role switching alternationswe propose a method for identifying diathesis alternations where a particular argument type is seen in slots which have different grammatical roles in the alternating formsthe method uses selectional preferences acquired as probability distributions over wordnetpreferences for the target slots are compared using a measure of distributional similaritythe method is evaluated on the causative and conative alternations but is generally applicable and does not require a priori knowledge specific to the alternationwe use skew divergence  to compare the sense profile of one argument of a verb  to another argument of the same verb  to determine if the verb participates in an argument alternation involving the two positions[/INST]",
+        "chosen": {
+            "content": "Here are the extracted sentences describing the experimental methods:\n\n* we propose a method for identifying diathesis alternations where a particular argument type is seen in slots which have different grammatical roles in the alternating forms\n* the method uses selectional preferences acquired as probability distributions over WordNet\n* the method is evaluated on the causative and conative alternations but is generally applicable and does not require a priori knowledge specific to the alternation\n* we use skew divergence  to compare the sense profile of one argument of a verb  to another argument of the same verb  to determine if the verb participates in an argument alternation involving the two positions",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\na stochastic parts program and noun phrase parser for unrestricted textour part of speech tagger can now input unrestricted text and assign each word with the most likely part of speech with fairly reasonable accuracy and efficiencyour partofspeech tagger performs not only partofspeech analysis but it also identities the most simple kinds of noun phrases mostly sequences of determiners premodifiers and nominal heads by inserting brackets around them[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* ...assign each word with the most likely part of speech with fairly reasonable accuracy and efficiency...\n* ...identifies the most simple kinds of noun phrases mostly sequences of determiners, premodifiers and nominal heads by inserting brackets around them...",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\napplied text generationwe divide tasks in the generation process into three stages the text planner has access only to information about communicative goals the discourse context and semantics and generates a nonlinguistic representation of text structure and content the sentence planner chooses abstract linguistic resources it passes an abstract lexicosyntactic specification5 to the realizer which inflects adds function words and linearizes thus producing the surface string[/INST]",
+        "chosen": {
+            "content": "Here are the extracted sentences:\n\n* We divide tasks in the generation process into three stages...\n* The text planner has access only to information about communicative goals, the discourse context, and semantics and generates a nonlinguistic representation of text structure and content.\n* The sentence planner chooses abstract linguistic resources; it passes an abstract lexicosyntactic specification5 to the realizer which inflects, adds function words, and linearizes thus producing the surface string.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\na practical partofspeech taggerwe present an implementation of a partofspeech tagger based on a hidden markov modelthe methodology enables robust and accurate tagging with few resource requirementsonly a lexicon and some unlabeled training text are requiredaccuracy exceeds 96we describe implementation strategies and optimizations which result in highspeed operationthree applications for tagging are described phrase recognition word sense disambiguation and grammatical function assignmentour semisupervised model makes use of both labeled training text and some amount of unlabeled textwe train statistical models using unlabeled data with the expectation maximization algorithmwe report very high results  for unsupervised pos tagging using hidden markov models  by exploiting handbuilt tag dictionaries and equivalence classes[/INST]",
+        "chosen": {
+            "content": "Here are the extracted sentences describing the experimental methods:\n\n* We present an implementation of a part-of-speech tagger based on a hidden Markov model.\n* Our semisupervised model makes use of both labeled training text and some amount of unlabeled text.\n* We train statistical models using unlabeled data with the expectation maximization algorithm.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\na simple rulebased part of speech taggerautomatic part of speech tagging is an area of natural language processing where statistical techniques have been more successful than rulebased methodsin this paper we present a simple rulebased part of speech tagger which automatically acquires its rules and tags with accuracy comparable to stochastic taggersthe rulebased tagger has many advantages over these taggers including a vast reduction in stored information required the perspicuity of a small set of meaningful rules ease of finding and implementing improvements to the tagger and better portability from one tag set corpus genre or language to anotherperhaps the biggest contribution of this work is in demonstrating that the stochastic method is not the only viable method for part of speech taggingthe fact that a simple rulebased tagger that automatically learns its rules can perform so well should offer encouragement for researchers to further explore rulebased tagging searching for a better and more expressive set of rule templates and other variations on the simple but effective theme described belowour rule based pos tagging methods extract rules from training corpus and use these rules to tag new sentencewe also show that assigning the most common part of speech for each lexical item gives a baseline of 90 accuracy[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* We present a simple rulebased part of speech tagger which automatically acquires its rules and tags with accuracy comparable to stochastic taggers.\n* The rulebased tagger has many advantages over these taggers including a vast reduction in stored information required, the perspicuity of a small set of meaningful rules, ease of finding and implementing improvements to the tagger, and better portability from one tag set corpus genre or language to another.\n* Our rule-based POS tagging methods extract rules from training corpus and use these rules to tag new sentences.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\ntermight identifying and translating technical terminologywe propose a semiautomatic tool termight that helps professional translators and terminologists identify technical terms and their translationsthe tool makes use of partofspeech tagging and wordalignment programs to extract candidate terms and their translationsalthough the extraction programs are far from perfect it is not too hard for the user to filter out the wheat from the chaffthe extraction algorithms emphasize completenessalternative proposals are likely to miss important but infrequent termstranslationsto reduce the burden on the user during the filtering phase candidates are presented in a convenient order along with some useful concordance evidence in an interface that is designed to minimize keystrokestermight is currently being used by the translators at att business translation services [/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* The tool makes use of part-of-speech tagging and word-alignment programs to extract candidate terms and their translations.\n* Although the extraction programs are far from perfect, it is not too hard for the user to filter out the wheat from the chaff.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\ndoes baumwelch reestimation help taggersin part of speech tagging by hidden markov model a statistical model is used to assign grammatical categories to words in a textearly work in the field relied on a corpus which had been tagged by a human annotator to train the modelmore recently cutting et al  suggest that training can be achieved with a minimal lexicon and a limited amount of a priori information about probabilities by using an baumwelch reestimation to automatically refine the modelin this paper i report two experiments designed to determine how much manual training information is neededthe first experiment suggests that initial biasing of either lexical or transition probabilities is essential to achieve a good accuracythe second experiment reveals that there are three distinct patterns of baumwelch reestimationin two of the patterns the reestimation ultimately reduces the accuracy of the tagging rather than improving itthe pattern which is applicable can be predicted from the quality of the initial model and the similarity between the tagged training corpus  and the corpus to be taggedheuristics for deciding how to use reestimation in an effective manner are giventhe conclusions are broadly in agreement with those of merialdo  but give greater detail about the contributions of different parts of the modelwe report an accuracy of 7549 8087 and 7912 for unsupervised wordbased hmm trained on parts of the lob corpora with a tag set of 134 tags[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\nI report two experiments designed to determine how much manual training information is needed.\n\nThe first experiment suggests that initial biasing of either lexical or transition probabilities is essential to achieve a good accuracy.\n\nThe second experiment reveals that there are three distinct patterns of Baumwelch reestimation.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nthree heads are better than onemachine translation  systems do not currently achieve optimal quality translation on free text whatever translation method they employour hypothesis is that the quality of mt will improve if an mt environment uses output from a variety of mt systems working on the same textin the latest version of the pangloss mt project we collect the results of three translation engines  typically subsentential chunks  in a chart data structuresince the individual mt systems operate completely independently their re sults may be incomplete conflicting or redundantwe use simple scoring heuristics to estimate the quality of each chunk and find the highestscore sequence of chunks this paper describes in detail the combining method presenting the algorithm and illustrations of its progress on one of many actual translations it has producedit uses dynamic programming to efficiently compare weighted averages of sets of adjacent scored component translationsthe current system operates primarily in a humanaided mt modethe translation delivery system and its associated postediting aide are briefly described as is an initial evaluation of the usefulness of this methodindividual mt engines will be reported separately and are not therefore described in detail herewe produce the first memt system by combining outputs from three different mt engines based on their knowledge of the inner workings of the engineswe develop a multiengine mt system which builds a chart using the translation units inside each input system and then uses a chart walk algorithm to find the best cover of the source sentence[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* We collect the results of three translation engines, typically subsentential chunks, in a chart data structure.\n* We use simple scoring heuristics to estimate the quality of each chunk and find the highest-score sequence of chunks.\n* This paper describes in detail the combining method, presenting the algorithm and illustrations of its progress on one of many actual translations it has produced.\n* The current system operates primarily in a human-aided MT mode; the translation delivery system and its associated postediting aide are briefly described as is an initial evaluation of the usefulness of this method.\n* We produce the first MEMT system by combining outputs from three different MT engines based on their knowledge of the inner workings of the engines.\n* We develop a multi-engine MT system which builds a chart using the translation units inside each input system and then uses a chart walk algorithm to find the best cover of the source sentence.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\na maximum entropy approach to identifying sentence boundarieswe present a trainable model for identify ing sentence boundaries in raw textgiven a corpus annotated with sentence boundaries our model learns to classify each occurrence of    and  as either a valid or invalid sentence boundarythe training procedure requires no handcrafted rules lexica partofspeech tags or domainspecific informationthe model can therefore be trained easily on any genre of english and should be trainable on any other romanalphabet languageperformance is compa rable to or better than the performance of similar systems but we emphasize the simplicity of retraining for new domainsour statistical system mxterminator employs simpler lexical features of the words to the left and right of the candidate period[/INST]",
+        "chosen": {
+            "content": "Here are the extracted sentences describing the experimental methods:\n\n* Given a corpus annotated with sentence boundaries, our model learns to classify each occurrence of    and  as either a valid or invalid sentence boundary.\n* The training procedure requires no handcrafted rules, lexica, part-of-speech tags, or domain-specific information.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\na nonprojective dependency parserwe describe a practical parser for unrestricted dependenciesthe parser creates links between words and names the links according to their syntactic functionswe first describe the older constraint grammar parser where many of the ideas come fromthen we proceed to describe the central ideas of our new parserfinally the parser is evaluated[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* We create links between words and name the links according to their syntactic functions.\n* The parser creates links between words and names the links according to their syntactic functions.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nan annotation scheme for free word order languageswe describe an annotation scheme and a tool developed for creating linguistically annotated corpora for nonconfigurational languagessince the requirements for such a formalism differ from those posited for configurational languages several features have been added influencing the architecture of the schemethe resulting scheme reflects a stratificational notion of language and makes only minimal assumptions about the interrelation of the particular representational stratawe release the negra corpus a hand parsed corpus of german newspaper text containing approximately 20000 sentences[/INST]",
+        "chosen": {
+            "content": "Here are the extracted sentences describing the experimental methods:\n\n* We describe an annotation scheme and a tool developed for creating linguistically annotated corpora for nonconfigurational languages.\n* Since the requirements for such a formalism differ from those posited for configurational languages, several features have been added influencing the architecture of the scheme.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nnymble a highperformance learning namefinderthis paper presents a statistical learned approach to finding names and other nonrecursive entities in text  using a variant of the standard hidden markov modelwe present our justification for the problem and our approach a detailed discussion of the model itself and finally the successful results of this new approachwe develop nymble an hmmbased name tagging system operating in english and spanishnymble uses statistical learning to acquire a hidden markov model  that recognises nes in text[/INST]",
+        "chosen": {
+            "content": "Here are the extracted sentences describing the experimental methods:\n\n* using a variant of the standard hidden markov model\n* Nymble, an HMM-based name tagging system operating in English and Spanish\n* Nymble uses statistical learning to acquire a hidden Markov model that recognises NES in text",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\ndisambiguation of proper names in textidentifying the occurrences of proper names in text and the entities they refer to can be a difficult task because of the manytomany mapping between names and their referentswe analyze the types of ambiguity  structural and semantic  that make the discovery of proper names difficult in text and describe the heuristics used to disambiguate names in nominator a fullyimplemented module for proper name recognition developed at the ibm tj watson research centerwe use handwritten rules and knowledge bases to classify proper names into broad categories[/INST]",
+        "chosen": {
+            "content": "Here are the extracted sentences describing the experimental methods:\n\n* We analyze the types of ambiguity (structural and semantic) that make the discovery of proper names difficult in text...\n* ...and describe the heuristics used to disambiguate names...\n* We use handwritten rules and knowledge bases to classify proper names into broad categories...",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\na fast and portable realizer for text generation systemswe release a surface realizer realpro and it is  intended as offtheshelf plugin realizerour realpro surface realizer which produces a surface linguistic utterance[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* we release a surface realizer called RealPro and it is intended as an off-the-shelf plugin realizer\n* our RealPro surface realizer, which produces a surface linguistic utterance",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nautomatic extraction of subcategorization from corporawe describe a novel technique and implemented system for constructing a subcategorization dictionary from textual corporaeach dictionary entry encodes the relative frequency of occurrence of a comprehensive set of subcategorization classes for englishan initial experiment on a sample of 14 verbs which exhibit multiple complementation patterns demonstrates that the technique achieves accuracy comparable to previous approaches which are all limited to a highly restricted set of subcategorization classeswe also demonstrate that a subcategorization dictionary built with the system improves the accuracy of a parser by an appreciable amountwe use a grammar and a sophisticated parsing tool for argumentadjunct distinction[/INST]",
+        "chosen": {
+            "content": "Here are the extracted sentences describing the experimental methods:\n\n* Each dictionary entry encodes the relative frequency of occurrence of a comprehensive set of subcategorization classes for English.\n* An initial experiment on a sample of 14 verbs which exhibit multiple complementation patterns demonstrates that the technique achieves accuracy comparable to previous approaches which are all limited to a highly restricted set of subcategorization classes.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nbase noun phrase translation using web data and the them algorithmwe consider here the problem of base noun phrase translationwe propose a new method to perform the taskfor a given base np we first search its translation candidates from the webwe next determine the possible translation from among the candidates using one of the two methods that we have developedin one method we employ an ensemble of naive bayesian classifiers constructed with the them algorithmin the other method we use tfidf vectors also constructed with the them algorithmexperimental results indicate that the coverage and accuracy of our method are significantly better than those of the baseline methods relying on existing technologiesin our method translation candidates of a term are compositionally generated by concatenating the translation of the constituents of the term and are reranked by measuring contextual similarity against the source language term[/INST]",
+        "chosen": {
+            "content": "Here are the extracted sentences:\n\n* For a given base NP, we first search its translation candidates from the web.\n* We next determine the possible translation from among the candidates using one of the two methods that we have developed.\n* Experimental results indicate that the coverage and accuracy of our method are significantly better than those of the baseline methods relying on existing technologies.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nefficient support vector classifiers for named entity recognitionnamed entity  recognition is a task in which proper nouns and numerical information are extracted from documents and are classified into categories such as person organization and dateit is a key technology of information extraction and opendomain question answeringfirst we show that an ne recognizer based on support vector machines  gives better scores than conventional systemshowever offtheshelf svm classifiers are too inefficient for this tasktherefore we present a method that makes the system substantially fasterthis approach can also be applied to other similar tasks such as chunking and partofspeech taggingwe also present an svmbased feature selection method and an efficient training methodwe propose kernel expansion that is used to transform the ddegree polynomial kernel based classifier into a linear one with a modified decision functionwe propose an xqk  which can make their namedentity recognizer drastically fast[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* We present a method that makes the system substantially faster.\n* We also present an SVM-based feature selection method and an efficient training method.\n* We propose kernel expansion, which is used to transform the degree polynomial kernel based classifier into a linear one with a modified decision function.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\na graph model for unsupervised lexical acquisitionthis paper presents an unsupervised method for assembling semantic knowledge from a partofspeech tagged corpus using graph algorithmsthe graph model is built by linking pairs of words which participate in particular syntactic relationshipswe focus on the symmetric relationship between pairs of nouns which occur together in listsan incremental clusterbuilding algorithm using this part of the graph achieves 82 accuracy at a lexical acquisition task evaluated against wordnet classesthe model naturally realises domain and corpus specific ambiguities as distinct components in the graph surrounding an ambiguous wordwe try to find graph regions that are more connected internally than externally[/INST]",
+        "chosen": {
+            "content": "Here are the extracted sentences:\n\n* The graph model is built by linking pairs of words which participate in particular syntactic relationships.\n* An incremental cluster-building algorithm using this part of the graph achieves 82% accuracy at a lexical acquisition task evaluated against WordNet classes.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nconcept discovery from textbroadcoverage lexical resources such as wordnet are extremely usefulhowever they often include many rare senses while missing domainspecific senseswe present a clustering algorithm called cbc  that automatically discovers concepts from textit initially discovers a set of tight clusters called committees that are well scattered in the similarity spacethe centroid of the members of a committee is used as the feature vector of the clusterwe proceed by assigning elements to their most similar clusterevaluating cluster quality has always been a difficult taskwe present a new evaluation methodology that is based on the editing distance between output clusters and classes extracted from wordnet our experiments show that cbc outperforms several wellknown clustering algorithms in cluster qualitymutual information  is an information theoric measure and has been used in our method for  clustering words[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* We present a clustering algorithm called CBC that automatically discovers concepts from text.\n* It initially discovers a set of tight clusters called committees that are well scattered in the similarity space.\n* The centroid of the members of a committee is used as the feature vector of the cluster.\n* We proceed by assigning elements to their most similar cluster.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nbuilding a largescale annotated chinese corpusin this paper we address issues related to building a largescale chinese corpuswe try to answer four questions  how to speed up annotation  how to maintain high annotation quality  for what purposes is the corpus applicable and finally  what future work we anticipate[/INST]",
+        "chosen": {
+            "content": "There are no sentences describing experimental methods in this abstract. The abstract appears to be introducing the research paper's topic, objectives, and potential outcomes, but does not mention any specific experimental methods or procedures.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nlearning question classifiersin order to respond correctly to a free form factual question given a large collection of texts one needs to understand the question to a level that allows determining some of the constraints the question imposes on a possible answerthese constraints may include a semantic classification of the sought after answer and may even suggest using different strategies when looking for and verifying a candidate answerthis paper presents a machine learning approach to question classificationwe learn a hierarchical classifier that is guided by a layered semantic hierarchy of answer types and eventually classifies questions into finegrained classeswe show accurate results on a large collection of freeform questions used in trec 10we assign one of fifty possible types to a question based on features present in the questionwe have developed a machine learning approach which uses the snow learning architecture[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* We learn a hierarchical classifier that is guided by a layered semantic hierarchy of answer types and eventually classifies questions into fine-grained classes.\n* We assign one of fifty possible types to a question based on features present in the question.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\ndeterministic dependency parsing of english textthis paper presents a deterministic dependency parser based on memorybased learning which parses english text in linear timewhen trained and evaluated on the wall street journal section of the penn treebank the parser achieves a maximum attachment score of 871unlike most previous systems the parser produces labeled dependency graphs using as arc labels a combination of bracket labels and grammatical role labels taken from the penn treebank ii annotation schemethe best overall accuracy obtained for identifying both the correct head and the correct arc label is 860 when restricted to grammatical role labels  and 844 for the maximum set we propose a variant of the model of yamada and matsumoto that reduces the complexity from the worst case quadratic to linearour deterministic shiftreduce classifierbased dependency parsing approach offers stateoftheart accuracy with high efficiency due to a greedy search strategy[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* This paper presents a deterministic dependency parser based on memory-based learning which parses english text in linear time.\n* When trained and evaluated on the wall street journal section of the penn treebank, the parser achieves a maximum attachment score of 871.\n* We propose a variant of the model of yamada and matsumoto that reduces the complexity from the worst case quadratic to linear.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nefficient parsing of highly ambiguous contextfree grammars with bit vectorsan efficient bitvectorbased ckystyle parser for contextfree parsing is presentedthe parser computes a compact parse forest representation of the complete set of possible analyses for large treebank grammars and long input sentencesthe parser uses bitvector operations to parallelise the basic parsing operationsthe parser is particularly useful when all analyses are needed rather than just the most probable onewe apply the viterbi algorithm exploiting its ability to deal with highlyambiguous grammars[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* An efficient bit-vector-based CKY-style parser for context-free parsing is presented.\n* The parser computes a compact parse forest representation of the complete set of possible analyses for large treebank grammars and long input sentences.\n* The parser uses bitvector operations to parallelise the basic parsing operations.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nthe importance of supertagging for widecoverage ccg parsingthis paper describes the role of supertagging in a widecoverage ccg parser which uses a loglinear model to select an analysisthe supertagger reduces the derivation space over which model estimation is performed reducing the space required for discriminative trainingit also dramatically increases the speed of the parserwe show that large increases in speed can be obtained by tightly integrating the supertagger with the ccg grammar and parserthis is the first work we are aware of to successfully integrate a supertagger with a full parser which uses an automatically extracted grammarwe also further reduce the derivation space using constraints on category combinationthe result is an accurate widecoverage ccg parser which is an order of magnitude faster than comparable systems for other linguistically motivated formalismsour scores give an indication of how supertagging accuracy corresponds to overall dependency recoverywe describe two loglinear parsing models for ccg a normalform derivation model and a dependency modelthe ccg parsing consists of two phases first the supertagger assigns the most probable categories toeach word and then the small number of combinatory rules plus the typechanging and punctuation rules are used with the cky algorithm to build a packed chart we propose a method for integrating the supertagger with the parser initially a small number of categories is assigned to each word and more categories are requested if the parser can not find a spanning analysis[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* The supertagger reduces the derivation space over which model estimation is performed, reducing the space required for discriminative training.\n* We show that large increases in speed can be obtained by tightly integrating the supertagger with the CCG grammar and parser.\n* We also further reduce the derivation space using constraints on category combination.\n* The CCG parsing consists of two phases: first, the supertagger assigns the most probable categories to each word and then the small number of combinatory rules plus the type-changing and punctuation rules are used with the CKY algorithm to build a packed chart.\n* Initially, a small number of categories is assigned to each word and more categories are requested if the parser can not find a spanning analysis.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nunsupervised construction of large paraphrase corpora exploiting massively parallel news sourceswe investigate unsupervised techniques for acquiring monolingual sentencelevel paraphrases from a corpus of temporally and topically clustered news articles collected from thousands of webbased news sourcestwo techniques are employed  simple string edit distance and  a heuristic strategy that pairs initial  sentences from different news stories in the same clusterwe evaluate both datasets using a word alignment algorithm and a metric borrowed from machine translationresults show that edit distance data is cleaner and more easilyaligned than the heuristic data with an overall alignment error rate  of 1158 on a similarlyextracted test seton test data extracted by the heuristic strategy however performance of the two training sets is similar with aers of 132 and 147 respectivelyanalysis of 100 pairs of sentences from each set reveals that the edit distance data lacks many of the complex lexical and syntactic alternations that characterize monolingual paraphrasethe summary sentences while less readily alignable retain more of the nontrivial alternations that are of greatest interest learning paraphrase relationshipswe introduce microsoft research paraphrase corpus we use webaggregated news stories to learn both sentencelevel and wordlevel alignments[/INST]",
+        "chosen": {
+            "content": "Here are the extracted sentences describing the experimental methods:\n\n* Two techniques are employed: simple string edit distance and a heuristic strategy that pairs initial sentences from different news stories in the same cluster.\n* We evaluate both datasets using a word alignment algorithm and a metric borrowed from machine translation.\n* We introduce Microsoft Research Paraphrase Corpus, we use web-aggregated news stories to learn both sentence-level and word-level alignments.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nlanguage model adaptation for statistical machine translation via structured query modelswe explore unsupervised language model adaptation techniques for statistical machine translationthe hypotheses from the machine translation output are converted into queries at different levels of representation power and used to extract similar sentences from very large monolingual text collectionspecific language models are then build from the retrieved data and interpolated with a general background modelexperiments show significant improvements when translating with these adapted language modelswe apply a slightly different sentencelevel strategy to language model adaptation first generating an nbest list with a baseline system then finding similar sentences in a monolingual target language corpuswe construct specific language models by using machine translation output as queries to extract similar sentences from large monolingual corporawe convert initial smt hypotheses to queries and retrieved similar sentences from a large monolingual collection[/INST]",
+        "chosen": {
+            "content": "Here are the extracted sentences describing the experimental methods:\n\n* The hypotheses from the machine translation output are converted into queries at different levels of representation power and used to extract similar sentences from very large monolingual text collections.\n* Specific language models are then built from the retrieved data and interpolated with a general background model.\n* We apply a slightly different sentence-level strategy to language model adaptation: first generating an n-best list with a baseline system, then finding similar sentences in a monolingual target language corpus.\n* We construct specific language models by using machine translation output as queries to extract similar sentences from large monolingual collections.\n* We convert initial SMT hypotheses to queries and retrieved similar sentences from a large monolingual collection.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\norange a method for evaluating automatic evaluation metrics for machine translationcomparisons of automatic evaluation metrics for machine translation are usually conducted on corpus level using correlation statistics such as pearsons product moment correlation coefficient or  spearmans rank order correlation coefficient between human scores and automatic scoreshowever such comparisons rely on human judgments of translation qualities such as adequacy and fluencyunfortunately these judgments are often inconsistent and very expensive to acquirein this paper we introduce a new evaluation method orange for evaluating automatic machine translation evaluation metrics automatically without extra human involvement other than using a set of reference translationswe also show the results of comparing several existing automatic metrics and three new automatic metrics using orangebleu is smoothed  and it considers only matching up to bi grams because this has higher correlations with human judgments than when higherordered ngrams are includedsmoothed persentence bleu was used as a similarity metric[/INST]",
+        "chosen": {
+            "content": "Here are the extracted sentences describing the experimental methods:\n\n* Comparisons of automatic evaluation metrics for machine translation are usually conducted on corpus level using correlation statistics such as pearson's product moment correlation coefficient or spearman's rank order correlation coefficient between human scores and automatic scores.\n* We introduce a new evaluation method, Orange, for evaluating automatic machine translation evaluation metrics automatically without extra human involvement other than using a set of reference translations.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\npartofspeech tagging in contextwe present a new hmm tagger that exploits context on both sides of a word to be tagged and evaluate it in both the unsupervised and supervised casealong the way we present the first comprehensive comparison of unsupervised methods for partofspeech tagging noting that published results to date have not been comparable across corpora or lexiconsobserving that the quality of the lexicon greatly impacts the accuracy that can be achieved by the algorithms we present a method of hmm training that improves accuracy when training of lexical probabilities is unstablefinally we show how this new tagger achieves stateoftheart results in a supervised nontraining intensive frameworkwhile replicating earlier experiments we discover that performance was highly dependent on cleaning tag dictionaries using statistics gleaned from the tokenswe show that he expectation maximization algorithm for bi tag hmms is efficient and quite effective for acquiring accurate pos taggers given only a lexicon  and certain favorable conditionswe observe that earlier unsupervised hmmthem results were artificially high due to use of optimized lexicons in which only frequentenough analyses of each word were kept[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods from the abstract:\n\n* We present a new HMM tagger that exploits context on both sides of a word to be tagged.\n* Along the way, we present the first comprehensive comparison of unsupervised methods for part-of-speech tagging, noting that published results to date have not been comparable across corpora or lexicons.\n* Finally, we show how this new tagger achieves state-of-the-art results in a supervised non-training intensive framework.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nchinese segmentation and new word detection using conditional random fieldschinese word segmentation is a difficult important and widelystudied sequence modeling problemthis paper demonstrates the ability of linearchain conditional random fields  to perform robust and accurate chinese word segmentation by providing a principled framework that easily supports the integration of domain knowledge in the form of multiple lexicons of characters and wordswe also present a probabilistic new word detection method which further improves performanceour system is evaluated on four datasets used in a recent comprehensive chinese word segmentation competitionstateoftheart performance is obtainedthe superiority of crfs on chinese information processing was also demonstrated in word segmentationcrf is a statistical sequence modeling framework introduced by lafferty et al  and we use it for the chinese word segmentation task by treating word segmentation as a binary decision taskwe first use this framework for chinese word segmentation by treating it as a binary decision task such that each character is labeled either as the beginning of a word or the continuation of onewe define the word segmentation problem as labeling each character as whether or not the previous character boundary of the current character is a word boundary[/INST]",
+        "chosen": {
+            "content": "Here are the original sentences describing the experimental methods:\n\n* We use this framework for Chinese word segmentation by treating it as a binary decision task such that each character is labeled either as the beginning of a word or the continuation of one.\n* We define the word segmentation problem as labeling each character as whether or not the previous character boundary of the current character is a word boundary.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\ntowards terascale semantic acquisitionalthough vast amounts of textual data are freely available many nlp algorithms exploit only a minute percentage of itin this paper we study the challenges of working at the terascalewe present an algorithm designed for the terascale for mining isa relations that achieves similar performance to a stateoftheart linguisticallyrich methodwe focus on the accuracy of these two systems as a function of processing time and corpus sizewe propose a similar highly scalable approach based on an editdistance technique to learn lexicopos patterns showing both good performance and efficiencywe extend isa relation acquisition towards terascale and automatically identified hypernym patterns by minimal edit distancewe propose in the scenario of extracting isa relations one patternbased approach and compared it with a baseline syntactic distributional similarity method [/INST]",
+        "chosen": {
+            "content": "Here are the extracted sentences describing the experimental methods:\n\n* We present an algorithm designed for the terascale for mining ISA relations that achieves similar performance to a state-of-the-art linguistically-rich method.\n* We propose a highly scalable approach based on an edit-distance technique to learn lexicopos patterns showing both good performance and efficiency.\n* We extend ISA relation acquisition towards terascale and automatically identify hypernym patterns by minimal edit distance.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\ncharacterising measures of lexical distributional similaritythis work investigates the variation in a word distributionally nearest neighbours with respect to the similarity measure usedwe identify one type of variation as being the relative frequency of the neighbour words with respect to the frequency of the target wordwe then demonstrate a threeway connection between relative frequency of similar words a concept of distributional gnerality and the semantic relation of hyponymyfinally we consider the impact that this has on one application of distributional similarity methods abstracting from results for concrete test sets we try to identify statistical and linguistic properties on that the performance of similarity metrics generally dependswe also found that frequency played a large role in determining the direction of entailment with the more general term often occurring more frequentlywe analyzed the variation in a word distribution ally nearest neighbours with respect to a variety of similarity measureswe attempted to refine the distributional similarity goal to predict whether one term is a generalizationspecification of the other[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* We analyzed the variation in a word's distributionally nearest neighbors with respect to a variety of similarity measures.\n* We tried to identify statistical and linguistic properties on which the performance of similarity metrics generally depends.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nwidecoverage semantic representations from a ccg parserthis paper shows how to construct semantic representations from the derivations produced by a widecoverage ccg parserunlike the dependency structures returned by the parser itself these can be used directly for semantic interpretationwe demonstrate that wellformed semantic representations can be produced for over 97 of the sentences in unseen wsj textwe believe this is a major step towards widecoverage semantic interpretation one of the key objectives of the field of nlpwe present an algorithm that learns ccg lexicons with semantics but requires fully specified ccg derivations in the training datawe consider the challenging problem of constructing broadcoverage semantic representations with ccg but do not learn the lexicon[/INST]",
+        "chosen": {
+            "content": "Here are the extracted sentences describing the experimental methods:\n\n* Unlike the dependency structures returned by the parser itself, these can be used directly for semantic interpretation.\n* We demonstrate that well-formed semantic representations can be produced for over 97% of the sentences in unseen WSJ text.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nsemantic role labeling via integer linear programming inferencewe present a system for the semantic role labeling taskthe system combines a machine learning technique with an inference procedure based on integer linear programming that supports the incorporation of linguistic and structural constraints into the decision processthe system is tested on the data provided in conll2004 shared task on semantic role labeling and achieves very competitive resultswe formulate srl as a constituentbyconstituent  tagging problem[/INST]",
+        "chosen": {
+            "content": "Here are the extracted sentences describing the experimental methods:\n\n* The system combines a machine learning technique with an inference procedure based on integer linear programming that supports the incorporation of linguistic and structural constraints into the decision process.\n* We present a system for the semantic role labeling task.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\ndetermining the sentiment of opinionsidentifying sentiments  is a challenging problemwe present a system that given a topic automatically finds the people who hold opinions about that topic and the sentiment of each opinionthe system contains a module for determining word sentiment and another for combining sentiments within a sentencewe experiment with various models of classifying and combining sentiment at word and sentence levels with promising resultswe try to determine the final sentiment orientation of a given sentence by combining sentiment words within itwe start with two lists of positive and negative seed wordswe use wordnet synonyms and antonyms to expand two lists of positive and negative seed words[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods from the abstract:\n\n* we experiment with various models of classifying and combining sentiment at word and sentence levels with promising results\n* we try to determine the final sentiment orientation of a given sentence by combining sentiment words within it\n* we start with two lists of positive and negative seed words\n* we use WordNet synonyms and antonyms to expand two lists of positive and negative seed words",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nsentence compression beyond word deletionin this paper we generalise the sentence compression taskrather than simply shorten a sentence by deleting words or constituents as in previous work we rewrite it using additional operations such as substitution reordering and insertionwe present a new corpus that is suited to our task and a discriminative treetotree transduction model that can naturally account for structural and lexical mismatchesthe model incorporates a novel grammar extraction method uses a language model for coherent output and can be easily tuned to a wide range of compression specific loss functionsdifferent from prior research we achieve sentence compression using a combination of several operations including word deletion substitution insertion and reordering based on a statistical model which is similar to our paraphrase generation processwe present a model that can both compress and paraphrase individual sentences without however generating documentlevel summariesour abstractive methods sheds more light on how people compress sentences but do not always manage to outperform extractive methodswe expand the task to include substitutions insertions and reorderings that are automatically learned from parallel textswe propose the first abstractive compression method[/INST]",
+        "chosen": {
+            "content": "Here are the extracted sentences describing the experimental methods:\n\n* Rather than simply shorten a sentence by deleting words or constituents as in previous work, we rewrite it using additional operations such as substitution, reordering, and insertion.\n* We present a discriminative tree-to-tree transduction model that can naturally account for structural and lexical mismatches.\n* The model incorporates a novel grammar extraction method uses a language model for coherent output and can be easily tuned to a wide range of compression-specific loss functions.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\na classifierbased approach to preposition and determiner error correction in l2 englishin this paper we present an approach to the automatic identification and correction of preposition and determiner errors in nonnative  english writingwe show that models of use for these parts of speech can be learned with an accuracy of 7006 and 9215 respectively on l1 text and present first results in an error detection task for l2 writingin the context of automated preposition and determiner error correction in l2 english we note that the process is often disrupted by misspellings[/INST]",
+        "chosen": {
+            "content": "Here are the extracted sentences describing the experimental methods:\n\n* Models of use for these parts of speech can be learned with an accuracy of 7006 and 9215 respectively on L1 text...\n* We present first results in an error detection task for L2 writing...",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nestimation of conditional probabilities with decision trees and an application to finegrained pos taggingwe present a hmm partofspeech tagging method which is particularly suitedfor pos tagsets with a large number of finegrained tagsit is based on three ideas  splitting of the pos tags into attribute vectors and decomposition of the contextual pos probabilities of the hmm into a product of attribute probabilities  estimation of the contextual probabilities with decision trees and  use of highorder hmmsin experiments on german and czech data our tagger outperformed stateoftheart pos taggersour finegrained tag set contains approximately 800 tags[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* Estimation of the contextual probabilities with decision trees\n* Use of high-order HMMS",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nlearning entailment rules for unary templatesmost work on unsupervised entailment rule acquisition focused on rules between templates with two variables ignoring unary rules  entailment rules between templates with a single variablein this paper we investigate two approaches for unsupervised learning of such rules and compare the proposed methods with a binary rule learning methodthe results show that the learned unary rulesets outperform the binary rulesetin addition a novel directional similarity measure for learning entailment termed balancedinclusion is the best performing measurewe propose a unary template which is defined as a template consisting of one argument slot and one predicate phrasewe use the distributional similarity of arguments to detect unary template entailmenttwo approaches for unsupervised learning of unary rules  are investigated in  a pivot approach for extracting paraphrase patterns from bilingual parallel corpora is presented while in  the quality of paraphrase extraction from parallel corpora is improved by requiring that phrases and their paraphrases have the same syntactic type our approach is different from theirs in many respects their goal is paraphrase extraction while we are extracting directional entailment rules as textual resources for pattern extraction they use parallel corpora  while we rely on monolingual wikipedia revisions  the para phrases they extract are more similar to dirt while our approach allows to focus on the acquisition of rules for specific phenomena frequent in entailment pairs and not covered by other resourceswe try identifying the entailment relation between lexicalsyntactic templates using weedsprec but observed that it tends to promote unreliable relations involving infrequent templates[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* We propose a unary template which is defined as a template consisting of one argument slot and one predicate phrase.\n* We use the distributional similarity of arguments to detect unary template entailment.\n* Two approaches for unsupervised learning of unary rules are investigated: a pivot approach for extracting paraphrase patterns from bilingual parallel corpora, and another approach that improves the quality of paraphrase extraction from parallel corpora by requiring that phrases and their paraphrases have the same syntactic type.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nthe ups and downs of preposition error detection in esl writingin this paper we describe a methodology for detecting preposition errors in the writing of nonnative english speakersour system performs at 84 precision and close to 19 recall on a large set of student essaysin addition we address the problem of annotation and evaluation in this domain by showing how current approaches of using only one rater can skew system evaluationwe present a sampling approach to circumvent some of the issues that complicate evaluation of error detection systemswe use the toefl datawe show that agreement between two native speakers on a cloze test targeting prepositions is about 76 which demonstrates that there are many contexts that license multiple prepositionsour model is trained with lexical features[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* Our system performs at 84 precision and close to 19 recall on a large set of student essays.\n* In addition, we address the problem of annotation and evaluation in this domain by showing how current approaches of using only one rater can skew system evaluation.\n* We present a sampling approach to circumvent some of the issues that complicate evaluation of error detection systems.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\na uniform approach to analogies synonyms antonyms and associationsrecognizing analogies synonyms antonyms and associations appear to be four distinct tasks requiring distinct nlp algorithmsin the past the four tasks have been treated independently using a wide variety of algorithmsthese four semantic classes however are a tiny sample of the full range of semantic phenomena and we cannot afford to create ad hoc algorithms for each semantic phenomenon we need to seek a unified approachwe propose to subsume a broad range of phenomena under analogiesto limit the scope of this paper we restrict our attention to the subsumption of synonyms antonyms and associationswe introduce a supervised corpusbased machine learning algorithm for classifying analogous word pairs and we show that it can solve multiplechoice sat analogy questions toefl synonym questions esl synonymantonym questions and similarassociatedboth questions from cognitive psychologywe propose a simpler svmbased algorithm for analogical classification called pairclasswe argue that many nlp tasks can be formulated in terms of analogical reasoning and we apply our pairclass algorithm to a number of problems including sat verbal analogy tests synonymantonym classification and distinction between semantically similar and semantically associated wordswe advocate the need for a uniform approach to corpusbased semantic tasks[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* We introduce a supervised corpus-based machine learning algorithm for classifying analogous word pairs...\n* We propose a simpler svmbased algorithm for analogical classification called pairclass...",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\ntop accuracy and fast dependency parsing is not a contradictionin addition to a high accuracy short parsing and training times are the most important properties of a parser however parsing and training times are still relatively longto determine why we analyzed the time usage of a dependency parserwe illustrate that the mapping of the features onto their weights in the support vector machine is the major factor in time complexityto resolve this problem we implemented the passiveaggressive perceptron algorithm as a hash kernelthe hash kernel substantially improves the parsing times and takes into account the features of negative examples built during the trainingthis has lead to a higher accuracywe could further increase the parsing and training speed with a parallel feature extraction and a parallel parsing algorithmwe are convinced that the hash kernel and the parallelization can be applied successful to other nlp applications as well such as transition based dependency parsers phrase structrue parsers and machine translationwe show that the hash kernel improves parsing speed and accuracy since the parser uses additionally negative featuresthe mateparser is an efficient second order dependency parser that models the interaction between siblings as well as grandchildren[/INST]",
+        "chosen": {
+            "content": "Here are the extracted sentences describing the experimental methods:\n\n* To resolve this problem, we implemented the passive-aggressive perceptron algorithm as a hash kernel.\n* This has lead to a higher accuracy.\n* We could further increase the parsing and training speed with a parallel feature extraction and a parallel parsing algorithm.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\na monolingual treebased translation model for sentence simplificationin this paper we consider sentence simplification as a special form of translation with the complex sentence as the source and the simple sentence as the targetwe propose a treebased simplification model  which to our knowledge is the first statistical simplification model covering splitting dropping reordering and substitution integrallywe also describe an efficient method to train our model with a largescale parallel dataset obtained from the wikipedia and simple wikipediathe evaluation shows that our model achieves better readability scores than a set of baseline systemswe use a treebased simplification model which uses techniques from statistical machine translation  with this data setwe examine the use of paired documents in english wikipedia and simple wikipediafor a datadriven approach to the sentence simplification taskwe propose sentence simplification can be approached as a monolingual machine translation task where the source and target languages are the same and where the output should be simpler in form from the input but similar in meaning[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* We also describe an efficient method to train our model with a largescale parallel dataset obtained from the Wikipedia and Simple WikiPedia.\n* ...with this data set, we examine the use of paired documents in English Wikipedia and Simple Wikipedia for a datadriven approach to the sentence simplification task.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nrobust sentiment detection on twitter from biased and noisy datain this paper we propose an approach to automatically detect sentiments on twitter messages  that explores some characteristics of how tweets are written and metainformation of the words that compose these messages moreover we leverage sources of noisy labels as our training datathese noisy labels were provided by a few sentiment detection websites over twitter datain our experiments we show that since our features are able to capture a more abstract representation of tweets our solution is more effective than previous ones and also more robust regarding biased and noisy data which is the kind of data provided by these sourceswe propose a twostep approach to classify the sentiments of tweets using svm classifiers with abstract features[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* ...we leverage sources of noisy labels as our training data...\n* ...these noisy labels were provided by a few sentiment detection websites over Twitter data...\n* ...we propose a two-step approach to classify the sentiments of tweets using SVM classifiers with abstract features...",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nenhanced sentiment learning using twitter hashtags and smileysautomated identification of diverse sentiment types can be beneficial for many nlp systems such as review summarization and public media analysisin some of these systems there is an option of assigning a sentiment value to a single sentence or a very short textin this paper we propose a supervised sentiment classification framework which is based on data from twitter a popular microblogging serviceby utilizing 50 twitter tags and 15 smileys as sentiment labels this framework avoids the need for labor intensive manual annotation allowing identification and classification of diverse sentiment types of short textswe evaluate the contribution of different feature types for sentiment classification and show that our framework successfully identifies sentiment types of untagged sentencesthe quality of the sentiment identification was also confirmed by human judgeswe also explore dependencies and overlap between different sentiment types represented by smileys and twitter hashtagswe used 50 hash tags and 15 emoticons as noisy labels to create a dataset for twitter sentiment classification[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods from the abstract:\n\n* \"by utilizing 50 Twitter tags and 15 smileys as sentiment labels\"\n* \"this framework avoids the need for labor intensive manual annotation allowing identification and classification of diverse sentiment types of short texts\"",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\ncategorial unification grammarscategorial unification grammars  embody the essential properties of both unification and categorial grammar formalismstheir efficient and uniform way of encoding linguistic knowledge in wellunderstood and widely used representations makes them attractive for computational applications and for linguistic researchin this paper the basic concepts of cugs and simple examples of their application will be presentedit will be argued that the strategies and potentials of cugs justify their further exploration in the wider context of research on unification grammarsapproaches to selected linguistic phenomena such as longdistance dependencies adjuncts word order and extraposition are discussed[/INST]",
+        "chosen": {
+            "content": "Here are the extracted sentences describing the experimental methods:\n\nNone. The abstract appears to be discussing theoretical concepts and frameworks (categorial unification grammars, unification grammar formalisms) rather than presenting experimental methods or results.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nword sense disambiguation with very large neural networks extracted from machine readable dictionariesin this paper we describe a means for automatically building very large neural networks  from definition texts in machinereadable dictionaries and demonstrate the use of these networks for word sense disambiguationour method brings together two earlier independent approaches to word sense disambiguation the use of machinereadable dictionaries and spreading and activation modelsthe automatic construction of vlnns enables realsize experiments with neural networks for natural language processing which in turn provides insight into their behavior and design and can lead to possible improvementswe apply conventional spreading activation approaches to word sense disambiguation[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* Our method brings together two earlier independent approaches to word sense disambiguation, the use of machine-readable dictionaries and spreading and activation models.\n* The automatic construction of VLNNS enables real-size experiments with neural networks for natural language processing which in turn provides insight into their behavior and design and can lead to possible improvements.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nsynchronous treeadjoining grammarsthe unique properties of treeadjoining grammars  present a challenge for the application of tags beyond the limited confines of syntax for instance to the task of semantic interpretation or automatic translation of natural languagewe present a variant of tags called synchronous tags which characterize correspondences between languagesthe formalism intended usage is to relate expressions of natural languages to their associated semantics represented in a logical form language or to their translates in another natural language in summary we intend it to allow tags to be used beyond their role in syntax properwe discuss the application of synchronous tags to concrete examples mentioning primarily in passing some computational issues that arise in its interpretationsynchronous tree adjoining grammars is introduced primarily for semantics but will be later also proposed for translationa synchronous derivation process for the two syntactic structures of both languages suggests the level of crosslingual isomorphism between the two trees eg synchronous tree adjoining grammars[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* We present a variant of tags called synchronous tags which characterize correspondences between languages.\n* The formalism intended usage is to relate expressions of natural languages to their associated semantics represented in a logical form language or to their translates in another natural language.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nword identification for mandarin chinese sentenceschinese sentences are composed with string of characters without blanks to mark wordshowever the basic unit for sentence parsing and understanding is wordtherefore the first step of processing chinese sentences is to identify the wordsthe difficulties of identifying words include  the identification of complex words such as determinativemeasure reduplications derived words etc  the identification of proper names resolving the ambiguous segmentationsin this paper we propose the possible solutions for the above difficultieswe adopt a matching algorithm with 6 different heuristic rules to resolve the ambiguities and achieve a 9977 of the success ratethe statistical data supports that the maximal matching algorithm is the most effective heuristicswe propose the forward maximum matching algorithm[/INST]",
+        "chosen": {
+            "content": "Here are the extracted sentences describing the experimental methods:\n\n* ...the first step of processing chinese sentences is to identify the words...\n* We adopt a matching algorithm with 6 different heuristic rules to resolve the ambiguities and achieve a 9977 of the success rate...\n* The statistical data supports that the maximal matching algorithm is the most effective heuristics...\n* We propose the forward maximum matching algorithm...",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nstochastic lexicalized treeadjoining grammarsthe notion of stochastic lexicalized treeadjoining grammar  is formally definedthe parameters of a sltag correspond to the probability of combining two structures each one associated with a wordthe characteristics of sltag are unique and novel since it is lexically sensitive  and yet hierarchical then two basic algorithms for sltag arc introduced an algorithm for computing the probability of a sentence generated by a sltag and an insideoutside like iterative algorithm for estimating the parameters of a sltag given a training corpusfinally we should how sltag enables to define a lexicalized version of stochastic contextfree grammars and we report preliminary experiments showing some of the advantages of sltag over stochastic contextfree grammarsin stochastic treeadjoining grammar this lack of contextsensitivity is overcome by assigning probabilities to larger structural units[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods from the abstract:\n\n* Two basic algorithms for SLTAG are introduced: an algorithm for computing the probability of a sentence generated by a SLTAG and an inside-outside like iterative algorithm for estimating the parameters of a SLTAG given a training corpus.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nprincipar  an efficient broadcoverage principlebased parserwe present an efficient broadcoverage principlebased parser for englishthe parser has been implemented in c and runs on sun sparcstations with xwindowsit contains a lexicon with over 90000 entries constructed automatically by applying a set of extraction and conversion rules to entries from machine readable dictionarieswe release minipar a fast and robust parser for grammatical dependency relations[/INST]",
+        "chosen": {
+            "content": "Here are the extracted sentences describing the experimental methods:\n\n* \"The parser has been implemented in C and runs on Sun Sparcstations with Xwindows.\"\n* \"It contains a lexicon with over 90,000 entries constructed automatically by applying a set of extraction and conversion rules to entries from machine readable dictionaries.\"",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nkvec a new approach for aligning parallel textsvarious methods have been proposed for aligning texts in two or more languages such as the canadian parliamentary debates some of these methods generate a bilingual lexicon as a byproductwe present an alternative alignment strategy which we call kvec that starts by estimating the lexiconfor example it discovers that the english word fisheries is similar to the french peches by noting that the distribution of fisheries in the english text is similar to the distribution of peches in the frenchkvec does not depend on sentence boundaries[/INST]",
+        "chosen": {
+            "content": "Here are the extracted sentences:\n\n* We present an alternative alignment strategy which we call kvec that starts by estimating the lexicon.\n* For example, it discovers that the English word \"fisheries\" is similar to the French \"peches\" by noting that the distribution of \"fisheries\" in the English text is similar to the distribution of \"peches\" in the French.\n* Kvec does not depend on sentence boundaries.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\na rulebased approach to prepositional phrase attachment disambiguationin this paper we describe a new corpusbased approach to prepositional phrase attachment disambiguation and present results comparing performance of this algorithm with other corpusbased approaches to this problemwe train a transformationbased learning algorithm on 12766 quadruples from wsjwe use the supervised transformationbased learning method and lexical and conceptual classes derived from wordnet achieving 82 precision on 500 randomly selected examples[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* We train a transformation-based learning algorithm on 12766 quadruples from WSJ.\n* We use the supervised transformation-based learning method and lexical and conceptual classes derived from WordNet.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nanaphora for everyone pronominal anaphora resolution without a parserwe present an algorithm for anaphora resolution which is a modified and extended version of that developed by in contrast to that work our algorithm does not require indepth full syntactic parsing of textinstead with minimal compromise in output quality the modifications enable the resolution process to work from tile output of a part of speech tagger enriched only with annotations of grammatical function of lexical items in the input text streamevaluation of the results of our implementation demonstrates that accurate anaphora resolution can be realized within natural language processing frameworks which do not  cannot  employ robust and reliable parsing componentswe also suggest that anaphora resolution is part of the discourse referents resolution[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* We present an algorithm for anaphora resolution which is a modified and extended version of that developed by ...\n* Instead with minimal compromise in output quality, the modifications enable the resolution process to work from tile output of a part of speech tagger enriched only with annotations of grammatical function of lexical items in the input text.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nhmmbased word alignment in statistical translationin this paper we describe a new model for word alignment in statistical translation and present experimental resultsthe idea of the model is to make the alignment probabilities dependent on the differences in the alignment positions rather than on the absolute positionsto achieve this goal the approach uses a firstorder hidden markov model  for the word alignment problem as they are used successfully in speech recognition for the time alignment problemthe difference to the time alignment hmm is that there is no monotony constraint for the possible word orderingswe describe the details of the model and test the model on several bilingual corporawe use a useful feature that assesses the goodness of the alignment path through the source sentence[/INST]",
+        "chosen": {
+            "content": "Here are the extracted sentences describing the experimental methods:\n\n* we present experimental results\n* we describe the details of the model and test the model on several bilingual corpora\n* we use a useful feature that assesses the goodness of the alignment path through the source sentence",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nusing semantic roles to improve question answeringshallow semantic parsing the automatic identification and labeling of sentential constituents has recently received much attentionour work examines whether semantic role information is beneficial to question answeringwe introduce a general framework for answer extraction which exploits semantic role annotations in the framenet paradigmwe view semantic role assignment as an optimization problem in a bipartite graph and answer extraction as an instance of graph matchingexperimental results on the trec datasets demonstrate improvements over stateoftheart modelswe show that shallow semantic information in the form of predicate argument structures  improves the automatic detection of correct answers to a target questionwe also point out that the low coverage of the current version of framenet significantly limits the expected boost in performance[/INST]",
+        "chosen": {
+            "content": "Here are the extracted sentences describing the experimental methods:\n\n* We view semantic role assignment as an optimization problem in a bipartite graph and answer extraction as an instance of graph matching.\n* Experimental results on the TREC datasets demonstrate improvements over state-of-the-art models.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nwhat is the jeopardy model a quasisynchronous grammar for qathis paper presents a syntaxdriven approach to question answering specifically the answersentence selection problem for shortanswer questionsrather than using syntactic features to augment existing statistical classifiers  we build on the idea that questions and their  answers relate to each other via loose but predictable syntactic transformationswe propose a probabilistic quasisynchronous grammar inspired by one proposed for machine translation  and parameterized by mixtures of a robust nonlexical syntaxalignment model with a lexicalsemanticsdriven loglinear modelour model learns soft alignments as a hidden variable in discriminative trainingexperimental results using the trec dataset are shown to significantly outperform strong stateoftheart baselineswe explore the use a formalism called quasi synchronous grammar  in order to find a more explicit model for matching the set of dependencies and yet still allow for looseness in the matchingwe use quasisynchronous translation to map all parentchild paths in a question to any path in an answer[/INST]",
+        "chosen": {
+            "content": "Here are the experimental methods described in the abstract:\n\n* \"We build on the idea that questions and their answers relate to each other via loose but predictable syntactic transformations...\"\n* \"Our model learns soft alignments as a hidden variable in discriminative training...\"\n* \"Experimental results using the TREC dataset are shown to significantly outperform strong state-of-the-art baselines...\"",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nimproving statistical machine translation using word sense disambiguationwe show for the first time that incorporating the predictions of a word sense disambiguation system within a typical phrasebased statistical machine translation  model consistently improves translation quality across all three different iwslt chineseenglish test sets as well as producing statistically significant improvements on the larger nist chineseenglish mt task  and moreover never hurts performance on any test set according not only to bleu but to all eight most commonly used automatic evaluation metricsrecent work has challenged the assumption that word sense disambiguation  systems are useful for smtyet smt translation quality still obviously suffers from inaccurate lexical choicein this paper we address this problem by investigating a new strategy for integrating wsd into an smt system that performs fully phrasal multiword disambiguationinstead of directly incorporating a sensevalstyle wsd system we redefine the wsd task to match the exact same phrasal translation disambiguation task faced by phrasebased smt systemsour results provide the first known empirical evidence that lexical semantics are indeed useful for smt despite claims to the contrarywe provide a machine translation system with the wsd probabilities for a phrase translation as extra features in a loglinear modelwe use rich context features based on position syntax and local collocations to dynamically adapt the lexicons for each sentence and facilitate the choice of longer phraseswe use a stateoftheart wsd engine  to dynamically determine the score of a phrase pair under consideration and thus let the phrase selection adapt to the context of the sentence[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* We provide a machine translation system with the WSD probabilities for a phrase translation as extra features in a log-linear model.\n* We use rich context features based on position, syntax, and local collocations to dynamically adapt the lexicons for each sentence and facilitate the choice of longer phrases.\n* We use a state-of-the-art WSD engine to dynamically determine the score of a phrase pair under consideration and thus let the phrase selection adapt to the context of the sentence.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nwhy does not them find good hmm postaggersthis paper investigates why the hmms estimated by expectationmaximization  produce such poor results as partofspeech  taggerswe find that the hmms estimated by them generally assign a roughly equal number of word tokens to each hidden state while the empirical distribution of tokens to pos tags is highly skewedthis motivates a bayesian approach using a sparse prior to bias the estimator toward such a skewed distributionwe investigate gibbs sampling  and variational bayes  estimators and show that vb converges faster than gs for this task and that vb significantly improves 1to1 tagging accuracy over themwe also show that them does nearly as well as vb when the number of hidden hmm states is dramatically reducedwe also point out the high variance in all of these estimators and that they require many more iterations to approach convergence than usually thoughtwe demonstrate good performance on unsupervised partofspeech tagging  with a bayesian model[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* we investigate gibbs sampling  and variational bayes  estimators\n* we show that vb converges faster than gs for this task and that vb significantly improves 1to1 tagging accuracy over them\n* we also show that them does nearly as well as vb when the number of hidden hmm states is dramatically reduced",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nvmeasure a conditional entropybased external cluster evaluation measurewe present vmeasure an external entropybased cluster evaluation measurevmeasure provides an elegant solution to many problems that affect previously defined cluster evaluation measures including 1 dependence on clustering algorithm or data set 2 the problem of matching where the clustering of only a portion of data points are evaluated and 3 accurate evaluation and combination of two desirable aspects of clustering homogeneity and completenesswe compare vmeasure to a number of popular cluster evaluation measures and demonstrate that it satisfies several desirable properties of clustering solutions using simulated clustering resultsfinally we use vmeasure to evaluate two clustering tasks document clustering and pitch accent type clusteringf score is not suitable for comparing results with different cluster numbersthe vmeasure  is an information theoretic metric that reports the harmonic mean of homogeneity  and completeness a significant limitation of fscore is that it does not evaluate the make up of clusters beyond the majority class[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods from the abstract:\n\n* We compare VMeasure to a number of popular cluster evaluation measures...\n* Finally, we use VMeasure to evaluate two clustering tasks: document clustering and pitch accent type clustering...",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nlexical semantic relatedness with random graph walksmany systems for tasks such as question answering multidocument summarization and information retrieval need robust numerical measures of lexical relatednessstandard thesaurusbased measures of word pair similarity are based on only a single path between those words in the thesaurus graphby contrast we propose a new model of lexical semantic relatedness that incorporates information from every explicit or implicit path connecting the two words in the entire graphour model uses a random walk over nodes and edges derived from wordnet links and corpus statisticswe treat the graph as a markov chain and compute a wordspecific stationary distribution via a generalized pagerank algorithmsemantic relatedness of a word pair is scored by a novel divergence measure zkl that outperforms existing measures on certain classes of distributionsin our experiments the resulting relatedness measure is the wordnetbased measure most highly correlated with human similarity judgments by rank ordering at  90we use random walks over wordnet incorporating information such as meronymy and dictionary glosses[/INST]",
+        "chosen": {
+            "content": "Here are the extracted sentences describing the experimental methods:\n\n* Our model uses a random walk over nodes and edges derived from WordNet links and corpus statistics.\n* We treat the graph as a Markov chain and compute a word-specific stationary distribution via a generalized PageRank algorithm.\n* The resulting relatedness measure is the WordNet-based measure most highly correlated with human similarity judgments by rank ordering at 90%.\n* We use random walks over WordNet, incorporating information such as meronymy and dictionary glosses.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nonline learning of relaxed ccg grammars for parsing to logical formwe consider the problem of learning to parse sentences to lambdacalculus representations of their underlying semantics and present an algorithm that learns a weighted combinatory categorial grammar a key idea is to introduce nonstandard ccg combinators that relax certain parts of the grammar  for example allowing flexible word order or insertion of lexical items  with learned costswe also present a new online algorithm for inducing a weighted ccgresults for the approach on atis data show 86 fmeasure in recovering fully correct semantic analyses and 959 fmeasure by a partialmatch criterion a more than 5 improvement over the 903 partialmatch figure reported by he and young we develop atis dataset for semantic parsingwe develop a set which includes features that are sensitive to lexical choices and the structure of the logical form that is constructedwe introduce the standard application composition and coordination combinators as well as typeshifting rules to model spontaneous unedited text[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* We present an algorithm that learns a weighted combinatory categorial grammar.\n* With learned costs, we also present a new online algorithm for inducing a weighted CCG.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nthe infinite pcfg using hierarchical dirichlet processeswe present a nonparametric bayesian model of tree structures based on the hierarchical dirichlet process our hdppcfg model allows the complexity of the grammar to grow as more training data is availablein addition to presenting a fully bayesian model for the pcfg we also develop an efficient variational inference procedureon synthetic data we recover the correct grammar without having to specify its complexity in advancewe also show that our techniques can be applied to fullscale parsing applications by demonstrating its effectiveness in learning statesplit grammarswe find that because the latent variable grammars are not explicitly regularized them keeps fitting the training data and eventually begins over fitting[/INST]",
+        "chosen": {
+            "content": "Here are the extracted sentences describing the experimental methods:\n\n* We present a fully Bayesian model for the PCFG.\n* On synthetic data, we recover the correct grammar without having to specify its complexity in advance.\n* We also show that our techniques can be applied to full-scale parsing applications by demonstrating its effectiveness in learning state-split grammars.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\ntree kernelbased relation extraction with contextsensitive structured parse tree informationthis paper proposes a tree kernel with contextsensitive structured parse tree information for relation extractionit resolves two critical problems in previous tree kernels for relation extraction in two waysfirst it automatically determines a dynamic contextsensitive tree span for relation extraction by extending the widelyused shortest pathenclosed tree  to include necessary context information outside sptsecond it proposes a contextsensitive convolution tree kernel which enumerates both contextfree and contextsensitive subtrees by considering their ancestor node paths as their contextsmoreover this paper evaluates the complementary nature between our tree kernel and a stateoftheart linear kernelevaluation on the ace rdc corpora shows that our dynamic contextsensitive tree span is much more suitable for relation extraction than spt and our tree kernel outperforms the stateoftheart collins and duffy convolution tree kernelit also shows that our tree kernel achieves much better performance than the stateoftheart linear kernelsfinally it shows that featurebased and tree kernelbased methods much complement each other and the composite kernel can well integrate both flat and structured featuresour composite kernel depends partially on a full parse and partially on a collection of shallow syntactic features[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* It automatically determines a dynamic contextsensitive tree span for relation extraction by extending the widely-used shortest path-enclosed tree to include necessary context information outside SPT.\n* It proposes a contextsensitive convolution tree kernel which enumerates both context-free and contextsensitive subtrees by considering their ancestor node paths as their contexts.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nchinese syntactic reordering for statistical machine translationsyntactic reordering approaches are an effective method for handling wordorder differences between source and target languages in statistical machine translation  systemsthis paper introduces a reordering approach for translation from chinese to englishwe describe a set of syntactic reordering rules that exploit systematic differences between chinese and english word orderthe resulting system is used as a preprocessor for both training and test sentences transforming chinese sentences to be much closer to english in terms of their word orderwe evaluated the reordering approach within the moses phrasebased smt system the reordering approach improved the bleu score for the moses system from 2852 to 3086 on the nist 2006 evaluation datawe also conducted a series of experiments to analyze the accuracy and impact of different types of reordering rulesour rule set substantially decreases the total times of rule application about 60 compared with a constituentbased approachchinese ordering differs from english mainly in clause ordering[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* We describe a set of syntactic reordering rules that exploit systematic differences between Chinese and English word order.\n* The resulting system is used as a preprocessor for both training and test sentences, transforming Chinese sentences to be much closer to English in terms of their word order.\n* We evaluated the reordering approach within the Moses phrase-based SMT system.\n* We also conducted a series of experiments to analyze the accuracy and impact of different types of reordering rules.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nonline largemargin training for statistical machine translationwe achieved a state of the art performance in statistical machine translation by using a large number of features with an online largemargin training algorithmthe millions of parameters were tuned only on a small development set consisting of less than 1k sentencesexperiments on arabictoenglish translation indicated that a model trained with sparse binary features outperformed a conventional smt system with a small number of featureswe perform blue computations in the context of a set o of previouslytranslated sentenceswe find the possibility of overfitting in the dataset  especially when domain differences are present[/INST]",
+        "chosen": {
+            "content": "Here are the extracted sentences describing the experimental methods:\n\n* We achieved a state of the art performance in statistical machine translation by using a large number of features with an online largemargin training algorithm.\n* The millions of parameters were tuned only on a small development set consisting of less than 1k sentences.\n* Experiments on Arabic-to-English translation indicated that a model trained with sparse binary features outperformed a conventional SMT system with a small number of features.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nlarge language models in machine translationthis paper reports on the benefits of largescale statistical language modeling in machine translationa distributed infrastructure is proposed which we use to train on up to 2 trillion tokens resulting in language models having up to 300 billion ngramsit is capable of providing smoothed probabilities for fast singlepass decodingwe introduce a new smoothing method dubbed stupid backoff that is inexpensive to train on large data sets and approaches the quality of kneserney smoothing as the amount of training data increases5gram word language models in english are trained on a variety of monolingual corporain the case of language models we often have to remove lowfrequency words because of a lack of computational resources since the feature space of k grams tends to be so large that we sometimes need cutoffs even in a distributed environmentto scale lms to larger corpora with higherorder dependencies we consider distributed language models that scale more readilystupid back off smoothing is significantly more efficient to train and deploy in a distributed framework than a context dependent smoothing scheme such as kneserneywe show that each doubling of the training data from the news domain  leads to improvements of approximately 05 bleu pointswe used 1500 machines for a day to compute the relative frequencies of ngrams from 18tb of web data[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* A distributed infrastructure is proposed which we use to train on up to 2 trillion tokens resulting in language models having up to 300 billion ngramsit is capable of providing smoothed probabilities for fast singlepass decoding.\n* We introduce a new smoothing method dubbed stupid backoff that is inexpensive to train on large data sets and approaches the quality of kneserney smoothing as the amount of training data increases.\n* To scale LMS to larger corpora with higher-order dependencies we consider distributed language models that scale more readilystupid back off smoothing is significantly more efficient to train and deploy in a distributed framework than a context dependent smoothing scheme such as kneserney.\n* We used 1500 machines for a day to compute the relative frequencies of ngrams from 18tb of web data.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nfactored translation modelswe present an extension of phrasebased statistical machine translation models that enables the straightforward integration of additional annotation at the wordlevel  may it be linguistic markup or automatically generated word classesin a number of experiments we show that factored translation models lead to better translation performance both in terms of automatic scores as well as more grammatical coherenceany way to enforce linguistic constraints will result in a reduced need for data and ultimately in more complete models given the same amount of datawe also propose frameworks for the simultaneous use of different wordlevel representationswe propose a tight integration of morpho syntactic information into the translation model where lemma and morphological information are translated separately and this information is combined on the output side to generate the translationwe generalise the phrasebased model representation of the word from a string to a vector allowing additional features such as partofspeech and morphology to be associated with or even to replace surface forms during searchfactored translation models facilitate a more dataoriented approach to agreement modeling[/INST]",
+        "chosen": {
+            "content": "Here are the extracted sentences describing the experimental methods:\n\n* We show that factored translation models lead to better translation performance both in terms of automatic scores as well as more grammatical coherence.\n* We propose frameworks for the simultaneous use of different wordlevel representations.\n* We propose a tight integration of morpho syntactic information into the translation model where lemma and morphological information are translated separately and this information is combined on the output side to generate the translation.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nthe conll 2007 shared task on dependency parsingthe conference on computational natural language learning features a shared task in which participants train and test their learning systems on the same data setsin 2007 as in 2006 the shared task has been devoted to dependency parsing this year with both a multilingual track and a domain adaptation trackin this paper we define the tasks of the different tracks and describe how the data sets were created from existing treebanks for ten languagesin addition we characterize the different approaches of the participating systems report the test results and provide a first analysis of these resultswe note that languages with free word order and high morphological complexity are the most difficult for dependency parsingmorphologically rich languages present new challenges as the use of state of the art parsers for more configurational and noninflected languages like english does not reach similar performance levels in languages like basque greek or turkish[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* None (the abstract focuses on defining the tasks, characterizing participating systems, reporting test results, and analyzing these results)",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nsingle malt or blended a study in multilingual parser optimizationwe describe a twostage optimization of the maltparser system for the ten languages in the multilingual track of the conll 2007 shared task on dependency parsingthe first stage consists in tuning a singleparser system for each language by optimizing parameters of the parsing algorithm the feature model and the learning algorithmthe second stage consists in building an ensemble system that combines six different parsing strategies extrapolating from the optimal parameters settings for each languagewhen evaluated on the official test sets the ensemble system significantly outperforms the singleparser system and achieves the highest average labeled attachment scorewe extend the twostage approach to a threestage architecture where the parser and labeler generate an nbest list of parses which in turn is rerankedwe point out that the official results for chinese contained a bug and the true performance of our system is actually much higherwe implement a lefttoright arceager parsing model in a way that the parser scan through an input sequence from left to right and the right dependents are attached to their heads as soon as possible[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* The first stage consists in tuning a single-parser system for each language by optimizing parameters of the parsing algorithm, the feature model, and the learning algorithm.\n* The second stage consists in building an ensemble system that combines six different parsing strategies extrapolating from the optimal parameter settings for each language.\n* We extend the two-stage approach to a three-stage architecture where the parser and labeler generate an n-best list of parses which in turn is reranked.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nexperiments with a higherorder projective dependency parserwe present experiments with a dependency parsing model defined on rich factorsour model represents dependency trees with factors that include three types of relations between the tokens of a dependency and their childrenwe extend the projective parsing algorithm of eisner  for our case and train models using the averaged perceptronour experiments show that considering higherorder information yields significant improvements in parsing accuracy but comes at a high cost in terms of both time and memory consumptionin the multilingual exercise of the conll2007 shared task  our system obtains the best accuracy for english and the second best accuracies for basque and czechwe extend the firstorder model to incorporate a sum over scores for pairs of adjacent arcs in the tree yielding a secondorder modelour secondorder models include head grandparent relationsour second order algorithm uses the child of the dependent occurring in the sentence between the head and the dependent as well as the edge from the dependents to a grandchildwe introduce the leftmost and rightmost grandchild as factors[/INST]",
+        "chosen": {
+            "content": "Here are the extracted sentences describing the experimental methods:\n\n* We extend the projective parsing algorithm of Eisner for our case and train models using the averaged perceptron.\n* Our second-order models include head-grandparent relations.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nimproving translation quality by discarding most of the phrasetableit is possible to reduce the bulk of phrasetables for statistical machine translation using a technique based on the significance testing of phrase pair cooccurrence in the parallel corpusthe savings can be quite substantial  and because no reduction in bleu scorein some cases an improvement in bleu is obtained at the same time although the effect is less pronounced if stateoftheart phrase table smoothing is employedwe use fisher exact testwe filter out statistically unreliable translation pairs[/INST]",
+        "chosen": {
+            "content": "Here are the extracted sentences:\n\n* It is possible to reduce the bulk of phrasetables for statistical machine translation using a technique based on the significance testing of phrase pair cooccurrence in the parallel corpus.\n* The savings can be quite substantial and because no reduction in BLEU score, in some cases an improvement in BLEU is obtained at the same time although the effect is less pronounced if state-of-the-art phrase table smoothing is employed.\n* We use Fisher exact test; we filter out statistically unreliable translation pairs.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nhierarchical phrasebased translation with suffix arraysa major engineering challenge in statistical machine translation systems is the efficient representation of extremely large translation rulesetsin phrasebased models this problem can be addressed by storing the training data in memory and using a suffix array as an efficient index to quickly lookup and extract rules on the flyhierarchical phrasebased translation introduces the added wrinkle of source phrases with gapslookup algorithms used for contiguous phrases no longer apply and the best approximate pattern matching algorithms are much too slow taking several minutes per sentencewe describe new lookup algorithms for hierarchical phrasebased translation that reduce the empirical computation time by nearly two orders of magnitude making onthefly lookup feasible for source phrases with gapsthe basis of our method is to look for the occurrences of continuous substrings using a suffix array and then intersect them to find the occurrences of discontinuous substrings[/INST]",
+        "chosen": {
+            "content": "Here are the extracted sentences describing the experimental methods:\n\n* Storing the training data in memory and using a suffix array as an efficient index to quickly lookup and extract rules on the fly.\n* We describe new lookup algorithms for hierarchical phrasebased translation that reduce the empirical computation time by nearly two orders of magnitude making on-the-fly lookup feasible for source phrases with gaps.\n* The basis of our method is to look for the occurrences of continuous substrings using a suffix array and then intersect them to find the occurrences of discontinuous substrings.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\na topic model for word sense disambiguationwe develop latent dirichlet allocation with wordnet  an unsupervised probabilistic topic model that includes word sense as a hidden variablewe develop a probabilistic posterior inference algorithm for simultaneously disambiguating a corpus and learning the domains in which to consider each wordusing the wordnet hierarchy we embed the construction of abney and light  in the topic model and show that automatically learned domains improve wsd accuracy compared to alternative contextswe use the documentlevel topics extracted with latent dirichlet allocation  as indicators of meanings for word sense disambiguationwe describe a related topic model ldawn for word sense disambiguation that adds an intermediate layer of latent variables z on which the markov model parameters are conditionedwe integrate semantics into the topic model framework[/INST]",
+        "chosen": {
+            "content": "Here are the extracted sentences describing the experimental methods:\n\n* We develop a probabilistic posterior inference algorithm for simultaneously disambiguating a corpus and learning the domains in which to consider each word.\n* Using the WordNet hierarchy, we embed the construction of Abney and Light in the topic model and show that automatically learned domains improve WSD accuracy compared to alternative contexts.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\ndependency parsing and domain adaptation with lr models and parser ensembleswe present a datadriven variant of the lr algorithm for dependency parsing and extend it with a bestfirst search for probabilistic generalized lr dependency parsingparser actions are determined by a classifier based on features that represent the current state of the parserwe apply this parsing framework to both tracks of the conll 2007 shared task in each case taking advantage of multiple models trained with different learnersin the multilingual track we train three lr models for each of the ten languages and combine the analyses obtained with each individual model with a maximum spanning tree voting schemein the domain adaptation track we use two models to parse unlabeled data in the target domain to supplement the labeled outofdomain training set in a scheme similar to one iteration of cotrainingwe use a combination of colearning and active learning by training two different parsers on the labeled training data parsing the unlabeled domain data with both parsers and adding parsed sentences to the training data only if the two parsers agreed on their analysiswe generalize the standard deterministic framework to probabilistic parsing by using a bestfirst search strategy[/INST]",
+        "chosen": {
+            "content": "Here are the extracted sentences describing the experimental methods:\n\n* \"We present a datadriven variant of the LR algorithm for dependency parsing and extend it with a best-first search for probabilistic generalized LR dependency parsing.\"\n* \"Parser actions are determined by a classifier based on features that represent the current state of the parser.\"\n* \"We apply this parsing framework to both tracks of the ConLL 2007 shared task in each case taking advantage of multiple models trained with different learners.\"\n* \"In the multilingual track, we train three LR models for each of the ten languages and combine the analyses obtained with each individual model with a maximum spanning tree voting scheme.\"\n* \"In the domain adaptation track, we use two models to parse unlabeled data in the target domain to supplement the labeled out-of-domain training set in a scheme similar to one iteration of co-training.\"\n* \"We use a combination of co-learning and active learning by training two different parsers on the labeled training data parsing the unlabeled domain data with both parsers and adding parsed sentences to the training data only if the two parsers agreed on their analysis.\"",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nextracting aspectevaluation and aspectof relations in opinion miningthe technology of opinion extraction allows users to retrieve and analyze people opinions scattered over web documentswe define an opinion unit as a quadruple consisting of the opinion holder the subject being evaluated the part or the attribute in which the subject is evaluated and the value of the evaluation that expresses a positive or negative assessmentwe use this definition as the basis for our opinion extraction taskwe focus on two important subtasks of opinion extraction  extracting aspectevaluation relations and  extracting aspectof relations and we approach each task using methods which combine contextual and statistical cluesour experiments on japanese weblog posts show that the use of contextual clues improve the performance for both taskswe analyze the labeled corpus for opinion expressions and observe that many opinion expressions are used in multiple domainswe adopt a supervised learning technique to search for useful syntactic patterns as contextual clues[/INST]",
+        "chosen": {
+            "content": "Here are the extracted sentences describing the experimental methods:\n\n* We approach each task using methods which combine contextual and statistical clues.\n* Our experiments on Japanese weblog posts show that the use of contextual clues improve the performance for both tasks.\n* We adopt a supervised learning technique to search for useful syntactic patterns as contextual clues.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nindirecthmmbased hypothesis alignment for combining outputs from machine translation systemsthis paper presents a new hypothesis alignment method for combining outputs of multiple machine translation  systemsan indirect hidden markov model  is proposed to address the synonym matching and word ordering issues in hypothesis alignmentunlike traditional hmms whose parameters are trained via maximum likelihood estimation  the parameters of the ihmm are estimated indirectly from a variety of sources including word semantic similarity word surface similarity and a distancebased distortion penaltythe ihmmbased method significantly outperforms the stateoftheart terbased alignment model in our experiments on nist benchmark datasetsour combined smt system using the proposed method achieved the best chinesetoenglish translation result in the constrained training track of the 2008 nist open mt evaluationwe propose using an indirect hidden markov model  for pairwise alignment of system outputs[/INST]",
+        "chosen": {
+            "content": "Here are the extracted sentences describing the experimental methods:\n\n* An indirect hidden Markov model is proposed to address the synonym matching and word ordering issues in hypothesis alignment.\n* Unlike traditional HMMs whose parameters are trained via maximum likelihood estimation, the parameters of the IHMM are estimated indirectly from a variety of sources including word semantic similarity, word surface similarity, and a distance-based distortion penalty.\n* The IHMM-based method significantly outperforms the state-of-the-art TER-based alignment model in our experiments on NIST benchmark datasets.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nmultilingual subjectivity analysis using machine translationalthough research in other languages is increasing much of the work in subjectivity analysis has been applied to english data mainly due to the large body of electronic resources and tools that are available for this languagein this paper we propose and evaluate methods that can be employed to transfer a repository of subjectivity resources across languagesspecifically we attempt to leverage on the resources available for english and by employing machine translation generate resources for subjectivity analysis in other languagesthrough comparative evaluations on two different languages  we show that automatic translation is a viable alternative for the construction of resources and tools for subjectivity analysis in a new target languagewe demonstrate that machine translation can perform quite well when extending the subjectivity analysis to multilingual environmentwe hypothesize that subjectivity is expressed differently in various languages due to lexicalization formal versus informal markers etc[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods from the abstract:\n\n* Specifically we attempt to leverage on the resources available for English and by employing machine translation generate resources for subjectivity analysis in other languages.\n* We demonstrate that machine translation can perform quite well when extending the subjectivity analysis to multilingual environment.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\ndependency parsing by belief propagationwe formulate dependency parsing as a graphical model with the novel ingredient of global constraintswe show how to apply loopy belief propagation  a simple and effective tool for approximate learning and inferenceas a parsing algorithm bp is both asymptotically and empirically efficienteven with secondorder features or latent variables which would make exact parsing considerably slower or nphard bp needs only o time with a small constant factorfurthermore such features significantly improve parse accuracy over exact firstorder methodsincorporating additional features would increase the runtime additively rather than multiplicativelywe can encapsulate common dynamic programming algorithms within specialpurpose factors to efficiently globally constrain variable configurationsdeptree is a global combinatorial factor which attaches to all link  variables and similarly contributes a factor of 1 iff the configuration of link variables forms a valid projective dependency graph[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* We show how to apply loopy belief propagation as a parsing algorithm.\n* BP needs only O(time) with a small constant factor.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nrevisiting readability a unified framework for predicting text qualitywe combine lexical syntactic and discourse features to produce a highly predictive modelof human readers judgments of text readabilitythis is the first study to take into account such a variety of linguistic factors andthe first to empirically demonstrate that discourse relations are strongly associated withthe perceived quality of textwe show that various surface metrics generally expected to be related to readability are not very good predictors of readability judgments in our wall street journal corpuswe also establish that readability predictors behave differently depending on the task predicting text readability or ranking the readabilityour experiments indicate that discourse relations are the one class of features that exhibits robustness across these two taskswe propose a unified framework composed of vocabulary syntactic elements of lexical cohesion entity coherence and discourse relations to measure text qualitywhen readability is targeted towards adult competent language users a more prominent role is played by discourse featuresfive annotators have assessed the overall text quality of each article on a scale from 1 to 5we find nonsignificant correlation for the mean number of words per sentence and the mean number of characters per word[/INST]",
+        "chosen": {
+            "content": "Here are the extracted sentences describing the experimental methods:\n\n* Five annotators have assessed the overall text quality of each article on a scale from 1 to 5.\n* We find nonsignificant correlation for the mean number of words per sentence and the mean number of characters per word.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nsyntactic constraints on paraphrases extracted from parallel corporawe improve the quality of paraphrases extracted from parallel corpora by requiring thatphrases and their paraphrases be the same syntactic typethis is achieved by parsing the english side of a parallel corpus and altering the phrase extraction algorithm to extract phrase labels alongside bilingual phrase pairsin order to retain broad coverage of nonconstituent phrases complex syntactic labels are introduceda manual evaluation indicates a 19 absolute improvement in paraphrase quality over the baseline methodwe show how the monolingual context of a sentence to paraphrase can be used to improve the quality of the acquired paraphraseshuman evaluators are asked to score each pair of an original sentence and a paraphrased sentence with the following two 5point scale grades grammaticality whether the paraphrased sentence is grammatical meaning whether the meaning of the original sentence is properly retained by the paraphrased sentencea problem of phrasebased methods to paraphrase or term variation acquisition is the fact that a large proportion of the term variations or paraphrases proposed by the system are superior substrings of the original termwe automatically acquire paraphrase dictionary[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* this is achieved by parsing the english side of a parallel corpus and altering the phrase extraction algorithm to extract phrase labels alongside bilingual phrase pairs\n* in order to retain broad coverage of nonconstituent phrases complex syntactic labels are introduced",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nforestbased translation rule extractiontranslation rule extraction is a fundamental problem in machine translation especially for linguistically syntaxbased systems that need parse trees from either or both sides of the bitextthe current dominant practice only uses 1best trees which adversely affects the rule set quality due to parsing errorsso we propose a novel approach which extracts rules from a packed forest that compactly encodes exponentially many parsesexperiments show that this method improves translation quality by over 1 bleu point on a stateoftheart treetostring system and is 05 points better than  extracting on 30best parseswhen combined with our previous work on forestbased decoding it achieves a 25 bleu points improvement over the baseline and even outperforms the hierarchical system of hiero by 07 pointswe use viterbi algorithm to prune the forest[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* ...experiments show that this method improves translation quality by over 1 BLEU point on a state-of-the-art tree-to-string system...\n* ...and is 0.5 points better than extracting on 30-best parses...\n* ...when combined with our previous work on forest-based decoding it achieves a 2.5 BLEU points improvement over the baseline and even outperforms the hierarchical system of Hiero by 0.7 points...",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nonline largemargin training of syntactic and structural translation featuresminimumerrorrate training  is a bottleneck for current development in statistical machine translation because it is limited in the number of weights it can reliably optimizebuilding on the work of watanabe et al we explore the use of the mira algorithm of crammer et al as an alternative to mertwe first show that by parallel processing and exploiting more of the parse forest we can obtain results using mira that match or surpass mert in terms of both translation quality and computational costwe then test the method on two classes of features that address deficiencies in the hiero hierarchical phrasebased model first we simultaneously train a large number of marton and resnik soft syntactic constraints and second we introduce a novel structural distortion modelin both cases we obtain significant improvements in translation performanceoptimizing them in combination for a total of 56 feature weights we improve performance by 26 blue on a subset of the nist 2006 arabicenglish evaluation datawe introduce structural distortion features into a hierarchical phrasebased model aimed at modeling nonterminal reordering given source span lengthwe show that mert is competitive with small numbers of features compared to highdimensional optimizers such as miraour feature explicitly counters overestimates of rule counts or rules with bad overlap points bad rewrites or with undesired insertions of targetside terminals[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods from the abstract:\n\n* We explore the use of the MIRA algorithm of Crammer et al as an alternative to MERT.\n* By parallel processing and exploiting more of the parse forest, we can obtain results using MIRA that match or surpass MERT in terms of both translation quality and computational cost.\n* We then test the method on two classes of features that address deficiencies in the HIERO hierarchical phrase-based model.\n* We simultaneously train a large number of MARTON and RESNIK soft syntactic constraints.\n* We introduce a novel structural distortion model.\n* We optimize them in combination for a total of 56 feature weights, which improves performance by 26% on a subset of the NIST 2006 Arabic-English evaluation data.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\ncheap and fast \u00e2 but is it good evaluating nonexpert annotations for natural language taskshuman linguistic annotation is crucial for many natural language processing tasks but can be expensive and timeconsumingwe explore the use of amazons mechanical turk system a significantly cheaper and faster method for collecting annotations from a broad base of paid nonexpert contributors over the webwe investigate five tasks affect recognition word similarity recognizing textual entailment event temporal ordering and word sense disambiguationfor all five we show high agreement between mechanical turk nonexpert annotations and existing gold standard labels provided by expert labelersfor the task of affect recognition we also show that using nonexpert labels for training machine learning algorithms can be as effective as using gold standard annotations from expertswe propose a technique for bias correction that significantly improves annotation quality on two taskswe conclude that many large labeling tasks can be effectively designed and carried out in this method at a fraction of the usual expensewe compare the quality of labels produced by nonexpert turkers against those made by experts for a variety of nlp tasks and find that they required only four responses per item to emulate expert annotationswe show that obtaining multiple low quality labels  can approach highquality editorial labelswe work with a majority rule where ties are broken uniformly at random and report an observed agreement  between the majority rule and the gold standard of 897[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* we explore the use of Amazon's Mechanical Turk system, a significantly cheaper and faster method for collecting annotations from a broad base of paid nonexpert contributors over the web\n* for all five [tasks], we show high agreement between Mechanical Turk nonexpert annotations and existing gold standard labels provided by expert labelers\n* we propose a technique for bias correction that significantly improves annotation quality on two tasks",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nunderstanding the value of features for coreference resolutionin recent years there has been substantial work on the important problem of coreference resolution most of which has concentrated on the development of new models and algorithmic techniquesthese works often show that complex models improve over a weak pairwise baselinehowever less attention has been given to the importance of selecting strong features to support learning a coreference modelthis paper describes a rather simple pairwise classification model for coreference resolution developed with a welldesigned set of featureswe show that this produces a stateoftheart system that outperforms systems built with complex modelswe suggest that our system can be used as a baseline for the development of more complex models  which may have less impact when a more robust set of features is usedthe paper also presents an ablation study and discusses the relative contributions of various featuresour algorithm runs in time quadratic in the number of mentions[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods from the abstract:\n\n* This paper describes a rather simple pairwise classification model for coreference resolution developed with a welldesigned set of features.\n* Our algorithm runs in time quadratic in the number of mentions.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nbayesian unsupervised topic segmentationthis paper describes a novel bayesian approach to unsupervised topic segmentationunsupervised systems for this task are driven by lexical cohesion the tendency of wellformed segments to induce a compact and consistent lexical distributionwe show that lexical cohesion can be placed in a bayesian context by modeling the words in each topic segment as draws from a multinomial language model associated with the segment maximizing the observation likelihood in such a model yields a lexicallycohesive segmentationthis contrasts with previous approaches which relied on handcrafted cohesion metricsthe bayesian framework provides a principled way to incorporate additional features such as cue phrases a powerful indicator of discourse structure that has not been previously used in unsupervised segmentation systemsour model yields consistent improvements over an array of stateoftheart systems on both text and speech datasetswe also show that both an entropybased analysis and a wellknown previous technique can be derived as special cases of the bayesian frameworkwe present a dynamic program for linear segmentationif the actual number of segments is known and only a linear discourse structure is acceptable then a single move shift of the segment border is sufficientwe find the richer model beneficial for a meetings corpus but not for a textbook[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* We show that lexical cohesion can be placed in a Bayesian context by modeling the words in each topic segment as draws from a multinomial language model associated with the segment maximizing the observation likelihood in such a model yields a lexically-cohesive segmentation.\n* Our model yields consistent improvements over an array of state-of-the-art systems on both text and speech datasets.\n* We present a dynamic program for linear segmentation.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\na comparison of bayesian estimators for unsupervised hidden markov model pos taggersthere is growing interest in applying bayesian techniques to nlp problemsthere are a number of different estimators for bayesian models and it is useful to know what kinds of tasks each does well onthis paper compares a variety of different bayesian estimators for hidden markov model pos taggers with various numbers of hidden states on data sets of different sizesrecent papers have given contradictory results when comparing bayesian estimators to expectation maximization  for unsupervised hmm pos tagging and we show that the difference in reported results is largely due to differences in the size of the training data and the number of states in the hmmwe investigate a variety of samplers for hmms including some that these earlier papers did not studywe find that all of gibbs samplers do well with small data sets and few states and that variational bayes does well on large data sets and is competitive with the gibbs samplersin terms of times of convergence we find that variational bayes was the fastest of all the estimators especially on large data sets and that explicit gibbs sampler  were generally faster than their collapsed counterparts on large data setswe consider three evaluation criteria mto1 and 1to1 are the tagging accuracies under the best manytoone map and the greedy onetoone map respectively vi is a mapfree information theoretic criterionwe induce a manytoone mapping of state identifiers to pos tags from one half of the corpus and evaluate on the second half which is referred to as crossvalidation accuracywe show that sparse priors can gain 4  in crossvalidated many toone accuracy[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* We compare a variety of different Bayesian estimators for Hidden Markov Model POS taggers with various numbers of hidden states on data sets of different sizes.\n* We investigate a variety of samplers for HMMS, including some that these earlier papers did not study.\n* We consider three evaluation criteria: MTO1 and 1TO1 are the tagging accuracies under the best many-to-one map and the greedy one-to-one map respectively; VI is a map-free information-theoretic criterion.\n* We induce a many-to-one mapping of state identifiers to POS tags from one half of the corpus and evaluate on the second half, which is referred to as cross-validation accuracy.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\na tale of two parsers investigating and combining graphbased and transitionbased dependency parsinggraphbased and transitionbased approaches to dependency parsing adopt very different views of the problem each view having its own strengths and limitationswe study both approaches under the framework of beamsearchby developing a graphbased and a transitionbased dependency parser we show that a beamsearch decoder is a competitive choice for both methodsmore importantly we propose a beamsearchbased parser that combines both graphbased and transitionbased parsing into a single system for training and decoding showing that it outperforms both the pure graphbased and the pure transitionbased parserstesting on the english and chinese penn treebank data the combined system gave stateoftheart accuracies of 921 and 862 respectivelywe define head rules to convert phrase structures into dependency structureswe combine beam search with a globally normalized discriminative model using structured perceptron learning and the early update strategy of collins and roark  and also explore the addition of graph based features to a transitionbased parser[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* We develop a graph-based and a transition-based dependency parser.\n* By developing a graph-based and a transition-based dependency parser, we show that a beam-search decoder is a competitive choice for both methods.\n* We propose a beam-search-based parser that combines both graph-based and transition-based parsing into a single system for training and decoding.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nlattice minimum bayesrisk decoding for statistical machine translationwe present minimum bayesrisk  decoding over translation lattices that compactly encode a huge number of translation hypotheseswe describe conditions on the loss function that will enable efficient implementation of mbr decoders on latticeswe introduce an approximation to the bleu score  that satisfies these conditionsthe mbr decoding under this approximate bleu is realized using weighted finite state automataour experiments show that the lattice mbr decoder yields moderate consistent gains in translation performance over nbest mbr decoding on arabictoenglish chinesetoenglish and englishtochinese translation taskswe conduct a range of experiments to understand why lattice mbr improves upon nbest mbr and study the impact of various parameters on mbr performancewe consider taylor approximations to the logarithm of bleuwe extend mbr to word lattices which improves performance over kbest list mbrthe logbleu function must be modified slightly to yield a linear taylor approximation we replace the clipped ngram count with the product of an n gram count and an ngram indicator functionwe compute expected feature values by intersecting the translation lattice with a lattices for each ngram t[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* We present minimum bayesrisk decoding over translation lattices that compactly encode a huge number of translation hypotheses.\n* We describe conditions on the loss function that will enable efficient implementation of MBR decoders on lattices.\n* Our experiments show that the lattice MBR decoder yields moderate consistent gains in translation performance over N-best MBR decoding on Arabic-to-English, Chinese-to-English, and English-to-Chinese translation tasks.\n* We conduct a range of experiments to understand why lattice MBR improves upon N-best MBR and study the impact of various parameters on MBR performance.\n* We consider Taylor approximations to the logarithm of BLEU.\n* We extend MBR to word lattices which improves performance over K-best list MBR.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\njoint unsupervised coreference resolution with markov logicmachine learning approaches to coreference resolution are typically supervised and require expensive labeled datasome unsupervised approaches have been proposed  but they are less accuratein this paper we present the first unsupervised approach that is competitive with supervised onesthis is made possible by performing joint inference across mentions in contrast to the pairwise classification typically used in supervised methods and by using markov logic as a representation language which enables us to easily express relations like apposition and predicate nominalson muc and ace datasets our model outperforms haghigi and kleins one using only a fraction of the training data and often matches or exceeds the accuracy of stateoftheart supervised modelswe empirically report that global approaches achieve performance better than the ones based on incrementally processing a textour method is based on the entitymention modelin the predicate nominative construction the object of a copular verb  is constrained to corefer with its subject[/INST]",
+        "chosen": {
+            "content": "Here are the extracted sentences describing the experimental methods:\n\n* This is made possible by performing joint inference across mentions in contrast to the pairwise classification typically used in supervised methods and by using markov logic as a representation language which enables us to easily express relations like apposition and predicate nominalson\n* Our method is based on the entity-mention model.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    },
+    {
+        "prompt": "<s>[INST]<<SYS>>\nGiven the abstract of a research paper, extract the section discussing the experimental methodology (Method). The experimental method section typically appears in the middle of the abstract. Please extract the original text from the abstract for analysis.\n<<\\SYS>>\nlatticebased minimum error rate training for statistical machine translationminimum error rate training  is an effective means to estimate the feature function weights of a linear model such that an automated evaluation criterion for measuring system performance can directly be optimized in trainingto accomplish this the training procedure determines for each feature function its exact error surface on a given set of candidate translationsthe feature function weights are then adjusted by traversing the error surface combined over all sentences and picking those values for which the resulting error count reaches a minimumtypically candidates in mert are represented as nbest lists which contain the n most probable translation hypotheses produced by a decoderin this paper we present a novel algorithm that allows for efficiently constructing and representing the exact error surface of all translations that are encoded in a phrase latticecompared to nbest mert the number of candidate translations thus taken into account increases by several orders of magnitudesthe proposed method is used to train the feature function weights of a phrasebased statistical machine translation systemexperiments conducted on the nist 2008 translation tasks show significant runtime improvements and moderate bleu score gains over nbest mertwe find that first iterations of the tuning process produces very bad weights  this exceptional performance drop is attributed to an overfitting on the candidate repositorywe present a procedure for conducting line optimisation directly over a word lattice encoding the hypotheses in cswe apply the sweepline algorithm to the union to discard redundant linear functions and their associated hypotheseswe theorize that an upper bound for the number of linear functions in the upper envelope at the final state is equal to the number of edges in the latticein our mert algorithm we compute the error statistics from the target sentences from the translation search space  that are exactly those that are minimally discriminable by changing the feature weights along a single vector in the dimensions of the feature spacewe extend the mert algorithm so as to use the whole set of candidate translations compactly represented in the search lattice produced by the decoder instead of only a nbest list of candidates extracted from itwe find that the down hill simplex algorithm loses its robustness as the dimension goes up by more than 10[/INST]",
+        "chosen": {
+            "content": "Here are the sentences describing the experimental methods:\n\n* The feature function weights are then adjusted by traversing the error surface combined over all sentences and picking those values for which the resulting error count reaches a minimum.\n* Compared to nbest MERT, the number of candidate translations thus taken into account increases by several orders of magnitude.\n* We present a procedure for conducting line optimisation directly over a word lattice encoding the hypotheses in CS.\n* We apply the sweep-line algorithm to the union to discard redundant linear functions and their associated hypotheses.\n* In our MERT algorithm, we compute the error statistics from the target sentences from the translation search space that are exactly those that are minimally discriminable by changing the feature weights along a single vector in the dimensions of the feature space.",
+            "role": "assistant"
+        },
+        "rejected": {
+            "content": "None",
+            "role": "assistant"
+        }
+    }
+]
