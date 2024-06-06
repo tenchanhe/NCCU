@@ -1,35 +1,58 @@
-import pandas as pd
 import ollama
+import json
 
 
 def get_data():
     data = []
-    df = pd.read_parquet('./train-00000-of-00001-d9a274137f7fc7c8.parquet')
-    data.append("The reliability of self-labeled data is an important issue when the data are regarded as ground-truth for training and testing learning-based models.This paper addresses the issue of false-alarm hashtags in the self-labeled data for irony detection.We analyze the ambiguity of hashtag usages and propose a novel neural network-based model, which incorporates linguistic information from different aspects, to disambiguate the usage of three hashtags that are widely used to collect the training data for irony detection.Furthermore, we apply our model to prune the self-labeled training data.Experimental results show that the irony detection model trained on the less but cleaner training instances outperforms the models trained on all data.")
 
-    for index, row in df.iterrows():
-        data.append(row['response'])
-        # print(row['response'])
+    with open('split_data/output_part_3.jsonl', 'r', encoding='utf-8') as file:
+        for i, line in enumerate(file):
+            # data.append(json.loads(line))
+            # if i < 10000:  # 只读取前 100 行
+            #     data.append(json.loads(line))
+            # else:
+            #     break
+
+            if 4745 <= i < 10000:  # 读取第101到200行
+                data.append(json.loads(line))
+            elif i >= 10000:  # 超过200行后停止读取
+                break
     return data
 
 
 if __name__ == "__main__":
-    data = get_data()
+    Data = get_data()
+    print(len(Data))
+    flag = 1
+    # data=[]
+    with open('newwPrompt_train_data.json', 'r', encoding='utf-8') as file:
+        data = json.load(file)
 
-    for abstract in data:
-        print('abstract: ', abstract)
+    for line in Data:
+
+        print(flag)
+        print('abstract: ', line['abstract'])
         response = ollama.chat(model='llama3', messages=[
             {
                 'role': 'system',
-                # 'content': 'Your goal is to summarize the text given to you in roughly 300 words. It is from a meeting between one or more people. Only output the summary without any additional text. Focus on providing a summary in freeform text with what people said and the action items coming out of it.'
-                'content': 'Extract the sentences describing the experimental methods from the abstract of the research paper. Only provide the original sentences from the abstract, no additional explanation required.'
+                # 'content': 'Your goal is to extract the sentences describing the experimental methods from the abstract of the research paper. Only provide the original sentences from the abstract, no additional explanation required.'
+                'content': 'Methodological sentences are those that describe the methods or approaches used in the research, including experimental setup, data collection, analysis techniques, and procedures followed. Given the abstracts of academic articles, and there are one or more methodological sentences in each abstracts. Your goal is to extract methodological sentences from the abstracts of academic articles. Only provide the original sentences from the abstract, no additional explanation required.'
             },
             {
                 'role': 'user',
-                'content': abstract,
+                'content': line['abstract'],
             },
         ])
 
+        data.append({
+            "abstract":line['abstract'],
+            "method":response['message']['content'],
+            "id":line['id']
+        })
+
+        flag += 1
+        with open('newwPrompt_train_data.json', 'w', encoding='utf-8') as outfile:
+            json.dump(data, outfile, indent=4)
+
         print('\n', 'response: ', response['message']['content'])
-        print("="*100)
-        print("")
+        print("="*100, '\n')
