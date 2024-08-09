@@ -1,0 +1,110 @@
+'NoneType' object has no attribute 'cadam32bit_grad_fp32'
+The token has not been saved to the git credentials helper. Pass `add_to_git_credential=True` in this function directly or `--add-to-git-credential` if using via `huggingface-cli` if you want to set the git credential as well.
+Token is valid (permission: write).
+Your token has been saved to /Users/tenchanhe/.cache/huggingface/token
+Login successful
+55
+['The method is based on hierarchical clustering techniques.\nThe method is based on hierarchical clustering techniques.']
+0.6666666666666666
+['Our method uses deep learning to enhance accuracy.\nExperiments demonstrate the effectiveness of our approach.']
+0.6956521739130436
+['The approach combines rule-based and machine learning techniques.\nA comparative analysis with other frameworks is also discussed.=<NEW']
+0.6428571428571429
+['An extensive empirical analysis demonstrates that Logic-Explainer can improve explanations generated via in-context learning methods and Chain-of-Thought (CoT) on challenging ethical NLI tasks, while, at the same time, producing formal proofs describing and supporting models??reasoning.']
+0.15789473684210525
+['We propose FACTOR: Factual Assessment via Corpus Transformation, a scalable approach for evaluating LM factuality. FACTOR automatically transforms a factual corpus of interest into a benchmark evaluating an LM?s propensity to generate true facts from the corpus vs. similar but incorrect statements.']
+0.8514851485148515
+['By analysing 255 papers and considering OpenAI?s data usage policy, we extensively document the amount of data leaked to these models during the first year after the model?s release.']
+0.6595744680851063
+['Our evaluation shows that Archer challenges the capabilities of current state-of-the-art models, with a high-ranked model on the Spider leaderboard achieving only 6.73% execution accuracy on Archer test set.']
+0.05128205128205128
+['We evaluate GEAR on 14 datasets across 6 downstream tasks, demonstrating its strong generalizability to novel tasks, tools and different SLMs.']
+0.12048192771084337
+['We illustrate that LLM comparative assessment is a simple, general and effective approach for NLG assessment. For moderate-sized open-source LLMs, such as FlanT5 and Llama2-chat, comparative assessment is superior to prompt scoring, and in many cases can achieve performance competitive with state-of-the-art methods.']
+0.20895522388059704
+['Accordingly, we leverage the power of pre-trained language models to encode items, understand user intent via conversation, perform item recommendation through semantic matching, and generate dialogues.']
+0.5454545454545454
+['We offer OpenPI2.0 for the continued development of models that can understand the dynamics of entities in text.']
+0.14814814814814814
+['We comprehensively analyze each system with automated methods that are grounded in a variety of aspects of empathy.']
+0.5625
+['Our framework depends only on rich, naturally-occurring relationships among documents and is built upon the data generation functions parameterized by LLMs and prompts.']
+0.631578947368421
+['We propose a new paradigm (task) for inductive reasoning, which is to induce natural language rules from natural language facts, and create a dataset termed DEER containing 1.2k rule-fact pairs for the task, where rules and facts are written in natural language. New automatic metrics are also proposed and analysed for the evaluation of this task.']
+0.6075949367088608
+['We annotated the English portion of the dataset and extended the sentence-level annotation to the remaining 204 languages covered in the corpus.']
+0.5111111111111112
+['For our experimentation, we randomly selected twelve stocks from the Dow Jones Industrial Index to construct our portfolio.']
+0.4931506849315069
+['We show that model uncertainty does not mirror human clarification-seeking behavior, which suggests that using human clarification questions as supervision for deciding when to ask may not be the most effective way to resolve model uncertainty. To address this issue, we propose an approach to generating clarification questions based on model uncertainty estimation, compare it to several alternatives, and show that it leads to significant improvements in terms of task success.']
+0.6542056074766355
+['We propose Like a Good Nearest Neighbor (LaGoNN), a modification to SetFit that introduces no learnable parameters but alters input text with information from its nearest neighbor, for example, the label and text, in the training data, making novel data appear similar to a instance on which the model was optimized.']
+0.970873786407767
+['We focus on zero-shot sentiment analysis tasks across 34 languages, including 6 high/medium-resource languages, 25 low-resource languages, and 3 code-switching datasets.']
+0.6842105263157895
+['For LLM-based augmentation, we design a new scheme including a multi-pattern rephrasing paradigm and a data-free composing paradigm. Instead of directly using augmentation samples in the supervised task, we introduce span-level contrastive learning to reduce data noise.']
+0.5734265734265734
+['We transfer the attribute controlling capabilities to languages without attribute-annotated data with an NLLB-200 model as a foundation.']
+0.13953488372093023
+['We obtain automatic translations from a strong multilingual machine translation system and manually project the original English annotations into each target language.']
+0.5365853658536585
+['We follow this line of work and propose Archer, a data-augmentation strategy that exploits alignment annotations between sentences and their corresponding meaning representations.<p>Recent work on semantic parsing has shown that seq2seq models find compositional generalization challenging.<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p']
+0.19455252918287938
+['We begin by highlighting the issue of representation collapse that occurs with the replacement of contrastive objectives with non-contrastive objectives in SimCSE. Subsequently, we introduce a straightforward solution called the target network to mitigate this problem.<p> These efforts have resulted in superior sentence representation models, emphasizing the importance of careful tuning and optimization for non-contrastive objectives.<p> These efforts have resulted in superior sentence representation models, emphasizing the importance of careful tuning and optimization for non-contrastive objectives.<p> These efforts have resulted in superior sentence representation models, emphasizing the importance of careful tuning and optimization for non-contrastive objectives.']
+0.524390243902439
+['We present EXPLORER which is an exploration-guided reasoning agent for textual reinforcement learning. EXPLORER is neuro-symbolic in nature, as it relies on a neural module for exploration and a symbolic module for exploitation.<p> Our experiments show that EXPLORER outperforms the baseline agents on Text-World cooking (TW-Cooking) and Text-World Commonsense (TWC) games.<p> Our experiments show that EXPLORER outperforms the baseline agents on Text-World cooking (TW-Cooking) and Text-World Commonsense (TWC) games.']
+0.5373134328358209
+['MiniSeg, that outperforms state-of-the-art baselines.<p>Lastly, we expand the notion of text segmentation to a more practical chaptering task that involves the segmentation of unstructured content, the generation of meaningful segment titles, and a potential real-time application of the models.<p><p>Lastly, we expand the notion of text segmentation to a more practical chaptering task that involves the segmentation of unstructured content, the generation of meaningful segment titles, and a potential real-time application of the models.']
+0.6285714285714286
+['We propose a novel framework to measure the extent of semantic sensitivity. To this end, we evaluate NLI models on adversarially generated examples containing minor semantics-preserving surface-form input noise.']
+0.5688073394495413
+['We address a gap in prior research, which often overlooked the transfer to lower-resource colloquial varieties due to limited test data. Inspired by prior work on English varieties, we craft and manually evaluate perturbation rules that transform German sentences into colloquial forms and use them to synthesize test sets in four ToD datasets.']
+0.5289256198347108
+['PEARL is a prompting framework to improve reasoning over long documents, which consists of three stages: action mining, plan formulation, and plan execution.']
+0.4
+['We utilized models such as GPT-3.5-turbo, GPT-4, BLOOMZ, Jais-13b-chat, Whisper, and USM, employing zero and few-shot learning techniques to tackle 33 distinct tasks across 61 publicly available datasets.']
+0.7070707070707071
+["We propose SentenceLDA, a sentence-level topic model. We combine modern SentenceBERT and classical LDA to extend the semantic unit from word to sentence. By extending the semantic unit, we verify that SentenceLDA returns more discriminative document representation than other topic models, while maintaining LDA's elegant probabilistic interpretability."]
+0.7153284671532847
+['We first propose to define the concept of dysfluent speech and dysfluent speech modeling. We then present Hierarchical Unconstrained Dysfluency Modeling (H-UDM) approach that addresses both dysfluency transcription and detection to eliminate the need for extensive manual annotation.']
+0.6024096385542169
+['We demonstrate & evaluate TPRL `&quot;s effectiveness in discovering natural adversarial attacks and improving model performance through extensive experiments on four diverse NLP classification tasks via Automatic & Human evaluation.']
+0.09523809523809525
+['We propose an algorithm FAIR (Filtering of Automatically Induced Rules) to filter rules from a large number of automatically induced rules using submodular objective functions that account for the collective precision, coverage, and conflicts of the rule set.']
+0.7102803738317757
+['Our proposed method, Nearest Neighbor Occupational Skill Extraction (NNOSE) effectively leverages multiple datasets by retrieving neighboring skills from other datasets in the datastore.<p><p>We tackle the complexity in occupational skill datasets tasks—combining and leveraging multiple datasets for skill extraction, to identify rarely observed skills within a dataset, and overcoming the scarcity of skills across datasets.<p> In particular, we investigate the retrieval-augmentation of language models, employing a external datastore for retrieving similar skills in a dataset-unifying manner.<p> This improves skill extraction without additional fine-tuning. Crucially, we observe a performance gain in predicting infrequent patterns, with substantial gains of up to 30% span-F1 in cross-dataset settings.']
+0.369047619047619
+['We propose non-neural and novel neural approaches built on the core ideas of GAINER.']
+0.46874999999999994
+['We use structured knowledge and a large generative model to build a diverse CDA across multiple bias dimensions in a semi-automated way.']
+0.5822784810126582
+['We make the task more realistic by scaling it to more languages and considering models with simpler architectures for faster inference. We also reformulate the task as a sentence-level multi-label tagging problem to make it more tractable.<p> Having defined the task, we investigate three reasonable architectures for this task and define metrics which better reflect desired performance. We present empirical evidence that no current approach is adequate, and finally provide recommendations for future work in this area.<p> We make the task more realistic by scaling it to more languages and considering models with simpler architectures for faster inference. We also reformulate the task as a sentence-level multi-label tagging problem to make it more tractable.<p> Having defined the task, we investigate three reasonable architectures for this task and define metrics which better reflect desired performance. We present empirical evidence that no current approach is adequate, and finally provide recommendations for future work in this area.<p><p> We present empirical evidence that no current approach is adequate, and']
+0.5064377682403434
+['In our method, an LLM plays an important role in the self-training loop of a smaller model in two important ways. Firstly, we utilize an LLM to generate multiple augmented texts for each input instance to enhance its semantic meaning for better understanding. Secondly, we additionally generate high-quality training instances conditioned on predicted labels, ensuring the generated texts are relevant to the labels.']
+0.6515151515151515
+['We conduct experiments on two different character-level sequence-to-sequence tasks and find that, indeed, the transformer is slightly more sensitive to hyperparameters according to both of our metrics.']
+0.5714285714285715
+['To accomplish this, we present a new dataset PAIRS (PArallel Images for eveRyday Scenarios). The PAIRS dataset contains sets of AI-generated images of people, such that the images are highly similar in terms of background and visual content, but differ along the dimensions of gender (man, woman) and race (Black, white).']
+0.8062015503875969
+['We proposed **ConstraintChecker**, a plugin over prompting techniques to provide and check explicit constraints.']
+0.3218390804597701
+['We describe an algorithm which finds the shortest string for a weighted non-deterministic automaton over such semirings using the backwards shortest distance of an equivalent deterministic automaton (DFA) as a heuristic for A* search performed over a companion idempotent semiring, which is proven to return the shortest string.']
+0.7716535433070866
+['We propose a novel Importance-Aware Data Augmentation (IADA) algorithm for DocNMT that augments the training data based on token importance information estimated by the norm of hidden states and training gradients.']
+0.8205128205128205
+['We frame the novel task of translationese reduction and hypothesize that Abstract Meaning Representation (AMR), a graph-based semantic representation which abstracts away from the surface form, can be used as an interlingua to reduce the amount of translationese in translated texts. By parsing English translations into an AMR and then generating text from that AMR, the result more closely resembles originally English text across three quantitative macro-level measures, without severely compromising fluency or adequacy.']
+0.8994082840236686
+['Our findings are: 1) Template-free and template-based approaches often rank models differently, except for the top domain-specific models. 2) Scores decrease by up to 42% Acc@1 when comparing parallel template-free and template-based prompts.']
+0.47682119205298024
+['We then survey relevant analysis and methods papers to provide an overview of the state of the field. The second part of our work presents experiments where we evaluate 15 QA systems on 5 datasets according to all desiderata at once.']
+0.7884615384615385
+['We propose metrics for assessing the quality of discovered latent concepts and use them to compare the studied clustering algorithms.']
+0.49382716049382713
+['We use a masked language model to quantify how non-human entities are implicitly framed as human by the surrounding context.']
+0.5833333333333334
+['We navigated different understandings of language, the functional differentiation of oral vs institutional languages, and the distinct technology opportunities for each.<p>We navigated different understandings of language, the functional differentiation of oral vs institutional languages, and the distinct technology opportunities for each.<p>We called for new collaborations on the design of locally appropriate technologies for languages with primary orality.<p>We call for new collaborations on the design of locally appropriate technologies for languages with primary orality.']
+0.3902439024390244
+['We combine topic models with a classifier and test their ability to help humans conduct content analysis and document annotation.']
+0.37735849056603776
+['We ranked each corpus according to a similarity measure and carried out an intrinsic and extrinsic evaluation on different portions of this ranked corpus.']
+0.4752475247524752

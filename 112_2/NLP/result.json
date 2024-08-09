@@ -1,0 +1,262 @@
+[
+    {
+        "ans": "The method is based on hierarchical clustering techniques.",
+        "res": "The method is based on hierarchical clustering techniques.\nThe method is based on hierarchical clustering techniques.",
+        "score": 0.6666666666666666
+    },
+    {
+        "ans": "Our method uses deep learning to enhance accuracy.",
+        "res": "Our method uses deep learning to enhance accuracy.\nExperiments demonstrate the effectiveness of our approach.",
+        "score": 0.6956521739130436
+    },
+    {
+        "ans": "The approach combines rule-based and machine learning techniques.",
+        "res": "The approach combines rule-based and machine learning techniques.\nA comparative analysis with other frameworks is also discussed.=<NEW",
+        "score": 0.6428571428571429
+    },
+    {
+        "ans": "Specifically, we present an abductive-deductive framework named Logic-Explainer, which integrates LLMs with an external backward-chaining solver to refine step-wise natural language explanations and jointly verify their correctness, reduce incompleteness and minimise redundancy.",
+        "res": "An extensive empirical analysis demonstrates that Logic-Explainer can improve explanations generated via in-context learning methods and Chain-of-Thought (CoT) on challenging ethical NLI tasks, while, at the same time, producing formal proofs describing and supporting models??reasoning.",
+        "score": 0.15789473684210525
+    },
+    {
+        "ans": "We propose FACTOR: Factual Assessment via Corpus TransfORmation, a scalable approach for evaluating LM factuality. FACTOR automatically transforms a factual corpus of interest into a benchmark evaluating an LM?s propensity to generate true facts from the corpus vs. similar but incorrect statements. We use our framework to create three benchmarks: Wiki-FACTOR, News-FACTOR and Expert-FACTOR.",
+        "res": "We propose FACTOR: Factual Assessment via Corpus Transformation, a scalable approach for evaluating LM factuality. FACTOR automatically transforms a factual corpus of interest into a benchmark evaluating an LM?s propensity to generate true facts from the corpus vs. similar but incorrect statements.",
+        "score": 0.8514851485148515
+    },
+    {
+        "ans": "In this work, we conduct the first systematic analysis of work using OpenAI?s GPT-3.5 and GPT-4, the most prominently used LLMs today, in the context of data contamination. By analysing 255 papers and considering OpenAI?s data usage policy, we extensively document the amount of data leaked to these models during the first year after the model?s release.",
+        "res": "By analysing 255 papers and considering OpenAI?s data usage policy, we extensively document the amount of data leaked to these models during the first year after the model?s release.",
+        "score": 0.6595744680851063
+    },
+    {
+        "ans": "We present Archer, a challenging bilingual text-to-SQL dataset specific to complex reasoning, including arithmetic, commonsense and hypothetical reasoning. It contains 1,042 English questions and 1,042 Chinese questions, along with 521 unique SQL queries, covering 20 English databases across 20 domains.",
+        "res": "Our evaluation shows that Archer challenges the capabilities of current state-of-the-art models, with a high-ranked model on the Spider leaderboard achieving only 6.73% execution accuracy on Archer test set.",
+        "score": 0.05128205128205128
+    },
+    {
+        "ans": "We introduce GEAR, a computationally efficient query-tool grounding algorithm that is generalizable to various tasks that require tool use while not relying on task-specific demonstrations. GEAR achieves better efficiency by delegating tool grounding and execution to small language models (SLM) and LLM, respectively; while leveraging semantic and pattern-based evaluation at both question and answer levels for generalizable tool grounding.",
+        "res": "We evaluate GEAR on 14 datasets across 6 downstream tasks, demonstrating its strong generalizability to novel tasks, tools and different SLMs.",
+        "score": 0.12048192771084337
+    },
+    {
+        "ans": "In this paper, we explore two options for exploiting the emergent abilities of LLMs for zero-shot NLG assessment: absolute score prediction, and comparative assessment which uses relative comparisons between pairs of candidates. This work examines comparative assessment from multiple perspectives: performance compared to absolute grading; positional biases in the prompt; and efficient ranking in terms of the number of comparisons. Additionally, we demonstrate that LLMs often exhibit strong positional biases when making pairwise comparisons, and we propose debiasing methods that can further improve performance.",
+        "res": "We illustrate that LLM comparative assessment is a simple, general and effective approach for NLG assessment. For moderate-sized open-source LLMs, such as FlanT5 and Llama2-chat, comparative assessment is superior to prompt scoring, and in many cases can achieve performance competitive with state-of-the-art methods.",
+        "score": 0.20895522388059704
+    },
+    {
+        "ans": "In this paper, we represent items in natural language and formulate CRS as a natural language processing task. Accordingly, we leverage the power of pre-trained language models to encode items, understand user intent via conversation, perform item recommendation through semantic matching, and generate dialogues. As a unified model, our PECRS (Parameter-Efficient CRS), can be optimized in a single stage, without relying on non-textual metadata such as a knowledge graph.",
+        "res": "Accordingly, we leverage the power of pre-trained language models to encode items, understand user intent via conversation, perform item recommendation through semantic matching, and generate dialogues.",
+        "score": 0.5454545454545454
+    },
+    {
+        "ans": "To overcome these limitations, we present an improved dataset, OpenPI2.0, where entities and attributes are fully canonicalized and additional entity salience annotations are added. We also show that using state changes of salient entities as a chain-of-thought prompt, downstream performance is improved on tasks such as question answering and classical planning, outperforming the setting involving all related entities indiscriminately.",
+        "res": "We offer OpenPI2.0 for the continued development of models that can understand the dynamics of entities in text.",
+        "score": 0.14814814814814814
+    },
+    {
+        "ans": "We survey 21 systems, asking what progress has been made on the task. We observe multiple limitations of current evaluation procedures. To better understand the differences between systems, we comprehensively analyze each system with automated methods that are grounded in a variety of aspects of empathy.",
+        "res": "We comprehensively analyze each system with automated methods that are grounded in a variety of aspects of empathy.",
+        "score": 0.5625
+    },
+    {
+        "ans": "To improve performance of smaller language models, we propose a data synthesis framework for multi-hop question answering that requires less than 10 human-annotated question answer pairs. Our framework depends only on rich, naturally-occurring relationships among documents and is built upon the data generation functions parameterized by LLMs and prompts.",
+        "res": "Our framework depends only on rich, naturally-occurring relationships among documents and is built upon the data generation functions parameterized by LLMs and prompts.",
+        "score": 0.631578947368421
+    },
+    {
+        "ans": "To this end, we propose a new paradigm (task) for inductive reasoning, which is to induce natural language rules from natural language facts, and create a dataset termed DEER containing 1.2k rule-fact pairs for the task, where rules and facts are written in natural language. Moreover, we provide the first and comprehensive analysis of how well pretrained language models can induce natural language rules from natural language facts. We also propose a new framework drawing insights from philosophy literature for this task, which we show in the experiment section that surpasses baselines in both automatic and human evaluations.",
+        "res": "We propose a new paradigm (task) for inductive reasoning, which is to induce natural language rules from natural language facts, and create a dataset termed DEER containing 1.2k rule-fact pairs for the task, where rules and facts are written in natural language. New automatic metrics are also proposed and analysed for the evaluation of this task.",
+        "score": 0.6075949367088608
+    },
+    {
+        "ans": "In this paper, we create SIB-200?a large-scale open-sourced benchmark dataset for topic classification in 205 languages and dialects to address the lack of evaluation dataset for Natural Language Understanding (NLU). The dataset is based on Flores-200 machine translation corpus. We annotated the English portion of the dataset and extended the sentence-level annotation to the remaining 204 languages covered in the corpus.",
+        "res": "We annotated the English portion of the dataset and extended the sentence-level annotation to the remaining 204 languages covered in the corpus.",
+        "score": 0.5111111111111112
+    },
+    {
+        "ans": "In this research, we introduce an RL-based framework called FinBPM, which takes both the factor pertaining to the impact on operations of the company and the factor of the irrational investment of the speculator into consideration. For our experimentation, we randomly selected twelve stocks from the Dow Jones Industrial Index to construct our portfolio.",
+        "res": "For our experimentation, we randomly selected twelve stocks from the Dow Jones Industrial Index to construct our portfolio.",
+        "score": 0.4931506849315069
+    },
+    {
+        "ans": "To address this issue, we propose an approach to generating clarification questions based on model uncertainty estimation, compare it to several alternatives, and show that it leads to significant improvements in terms of task success.",
+        "res": "We show that model uncertainty does not mirror human clarification-seeking behavior, which suggests that using human clarification questions as supervision for deciding when to ask may not be the most effective way to resolve model uncertainty. To address this issue, we propose an approach to generating clarification questions based on model uncertainty estimation, compare it to several alternatives, and show that it leads to significant improvements in terms of task success.",
+        "score": 0.6542056074766355
+    },
+    {
+        "ans": "Here, we propose Like a Good Nearest Neighbor (LaGoNN), a modification to SetFit that introduces no learnable parameters but alters input text with information from its nearest neighbor, for example, the label and text, in the training data, making novel data appear similar to an instance on which the model was optimized.",
+        "res": "We propose Like a Good Nearest Neighbor (LaGoNN), a modification to SetFit that introduces no learnable parameters but alters input text with information from its nearest neighbor, for example, the label and text, in the training data, making novel data appear similar to a instance on which the model was optimized.",
+        "score": 0.970873786407767
+    },
+    {
+        "ans": "In this paper, we relax the reliance on texts in low-resource languages by using multilingual lexicons in pretraining to enhance multilingual capabilities. Specifically, we focus on zero-shot sentiment analysis tasks across 34 languages, including 6 high/medium-resource languages, 25 low-resource languages, and 3 code-switching datasets.",
+        "res": "We focus on zero-shot sentiment analysis tasks across 34 languages, including 6 high/medium-resource languages, 25 low-resource languages, and 3 code-switching datasets.",
+        "score": 0.6842105263157895
+    },
+    {
+        "ans": "To address these issues, we propose a Contrastive Event Aggregation Network with LLM-based Augmentation to promote low-resource learning and reduce data noise for event extraction. Different from the existing methods introducing linguistic knowledge into data augmentation, an event aggregation network is established to introduce event knowledge into supervised learning by constructing adaptively-updated semantic representation for trigger and argument. For LLM-based augmentation, we design a new scheme including a multi-pattern rephrasing paradigm and a data-free composing paradigm. Instead of directly using augmentation samples in the supervised task, we introduce span-level contrastive learning to reduce data noise.",
+        "res": "For LLM-based augmentation, we design a new scheme including a multi-pattern rephrasing paradigm and a data-free composing paradigm. Instead of directly using augmentation samples in the supervised task, we introduce span-level contrastive learning to reduce data noise.",
+        "score": 0.5734265734265734
+    },
+    {
+        "ans": "The controller transfers well to zero-shot conditions, as it is operates on pretrained multilingual representations and is attribute- rather than language-specific.",
+        "res": "We transfer the attribute controlling capabilities to languages without attribute-annotated data with an NLLB-200 model as a foundation.",
+        "score": 0.13953488372093023
+    },
+    {
+        "ans": "We obtain automatic translations from a strong multilingual machine translation system and manually project the original English annotations into each target language. For all languages, we also provide human translations for key portions of the dev and test splits. Finally, we present baselines on MultiMUC both with state-of-the-art template filling models for MUC-4 and with ChatGPT.",
+        "res": "We obtain automatic translations from a strong multilingual machine translation system and manually project the original English annotations into each target language.",
+        "score": 0.5365853658536585
+    },
+    {
+        "ans": "In this paper we follow this line of work and propose Archer, a data-augmentation strategy that exploits alignment annotations between sentences and their corresponding meaning representations. More precisely, we use alignments to train a two step generative model that combines monotonic lexical generation with reordering.",
+        "res": "We follow this line of work and propose Archer, a data-augmentation strategy that exploits alignment annotations between sentences and their corresponding meaning representations.<p>Recent work on semantic parsing has shown that seq2seq models find compositional generalization challenging.<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p<p",
+        "score": 0.19455252918287938
+    },
+    {
+        "ans": "We begin by highlighting the issue of representation collapse that occurs with the replacement of contrastive objectives with non-contrastive objectives in SimCSE. Subsequently, we introduce a straightforward solution called the target network to mitigate this problem. This approach enables us to harness non-contrastive objectives while ensuring training stability and achieving performance improvements similar to those seen with contrastive objectives.",
+        "res": "We begin by highlighting the issue of representation collapse that occurs with the replacement of contrastive objectives with non-contrastive objectives in SimCSE. Subsequently, we introduce a straightforward solution called the target network to mitigate this problem.<p> These efforts have resulted in superior sentence representation models, emphasizing the importance of careful tuning and optimization for non-contrastive objectives.<p> These efforts have resulted in superior sentence representation models, emphasizing the importance of careful tuning and optimization for non-contrastive objectives.<p> These efforts have resulted in superior sentence representation models, emphasizing the importance of careful tuning and optimization for non-contrastive objectives.",
+        "score": 0.524390243902439
+    },
+    {
+        "ans": "To tackle these issues, in this paper, we present EXPLORER which is an exploration-guided reasoning agent for textual reinforcement learning. EXPLORER is neuro-symbolic in nature, as it relies on a neural module for exploration and a symbolic module for exploitation. It can also learn generalized symbolic policies and perform well over unseen data.",
+        "res": "We present EXPLORER which is an exploration-guided reasoning agent for textual reinforcement learning. EXPLORER is neuro-symbolic in nature, as it relies on a neural module for exploration and a symbolic module for exploitation.<p> Our experiments show that EXPLORER outperforms the baseline agents on Text-World cooking (TW-Cooking) and Text-World Commonsense (TWC) games.<p> Our experiments show that EXPLORER outperforms the baseline agents on Text-World cooking (TW-Cooking) and Text-World Commonsense (TWC) games.",
+        "score": 0.5373134328358209
+    },
+    {
+        "ans": "As part of this work, we introduce an efficient hierarchical segmentation model MiniSeg, that outperforms state-of-the-art baselines. Lastly, we expand the notion of text segmentation to a more practical \u201csmart chaptering\u201d task that involves the segmentation of unstructured content, the generation of meaningful segment titles, and a potential real-time application of the models.",
+        "res": "MiniSeg, that outperforms state-of-the-art baselines.<p>Lastly, we expand the notion of text segmentation to a more practical chaptering task that involves the segmentation of unstructured content, the generation of meaningful segment titles, and a potential real-time application of the models.<p><p>Lastly, we expand the notion of text segmentation to a more practical chaptering task that involves the segmentation of unstructured content, the generation of meaningful segment titles, and a potential real-time application of the models.",
+        "score": 0.6285714285714286
+    },
+    {
+        "ans": "We propose a novel framework to measure the extent of semantic sensitivity. To this end, we evaluate NLI models on adversarially generated examples containing minor semantics-preserving surface-form input noise. This is achieved using conditional text generation, with the explicit condition that the NLI model predicts the relationship between the original and adversarial inputs as a symmetric equivalence entailment. We systematically study the effects of the phenomenon across NLI models for in- and out-of- domain settings.",
+        "res": "We propose a novel framework to measure the extent of semantic sensitivity. To this end, we evaluate NLI models on adversarially generated examples containing minor semantics-preserving surface-form input noise.",
+        "score": 0.5688073394495413
+    },
+    {
+        "ans": "Inspired by prior work on English varieties, we craft and manually evaluate perturbation rules that transform German sentences into colloquial forms and use them to synthesize test sets in four ToD datasets.Our perturbation rules cover 18 distinct language phenomena, enabling us to explore the impact of each perturbation on slot and intent performance.Using these new datasets, we conduct an experimental evaluation across six different transformers.",
+        "res": "We address a gap in prior research, which often overlooked the transfer to lower-resource colloquial varieties due to limited test data. Inspired by prior work on English varieties, we craft and manually evaluate perturbation rules that transform German sentences into colloquial forms and use them to synthesize test sets in four ToD datasets.",
+        "score": 0.5289256198347108
+    },
+    {
+        "ans": "In this work, we propose PEARL, a prompting framework to improve reasoning over long documents, which consists of three stages: action mining, plan formulation, and plan execution. More specifically, given a question about a long document, PEARL decomposes the question into a sequence of actions (e.g., SUMMARIZE, FIND_EVENT, FIND_RELATION) and then executes them over the document to obtain the answer. Each stage of PEARL is implemented via zero-shot or few-shot prompting of LLMs (in our work, GPT-4) with minimal human input.",
+        "res": "PEARL is a prompting framework to improve reasoning over long documents, which consists of three stages: action mining, plan formulation, and plan execution.",
+        "score": 0.4
+    },
+    {
+        "ans": "We utilized models such as GPT-3.5-turbo, GPT-4, BLOOMZ, Jais-13b-chat, Whisper, and USM, employing zero and few-shot learning techniques to tackle 33 distinct tasks across 61 publicly available datasets. This involved 98 experimental setups, encompassing ~296K data points, ~46 hours of speech, and 30 sentences for Text-to-Speech (TTS). This effort resulted in 330+ sets of experiments.",
+        "res": "We utilized models such as GPT-3.5-turbo, GPT-4, BLOOMZ, Jais-13b-chat, Whisper, and USM, employing zero and few-shot learning techniques to tackle 33 distinct tasks across 61 publicly available datasets.",
+        "score": 0.7070707070707071
+    },
+    {
+        "ans": "We propose SentenceLDA, a sentence-level topic model. We combine modern SentenceBERT and classical LDA to extend the semantic unit from word to sentence. By extending the semantic unit, we verify that SentenceLDA returns more discriminative document representation than other topic models, while maintaining LDA\u2019s elegant probabilistic interpretability. We also verify the robustness of SentenceLDA by comparing the inference results on original and paraphrased texts. Additionally, we implement one possible application of SentenceLDA on corpus-level key opinion mining by applying SentenceLDA on an argumentative corpus, DebateSum.",
+        "res": "We propose SentenceLDA, a sentence-level topic model. We combine modern SentenceBERT and classical LDA to extend the semantic unit from word to sentence. By extending the semantic unit, we verify that SentenceLDA returns more discriminative document representation than other topic models, while maintaining LDA's elegant probabilistic interpretability.",
+        "score": 0.7153284671532847
+    },
+    {
+        "ans": "We then present Hierarchical Unconstrained Dysfluency Modeling (H-UDM) approach that addresses both dysfluency transcription and detection to eliminate the need for extensive manual annotation. Furthermore, we introduce a simulated dysfluent dataset called VCTK++ to enhance the capabilities of H-UDM in phonetic transcription.",
+        "res": "We first propose to define the concept of dysfluent speech and dysfluent speech modeling. We then present Hierarchical Unconstrained Dysfluency Modeling (H-UDM) approach that addresses both dysfluency transcription and detection to eliminate the need for extensive manual annotation.",
+        "score": 0.6024096385542169
+    },
+    {
+        "ans": "In this paper, we propose Targeted Paraphrasing via RL (TPRL), an approach to automatically learn a policy to generate challenging samples that improve the model\u2019s performance. TPRL leverages FLAN-T5, a language model, as a generator and employs a self-learned policy using a proximal policy optimization to generate the adversarial examples automatically. TPRL\u2019s reward is based on the confusion induced in the classifier, preserving the original text meaning through a Mutual Implication score.",
+        "res": "We demonstrate & evaluate TPRL `&quot;s effectiveness in discovering natural adversarial attacks and improving model performance through extensive experiments on four diverse NLP classification tasks via Automatic & Human evaluation.",
+        "score": 0.09523809523809525
+    },
+    {
+        "ans": "In this paper, we propose an algorithm FAIR (Filtering of Automatically Induced Rules) to filter rules from a large number of automatically induced rules using submodular objective functions that account for the collective precision, coverage, and conflicts of the rule set. We experiment with three ARI approaches and five text classification datasets to validate the superior performance of our algorithm with respect to several semi-supervised label aggregation approaches.",
+        "res": "We propose an algorithm FAIR (Filtering of Automatically Induced Rules) to filter rules from a large number of automatically induced rules using submodular objective functions that account for the collective precision, coverage, and conflicts of the rule set.",
+        "score": 0.7102803738317757
+    },
+    {
+        "ans": "In particular, we investigate the retrieval-augmentation of language models, employing an external datastore for retrieving similar skills in a dataset-unifying manner. Our proposed method, Nearest Neighbor Occupational Skill Extraction (NNOSE) effectively leverages multiple datasets by retrieving neighboring skills from other datasets in the datastore. This improves skill extraction without additional fine-tuning.",
+        "res": "Our proposed method, Nearest Neighbor Occupational Skill Extraction (NNOSE) effectively leverages multiple datasets by retrieving neighboring skills from other datasets in the datastore.<p><p>We tackle the complexity in occupational skill datasets tasks\u2014combining and leveraging multiple datasets for skill extraction, to identify rarely observed skills within a dataset, and overcoming the scarcity of skills across datasets.<p> In particular, we investigate the retrieval-augmentation of language models, employing a external datastore for retrieving similar skills in a dataset-unifying manner.<p> This improves skill extraction without additional fine-tuning. Crucially, we observe a performance gain in predicting infrequent patterns, with substantial gains of up to 30% span-F1 in cross-dataset settings.",
+        "score": 0.369047619047619
+    },
+    {
+        "ans": "This paper presents GAINER, a novel framework called Graph mAchine learnIng with Node-spEcific Radius, aimed at graph-based NLP. We propose non-neural and novel neural approaches built on the core ideas of GAINER.Through rigorous experimentation, we demonstrate the efficacy of GAINER in various popular NLP tasks.",
+        "res": "We propose non-neural and novel neural approaches built on the core ideas of GAINER.",
+        "score": 0.46874999999999994
+    },
+    {
+        "ans": "We use structured knowledge and a large generative model to build a diverse CDA across multiple bias dimensions in a semi-automated way. We highlight how existing debiasing methods do not consider interactions between multiple societal biases and propose a debiasing model that exploits the synergy amongst various societal biases and enables multi-bias debiasing simultaneously.",
+        "res": "We use structured knowledge and a large generative model to build a diverse CDA across multiple bias dimensions in a semi-automated way.",
+        "score": 0.5822784810126582
+    },
+    {
+        "ans": "We make the task more realistic by scaling it to more languages and considering models with simpler architectures for faster inference. We also reformulate the task as a sentence-level multi-label tagging problem to make it more tractable. Having defined the task, we investigate three reasonable architectures for this task and define metrics which better reflect desired performance.",
+        "res": "We make the task more realistic by scaling it to more languages and considering models with simpler architectures for faster inference. We also reformulate the task as a sentence-level multi-label tagging problem to make it more tractable.<p> Having defined the task, we investigate three reasonable architectures for this task and define metrics which better reflect desired performance. We present empirical evidence that no current approach is adequate, and finally provide recommendations for future work in this area.<p> We make the task more realistic by scaling it to more languages and considering models with simpler architectures for faster inference. We also reformulate the task as a sentence-level multi-label tagging problem to make it more tractable.<p> Having defined the task, we investigate three reasonable architectures for this task and define metrics which better reflect desired performance. We present empirical evidence that no current approach is adequate, and finally provide recommendations for future work in this area.<p><p> We present empirical evidence that no current approach is adequate, and",
+        "score": 0.5064377682403434
+    },
+    {
+        "ans": "Firstly, we utilize an LLM to generate multiple augmented texts for each input instance to enhance its semantic meaning for better understanding. Secondly, we additionally generate high-quality training instances conditioned on predicted labels, ensuring the generated texts are relevant to the labels. In this way, GenCo not only corrects the errors of predicted labels during self-training but also eliminates the need for extensive unlabeled texts.",
+        "res": "In our method, an LLM plays an important role in the self-training loop of a smaller model in two important ways. Firstly, we utilize an LLM to generate multiple augmented texts for each input instance to enhance its semantic meaning for better understanding. Secondly, we additionally generate high-quality training instances conditioned on predicted labels, ensuring the generated texts are relevant to the labels.",
+        "score": 0.6515151515151515
+    },
+    {
+        "ans": "We attempt to formalize hyperparameter sensitivity using two metrics: similarity-based sensitivity and performance-based sensitivity. We then use these metrics to quantify two such claims: (1) transformers are more sensitive to hyperparameter choices than LSTMs and (2) transformers are particularly sensitive to batch size. We conduct experiments on two different character-level sequence-to-sequence tasks and find that, indeed, the transformer is slightly more sensitive to hyperparameters according to both of our metrics.",
+        "res": "We conduct experiments on two different character-level sequence-to-sequence tasks and find that, indeed, the transformer is slightly more sensitive to hyperparameters according to both of our metrics.",
+        "score": 0.5714285714285715
+    },
+    {
+        "ans": "To accomplish this, we present a new dataset PAIRS (PArallel Images for eveRyday Scenarios). The PAIRS dataset contains sets of AI-generated images of people, such that the images are highly similar in terms of background and visual content, but differ along the dimensions of gender (man, woman) and race (Black, white). By querying the LVLMs with such images, we observe significant differences in the responses according to the perceived gender or race of the person depicted.",
+        "res": "To accomplish this, we present a new dataset PAIRS (PArallel Images for eveRyday Scenarios). The PAIRS dataset contains sets of AI-generated images of people, such that the images are highly similar in terms of background and visual content, but differ along the dimensions of gender (man, woman) and race (Black, white).",
+        "score": 0.8062015503875969
+    },
+    {
+        "ans": "To this end, we proposed **ConstraintChecker**, a plugin over prompting techniques to provide and check explicit constraints.When considering a new knowledge instance, ConstraintChecker employs a rule-based module to produce a list of constraints, then it uses a zero-shot learning module to check whether this knowledge instance satisfies all constraints.The acquired constraint-checking result is then aggregated with the output of the main prompting technique to produce the final output.",
+        "res": "We proposed **ConstraintChecker**, a plugin over prompting techniques to provide and check explicit constraints.",
+        "score": 0.3218390804597701
+    },
+    {
+        "ans": "We describe an algorithm which finds the shortest string for a weighted non-deterministic automaton over such semirings using the backwards shortest distance of an equivalent deterministic automaton (DFA) as a heuristic for A* search performed over a companion idempotent semiring, which is proven to return the shortest string. There may be exponentially more states in the DFA, but the proposed algorithm needs to visit only a small fraction of them if determinization is performed \u201con the fly\u201d",
+        "res": "We describe an algorithm which finds the shortest string for a weighted non-deterministic automaton over such semirings using the backwards shortest distance of an equivalent deterministic automaton (DFA) as a heuristic for A* search performed over a companion idempotent semiring, which is proven to return the shortest string.",
+        "score": 0.7716535433070866
+    },
+    {
+        "ans": "To overcome this issue, we propose a novel Importance-Aware Data Augmentation (IADA) algorithm for DocNMT that augments the training data based on token importance information estimated by the norm of hidden states and training gradients. We conduct comprehensive experiments on three widely-used DocNMT benchmarks.",
+        "res": "We propose a novel Importance-Aware Data Augmentation (IADA) algorithm for DocNMT that augments the training data based on token importance information estimated by the norm of hidden states and training gradients.",
+        "score": 0.8205128205128205
+    },
+    {
+        "ans": "We frame the novel task of translationese reduction and hypothesize that Abstract Meaning Representation (AMR), a graph-based semantic representation which abstracts away from the surface form, can be used as an interlingua to reduce the amount of translationese in translated texts. By parsing English translations into an AMR and then generating text from that AMR, the result more closely resembles originally English text across three quantitative macro-level measures, without severely compromising fluency or adequacy. We compare our AMR-based approach against three other techniques based on machine translation or paraphrase generation.",
+        "res": "We frame the novel task of translationese reduction and hypothesize that Abstract Meaning Representation (AMR), a graph-based semantic representation which abstracts away from the surface form, can be used as an interlingua to reduce the amount of translationese in translated texts. By parsing English translations into an AMR and then generating text from that AMR, the result more closely resembles originally English text across three quantitative macro-level measures, without severely compromising fluency or adequacy.",
+        "score": 0.8994082840236686
+    },
+    {
+        "ans": "Here, we evaluate 16 different LMs on 10 probing English datasets \u2013 4 template-based and 6 template-free \u2013 in general and biomedical domains to answer the following research questions: 1) Template-free and template-based approaches often rank models differently, except for the top domain-specific models. 2) Scores decrease by up to 42% Acc@1 when comparing parallel template-free and template-based prompts. 3) Perplexity is negatively correlated with accuracy in the template-free approach, but, counter-intuitively, they are positively correlated for template-based probing. 4) Models tend to predict the same answers frequently across prompts for template-based probing, which is less common when employing template-free techniques.",
+        "res": "Our findings are: 1) Template-free and template-based approaches often rank models differently, except for the top domain-specific models. 2) Scores decrease by up to 42% Acc@1 when comparing parallel template-free and template-based prompts.",
+        "score": 0.47682119205298024
+    },
+    {
+        "ans": "We aim to close this gap, by first outlining a set of \u2013 previously discussed as well as novel \u2013 desiderata for QA models. We then survey relevant analysis and methods papers to provide an overview of the state of the field. The second part of our work presents experiments where we evaluate 15 QA systems on 5 datasets according to all desiderata at once.",
+        "res": "We then survey relevant analysis and methods papers to provide an overview of the state of the field. The second part of our work presents experiments where we evaluate 15 QA systems on 5 datasets according to all desiderata at once.",
+        "score": 0.7884615384615385
+    },
+    {
+        "ans": "This paper studies clustering algorithms in order to scale the discovery of encoded concepts in PLM representations to larger datasets and models. We propose metrics for assessing the quality of discovered latent concepts and use them to compare the studied clustering algorithms. We found that K-Means-based concept discovery significantly enhances efficiency while maintaining the quality of the obtained concepts.",
+        "res": "We propose metrics for assessing the quality of discovered latent concepts and use them to compare the studied clustering algorithms.",
+        "score": 0.49382716049382713
+    },
+    {
+        "ans": "We present AnthroScore, an automatic metric of implicit anthropomorphism in language. We use a masked language model to quantify how non-human entities are implicitly framed as human by the surrounding context. We show that AnthroScore corresponds with human judgments of anthropomorphism and dimensions of anthropomorphism described in social science literature.",
+        "res": "We use a masked language model to quantify how non-human entities are implicitly framed as human by the surrounding context.",
+        "score": 0.5833333333333334
+    },
+    {
+        "ans": "We report on our experience of working together over five years in a remote community in the far north of Australia, and how we prototyped simple language technologies to support our collaboration. We navigated different understandings of language, the functional differentiation of oral vs institutional languages, and the distinct technology opportunities for each. Our collaboration unsettled the first author\u2019s western framing of language as data for exploitation by machines, and we devised a design pattern that seems better aligned with local interests and aspirations.",
+        "res": "We navigated different understandings of language, the functional differentiation of oral vs institutional languages, and the distinct technology opportunities for each.<p>We navigated different understandings of language, the functional differentiation of oral vs institutional languages, and the distinct technology opportunities for each.<p>We called for new collaborations on the design of locally appropriate technologies for languages with primary orality.<p>We call for new collaborations on the design of locally appropriate technologies for languages with primary orality.",
+        "score": 0.3902439024390244
+    },
+    {
+        "ans": "To this end, we conduct the first evaluation of neural, supervised and classical topic models in an interactive task-based setting. We combine topic models with a classifier and test their ability to help humans conduct content analysis and document annotation. From simulated, real user and expert pilot studies, the Contextual Neural Topic Model does the best on cluster evaluation metrics and human evaluations; however, LDA is competitive with two other NTMs under our simulated experiment and user study results, contrary to what coherence scores suggest.",
+        "res": "We combine topic models with a classifier and test their ability to help humans conduct content analysis and document annotation.",
+        "score": 0.37735849056603776
+    },
+    {
+        "ans": "We ranked each corpus according to a similarity measure and carried out an intrinsic and extrinsic evaluation on different portions of this ranked corpus. We show that there are significant quality differences between different portions of web-mined corpora and that the quality varies across languages and datasets. We also show that, for some web-mined datasets, Neural Machine Translation (NMT) models trained with their highest-ranked 25k portion can be on par with human-curated datasets.",
+        "res": "We ranked each corpus according to a similarity measure and carried out an intrinsic and extrinsic evaluation on different portions of this ranked corpus.",
+        "score": 0.4752475247524752
+    }
+]

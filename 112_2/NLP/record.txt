@@ -1,0 +1,214 @@
+55
+WARNING:root:inference device is not set, using cuda:0, Tesla T4
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.
+['\nThe method is based on hierarchical clustering techniques.']
+1.0
+WARNING:root:inference device is not set, using cuda:0, Tesla T4
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.
+['<SYS> We introduce a novel approach for image segmentation. Our method uses deep learning to enhance accuracy.<SYS> Experiments demonstrate the effectiveness of our approach.<SYS> Experiments demonstrate the effectiveness of our approach.<SYS> Experiments demonstrate the effectiveness of our approach.<SYS> Experiments demonstrate the effectiveness of our approach.<SYS> Experiments demonstrate the effectiveness of our approach.']
+0.24615384615384614
+WARNING:root:inference device is not set, using cuda:0, Tesla T4
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.
+['\nA new framework for natural language processing is presented. The approach combines rule-based and machine learning techniques.\nComparative analysis with other frameworks is also discussed.']
+0.5142857142857142
+WARNING:root:inference device is not set, using cuda:0, Tesla T4
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.
+['<SYS> An extensive empirical analysis demonstrates that Logic-Explainer can improve explanations generated via in-context learning methods and Chain-of-Thought (CoT) on challenging ethical NLI tasks, while, at the same time, producing formal proofs describing and supporting models??reasoning.<SYS> An extensive empirical analysis demonstrates that Logic-Explainer can improve explanations generated via in-context learning methods and Chain-of-Thought (CoT) on challenging ethical NLI tasks, while, at the same time, producing formal proofs describing and supporting models??reasoning.<SYS> An extensive empirical analysis demonstrates that Logic-Explainer can improve explanations generated via in-context learning methods and Chain-of-Thought (CoT) on challenging ethical NLI tasks, while, at the same time, producing formal proofs describing and supporting models??reasoning.']
+0.0880503144654088
+WARNING:root:inference device is not set, using cuda:0, Tesla T4
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.
+['<SYS> We propose FACTOR: Factual Assessment via Corpus Transformation, a scalable approach for evaluating LM factuality.<<SYS> We use our framework to create three benchmarks: Wiki-FACTOR, News-FACTOR and Expert-FACTOR.<SYS> We show that: (i) our benchmark scores increase with model size and improve when the LM is augmented with retrieval; (ii) benchmark score and perplexity do not always agree on model ranking; (iii) when perplexity and benchmark score disagree, the latter better reflects factuality in open-ended generation, as measured by human annotators.']
+0.41666666666666663
+WARNING:root:inference device is not set, using cuda:0, Tesla T4
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.
+['<SYS> By analysing 255 papers and considering OpenAI?s data usage policy, we extensively document the amount of data leaked to these models during the first year after the model?s release.<SYS> By analysing 255 papers and considering OpenAI?s data usage policy, we extensively document the amount of data leaked to these models during the first year after the model?s release.<SYS> By analysing 255 papers and considering OpenAI?s data usage policy, we extensively document the amount of data leaked to these models during the first year after the model?s release.<SYS> By analysing 255 papers and considering OpenAI?s data usage policy, we extensively document the amount of data leaked to these models during the first year after the model?s release.']
+0.418848167539267
+WARNING:root:inference device is not set, using cuda:0, Tesla T4
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.
+['\nWe present Archer, a challenging bilingual text-to-SQL dataset specific to complex reasoning, including arithmetic, commonsense and hypothetical reasoning.']
+0.625
+WARNING:root:inference device is not set, using cuda:0, Tesla T4
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.
+['<SYS> We introduce GEAR, a computationally efficient query-tool grounding algorithm that is generalizable to various tasks that require tool use while not relying on task-specific demonstrations.<SYS> We evaluate GEAR on 14 datasets across 6 downstream tasks, demonstrating its strong generalizability to novel tasks, tools and different SLMs.']
+0.5357142857142857
+WARNING:root:inference device is not set, using cuda:0, Tesla T4
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.
+['<SYS> We explore two options for exploiting the emergent abilities of LLMs for zero-shot NLG assessment: absolute score prediction, and comparative assessment which uses relative comparisons between pairs of candidates.<SYS> Though comparative assessment has not been extensively studied in NLG assessment, we note that humans often find it more intuitive to compare two options rather than scoring each one independently.<SYS> We illustrate that LLM comparative assessment is a simple, general and effective approach for NLG assessment. For moderate-sized open-source LLMs, such as FlanT5 and Llama2-chat, comparative assessment is superior to prompt scoring, and in many cases can achieve performance competitive with state-of-the-art methods.<SYS> We propose debiasing methods that can further improve performance.']
+0.4541062801932367
+WARNING:root:inference device is not set, using cuda:0, Tesla T4
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.
+['<<INST> We represent items in natural language and formulate CRS as a natural language processing task.<INST> Accordingly, we leverage the power of pre-trained language models to encode items, understand user intent via conversation, perform item recommendation through semantic matching, and generate dialogues.<INST><INST><INST> Our code is available at: https://github.com/Ravoxsg/efficient_unified_crs.<INST> We represent items in natural language and formulate CRS as a natural language processing task.<INST> Accordingly, we leverage the power of pre-trained language models to encode items, understand user intent via conversation, perform item recommendation through semantic matching, and generate dialogues.<INST> We represent items in natural language and formulate CRS as a natural language processing task.<INST> Accordingly']
+0.5077720207253885
+WARNING:root:inference device is not set, using cuda:0, Tesla T4
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.
+['<SYS> On our fairer evaluation setting, we find that current state-of-the-art language models are far from competent.<SYS> We also show that using state changes of salient entities as a chain-of-thought prompt, downstream performance is improved on tasks such as question answering and classical planning, outperforming the setting involving all related entities indiscriminately.<SYS><SYS> On our fairer evaluation setting, we find that current state-of-the-art language models are far from competent.<SYS> We also show that using state changes of salient entities as a chain-of-thought prompt, downstream performance is improved on tasks such as question answering and classical planning, outperforming the setting involving all related entities indiscriminately.']
+0.45810055865921784
+WARNING:root:inference device is not set, using cuda:0, Tesla T4
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.
+['<SYS> We comprehensively analyze each system with automated methods that are grounded in a variety of aspects of empathy.<SYS> We find that recent systems lack three important aspects of empathy: specificity, reflection levels, and diversity.<SYS> Based on our results, we discuss problematic behaviors that may have gone undetected in prior evaluations, and offer guidance for developing future systems.']
+0.33962264150943394
+WARNING:root:inference device is not set, using cuda:0, Tesla T4
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.
+['<SYS> We propose a data synthesis framework for multi-hop question answering that requires less than 10 human-annotated question answer pairs. Our framework depends only on rich, naturally-occurring relationships among documents and is built upon the data generation functions parameterized by LLMs and prompts.<SYS> We synthesize millions of multi-hop questions and claims to finetune language models, evaluated on popular benchmarks for multi-hop question answering and fact verification.<SYS> We synthesize millions of multi-hop questions and claims to finetune language models, evaluated on popular benchmarks for multi-hop question answering and fact verification.<SYS> We synthes']
+0.5882352941176471
+WARNING:root:inference device is not set, using cuda:0, Tesla T4
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.
+['<SYS> New automatic metrics are also proposed and analysed for the evaluation of this task.<SYS> With DEER, we investigate a modern approach for inductive reasoning where we use natural language as representation for knowledge instead of formal language and use pretrained language models as ?reasoners??<SYS> We propose a new framework drawing insights from philosophy literature for this task, which we show in the experiment section that surpasses baselines in both automatic and human evaluations.<SYS> We discuss about our future perspectives for inductive reasoning in Section 7.<SYS> Dataset and code are available at https://github.com/ZonglinY/Inductive_Reasoning.<SYS><SYS> New automatic metrics are also proposed and analysed for the evaluation of this task.<SYS> With DEER, we investigate a modern approach for inductive reasoning where we use natural language as representation for knowledge instead of formal language and use pretrained language models as ?reasoners??<SYS> We propose a new framework drawing insights from philosophy literature for this task, which we show in the experiment section that surpasses baselines in both automatic and human evaluations.<SYS> We discuss about our future perspectives for inductive reasoning in Section 7.<SYS> Dataset and code are available at https://github.com/ZonglinY/Inductive_Reasoning.<SYS> We discuss about our future perspectives']
+0.3269230769230769
+WARNING:root:inference device is not set, using cuda:0, Tesla T4
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.
+['<SYS> We annotated the English portion of the dataset and extended the sentence-level annotation to the remaining 204 languages covered in the corpus.<SYS> We found that languages unseen during the pre-training of multilingual language models, languages from under-represented families (like Nilotic and Altantic-Congo), and languages from the regions of Africa, Americas, Oceania and South East Asia, often have the lowest performance on our topic classification dataset.']
+0.33333333333333337
+WARNING:root:inference device is not set, using cuda:0, Tesla T4
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.
+['<SYS> For our experimentation, we randomly selected twelve stocks from the Dow Jones Industrial Index to construct our portfolio.<SYS> The experimental results reveal that, in comparison to conventional reinforcement learning methods, our approach with at least 13.26% increase over other methods compared.<SYS> For our experimentation, we randomly selected twelve stocks from the Dow Jones Industrial Index to construct our portfolio.<SYS> For our experimentation, we randomly selected twelve stocks from the Dow Jones Industrial Index to construct our portfolio.<SYS> The experimental results reveal that, in comparison to conventional reinforcement learning']
+0.3087248322147651
+WARNING:root:inference device is not set, using cuda:0, Tesla T4
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.
+['<SYS> We propose an approach to generating clarification questions based on model uncertainty estimation, compare it to several alternatives, and show that it leads to significant improvements in terms of task success.<SYS> We propose an approach to generating clarification questions based on model uncertainty estimation, compare it to several alternatives, and show that it leads to significant improvements in terms of task success.<SYS> We propose an approach to generating clarification questions based on model uncertainty estimation, compare it to several alternatives, and show that it leads to significant improvements in terms of task success.<SYS> We propose an approach to generating clarification questions based on model uncertainty estimation, compare it to several alternatives, and show that it leads to significant improvements in terms of task success.<SYS> We propose an approach to generating clarification questions based on model uncertainty estimation,']
+0.3615819209039548
+WARNING:root:inference device is not set, using cuda:0, Tesla T4
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.
+['<SYS> We propose Like a Good Nearest Neighbor (LaGoNN), a modification to SetFit that introduces no learnable parameters but alters input text with information from its nearest neighbor, for example, the label and text, in the training data, making novel data appear similar to a instance on which the model was optimized.<SYS> We conduct a thorough study of text classification systems in the context of content moderation under four label distributions, and in general and multilingual classification settings.']
+0.7633587786259542
+WARNING:root:inference device is not set, using cuda:0, Tesla T4
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.
+['<SYS> We focus on zero-shot sentiment analysis tasks across 34 languages, including 6 high/medium-resource languages, 25 low-resource languages, and 3 code-switching datasets.<SYS> We demonstrate that pretraining using multilingual lexicons, without using any sentence-level sentiment data, achieves superior zero-shot performance compared to models fine-tuned on English sentiment datasets, and large language models like GPT??.5, BLOOMZ, and XGLM.<SYS> We focus on zero-shot sentiment analysis tasks across 34 languages, including 6 high/medium-resource languages, 25 low-resource languages, and 3 code-switching datasets.<SYS> We demonstrate that pretraining using multilingual lexicons, without using any sentence-level sentiment data, achieves superior zero-shot']
+0.4320987654320988
+WARNING:root:inference device is not set, using cuda:0, Tesla T4
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.
+['<SYS> An adaptively-updated semantic representation for trigger and argument is established to introduce event knowledge into supervised learning by constructing adaptively-updated semantic representations for trigger and argument.<SYS> A multi-pattern rephrasing paradigm and a data-free composing paradigm are designed to reduce data noise.<SYS> Instead of directly using augmentation samples in the supervised task, we introduce span-level contrastive learning to reduce data noise.<SYS><SYS> Instead of directly using augmentation samples in the supervised task, we introduce span-level contrastive learning to reduce data noise.<SYS> Instead of directly using augmentation samples in the supervised task, we introduce span-level contrastive learning to reduce data noise.<SY']
+0.4672897196261682
+WARNING:root:inference device is not set, using cuda:0, Tesla T4
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.
+['<SYS> In response, we transfer the attribute controlling capabilities to languages without attribute-annotated data with an NLLB-200 model as a foundation.<SYS> The controller transfers well to zero-shot conditions, as it is operates on pretrained multilingual representations and is attribute- rather than language-specific.<SYS> The latter also shows stronger domain robustness.<SYS> The code is in the supplementary material.<SYS> The controller transfers well to zero-shot conditions, as it is operates on pretrained multilingual representations and is attribute- rather than language-specific.<SYS> The latter also shows stronger domain robustness.<SYS> The code is in the supplementary material.<SYS> The code is in the']
+0.3484848484848485
+WARNING:root:inference device is not set, using cuda:0, Tesla T4
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.
+['<SYS> We introduce MultiMUC, the first multilingual parallel corpus for template filling, comprising translations of the classic MUC-4 template filling benchmark into five languages: Arabic, Chinese, Farsi, Korean, and Russian.<SYS> We obtain automatic translations from a strong multilingual machine translation system and manually project the original English annotations into each target language.<SYS> For all languages, we also provide human translations for key portions of the dev and test splits.<SYS> Finally, we present baselines on MultiMUC both with state-of-the-art template filling models for MUC-4 and with ChatGPT.<SYS> We release MUC-4 and the supervised baselines to facilitate further work on document-level information extraction in multilingual settings.']
+0.6857142857142856
+WARNING:root:inference device is not set, using cuda:0, Tesla T4
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.
+['<SYS> We follow this line of work and propose Archer, a data-augmentation strategy that exploits alignment annotations between sentences and their corresponding meaning representations.<SYS> We follow this line of work and propose Archer, a data-augmentation strategy that exploits alignment annotations between sentences and their corresponding meaning representations.<SYS> We follow this line of work and propose Archer, a data-augmentation strategy that exploits alignment annotations between sentences and their corresponding meaning representations.<SYS> We follow this line of work and propose Archer, a data-augmentation strategy that exploits alignment annotations between sentences and their corresponding meaning representations.<SYS> We follow this line of work and propose Archer, a data-augmentation strategy that exploits alignment annotations']
+0.3414634146341463
+WARNING:root:inference device is not set, using cuda:0, Tesla T4
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.
+['<SYS> We begin by highlighting the issue of representation collapse that occurs with the replacement of contrastive objectives<SYS> in SimCSE. Subsequently, we introduce a straightforward solution called the target network to mitigate this problem.<SYS> We have reached peak performance in non-contrastive sentence embeddings through extensive fine-tuning and optimization.<SYS> These efforts have resulted in superior sentence representation models, emphasizing the importance of careful tuning and optimization for non-contrastive objectives.']
+0.562962962962963
+WARNING:root:inference device is not set, using cuda:0, Tesla T4
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.
+['<SYS> Purely deep-RL-based approaches may perform well on seen objects; however, they fail to showcase the same performance on unseen data. Commonsense-infused deep-RL agents may work better on unseen data; unfortunately, their policies are often not interpretable or easily transferable.<SYS> To tackle these issues, in this paper, we present EXPLORER which is an exploration-guided reasoning agent for textual reinforcement learning. EXPLORER is neuro-symbolic in nature, as it relies on a neural module for exploration and a symbolic module for exploitation.<SYS><SYS> We<SYS> present EXPLORER which is an exploration-guided reasoning agent for textual reinforcement learning.<SYS> EXPLORER is neuro-symbolic in nature, as it relies on a neural module for exploration and a symbolic module for exploitation.<SYS> We evaluate EXPLORER on Text-World cooking (TW-Cooking) and Text-World Commonsense (TWC) games.<SYS> EXPLORER outperforms the baseline agents on TW-Cooking and TWC games.']
+0.43062200956937796
+WARNING:root:inference device is not set, using cuda:0, Tesla T4
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.
+['<SYS> As part of this work, we introduce an efficient hierarchical segmentation model MiniSeg, that outperforms state-of-the-art baselines.<SYS> Lastly, we expand the notion of text segmentation to a more practical chaptering task that involves the segmentation of unstructured content, the generation of meaningful segment titles, and a potential real-time application of the models.']
+0.9739130434782608
+WARNING:root:inference device is not set, using cuda:0, Tesla T4
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.
+['<SYS> We propose a novel framework to measure the extent of semantic sensitivity. To this end, we evaluate NLI models on adversarially generated examples containing minor semantics-preserving surface-form input noise.<SYS> We systematically study the effects of the phenomenon across NLI models for in- and out-of- domain settings.<SYS> We further perform ablation studies, analysing this phenomenon across models, datasets, and variations in inference and show that semantic sensitivity can lead to major inconsistency within model predictions.<SYS> We further perform ablation studies, analysing this phenomenon across models, datasets, and variations in inference and show that semantic sensitivity can lead to major inconsistency within model predictions.']
+0.5240641711229947
+WARNING:root:inference device is not set, using cuda:0, Tesla T4
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.
+['<SYS> We address a gap in prior research, which often overlooked the transfer to lower-resource colloquial varieties due to limited test data.<SYS> Inspired by prior work on English varieties, we craft and manually evaluate perturbation rules that transform German sentences into colloquial forms and use them to synthesize test sets in four ToD datasets.<SYS> Using these new datasets, we conduct an experimental evaluation across six different transformers.<SYS> Here, we demonstrate that when applied to colloquial varieties, ToD systems maintain their intent recognition performance, losing 6% (4.62 percentage points) in accuracy on average.<SYS> However, they exhibit a significant drop in slot detection, with a decrease of 31% (21 percentage points) in slot F1 score.']
+0.4838709677419355
+WARNING:root:inference device is not set, using cuda:0, Tesla T4
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.
+['<SYS><SYS> A prompting framework to improve reasoning over long documents<SYS> Given a question about a long document, PEARL decomposes the question into a sequence of actions (e.g., SUMMARIZE, FIND_EVENT, FIND_RELATION) and then executes them over the document to obtain the answer.<SYS> A<SYS> zero-shot or few-shot prompting of LLMs (in our work, GPT-4) with minimal human input.<SYS> Each stage of PEARL is implemented via zero-shot or few-shot prompting of LLMs (in our work, GPT-4) with minimal human input.<SYS> A ablation experiments show that each stage of PEARL is critical to its performance.']
+0.6943005181347149
+WARNING:root:inference device is not set, using cuda:0, Tesla T4
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.
+['<SYS> This effort resulted in 330+ sets of experiments. Our analysis focused on measuring the performance gap between SOTA models and LLMs.<SYS> This overarching trend observed was that SOTA models generally outperformed LLMs in zero-shot learning, with a few exceptions.<SYS> This effort resulted in 330+ sets of experiments.<SYS> Our analysis focused on measuring the performance gap between SOTA models and LLMs.<SYS> This effort resulted in 330+ sets of experiments.<SYS> Our analysis focused on measuring the performance gap between SOTA models and LLMs.<SYS> This overarching trend observed was that SOTA models generally outperformed LLMs in zero-shot learning, with a few exceptions.<SYS> This performance gap between SOTA models and LLMs was evident in various tasks, such as text classification, text-to-speech (TTS']
+0.16494845360824742
+WARNING:root:inference device is not set, using cuda:0, Tesla T4
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.
+["<SYS> We propose SentenceLDA, a sentence-level topic model. We combine modern SentenceBERT and classical LDA to extend the semantic unit from word to sentence.<SYS> By extending the semantic unit, we verify that SentenceLDA returns more discriminative document representation than other topic models, while maintaining LDA's elegant probabilistic interpretability.<SYS> We also verify the robustness of SentenceLDA by comparing the inference results on original and paraphrased texts.<SYS> Additionally, we implement one possible application of SentenceLDA on corpus-level key opinion mining by applying SentenceLDA on an argumentative corpus, DebateSum.<SYS> We also verify the robustness of SentenceLDA by comparing the inference results on original and paraphrased texts.<SYS> Additionally, we implement one possible application of SentenceLDA on corpus-level key opinion mining by applying SentenceLDA on an argumentative corpus, DebateSum."]
+0.7963800904977375
+WARNING:root:inference device is not set, using cuda:0, Tesla T4
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.
+['<SYS> We first propose to define the concept of dysfluent speech and dysfluent speech modeling.<SYS> We then present Hierarchical Unconstrained Dysfluency Modeling (H-UDM) approach that addresses both dysfluency transcription and detection to eliminate the need for extensive manual annotation.<SYS> Our experimental results demonstrate the effectiveness and robustness of our proposed methods in both transcription and detection tasks.<SYS> We first propose to define the concept of dysfluent speech and dysfluent speech modeling.<SYS> We then present Hierarchical Unconstrained Dysfluency Modeling (H-UDM) approach that addresses both dysfluency transcription and detection to eliminate the need for extensive manual annotation.<SYS> Our experimental results demonstrate the effectiveness and robustness of our proposed methods in both transcription and detection tasks.<SYS> We first propose to define the concept of dysfluent speech and dysfluent']
+0.37288135593220334
+WARNING:root:inference device is not set, using cuda:0, Tesla T4
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.
+["<SYS> Targeted Paraphrasing via RL (TPRL) leverages FLAN-T5, a language model, as a generator and employs a self-learned policy using a proximal policy optimization to generate the adversarial examples automatically.<SYS> We demonstrate & evaluate TPRL `&quot;s effectiveness in discovering natural adversarial attacks and improving model performance through extensive experiments on four diverse NLP classification tasks via Automatic & Human evaluation.<SYS> We demonstrate & evaluate TPRL 's effectiveness in discovering natural adversarial attacks and improving model performance through extensive experiments on four diverse NLP classification tasks via Automatic & Human evaluation.<SYS> We demonstrate & evaluate TPRL 's effectiveness in discovering natural adversarial attacks and improving model performance through extensive experiments on four diverse NLP classification tasks via Automatic & Human evaluation.<SYS> We demonstrate & evaluate TPRL 's effectiveness in discovering natural"]
+0.3495145631067961
+WARNING:root:inference device is not set, using cuda:0, Tesla T4
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.
+['<SYS> We propose an algorithm FAIR (Filtering of Automatically Induced Rules) to filter rules from a large number of automatically induced rules using submodular objective functions that account for the collective precision, coverage, and conflicts of the rule set.<SYS> We experiment with three ARI approaches and five text classification datasets to validate the superior performance of our algorithm with respect to several semi-supervised label aggregation approaches.<SYS> The anonymized source code is available at https://anonymous.4open.science/r/FAIR-LF-Induction-9B60.<SYS> We propose an algorithm FAIR (Filtering of Automatically Induced Rules) to filter rules from a large number of automatically induced rules using submodular objective functions that account for the collective precision, coverage, and conflicts of the rule set.<SYS> We experiment with three ARI approaches and five text classification datasets to validate the superior performance of our algorithm with respect to several semi-supervised label aggregation approaches.']
+0.5945945945945946
+WARNING:root:inference device is not set, using cuda:0, Tesla T4
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.
+['<SYS> We tackle the complexity in occupational skill datasets tasks—combining and leveraging multiple datasets for skill extraction, to identify rarely observed skills within a dataset, and overcoming the scarcity of skills across datasets.<SYS> Our proposed method, Nearest Neighbor Occupational Skill Extraction (NNOSE) effectively leverages multiple datasets by retrieving neighboring skills from other datasets in the datastore.<SYS> We observe a performance gain in predicting infrequent patterns, with substantial gains of up to 30% span-F1 in cross-dataset settings.<SYS> Our proposed method, Nearest Neighbor Occupational Skill Extraction (NNOSE) effectively leverages multiple datasets by retrieving neighboring skills from other datasets in the datastore.']
+0.389937106918239
+WARNING:root:inference device is not set, using cuda:0, Tesla T4
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.
+['<SYS> Fixing the radius poses a fundamental restriction as nodes exhibit diverse properties and varying amounts of informative local structures in the input graph.<SYS> This paper presents GAINER, a novel framework called Graph machine learning with node-specific radius, aimed at graph-based NLP.<SYS> Through rigorous experimentation, we demonstrate the efficacy of GAINER in various popular NLP tasks.<SYS><SYS><SYS> This paper presents GAINER, a novel framework called Graph machine learning with node-specific radius, aimed at graph-based NLP.']
+0.5151515151515151
+WARNING:root:inference device is not set, using cuda:0, Tesla T4
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.
+['<SYS> We use structured knowledge and a large generative model to build a diverse CDA across multiple bias dimensions in a semi-automated way.<SYS> We highlight how existing debiasing methods do not consider interactions between multiple societal biases and propose a debiasing model that exploits the synergy amongst various societal biases and enables multi-bias debiasing simultaneously.<SYS> We use structured knowledge and a large generative model to build a diverse CDA across multiple bias dimensions in a semi-automated way.<SYS> We use structured knowledge and a large generative model to build a diverse CDA across multiple bias dimensions in a semi-automated way.']
+0.6913580246913581
+WARNING:root:inference device is not set, using cuda:0, Tesla T4
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.
+
+
+
+
+
+55
+WARNING:root:inference device is not set, using cuda:0, Tesla T4
+No chat template is set for this tokenizer, falling back to a default class-level template. This is very error-prone, because models are often trained with templates different from the class default! Default chat templates are a legacy feature and will be removed in Transformers v4.43, at which point any code depending on them will stop working. We recommend setting a valid chat template before then to ensure that this model continues working without issues.
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.
+['\nThe method is based on hierarchical clustering techniques.']
+1.0
+WARNING:root:inference device is not set, using cuda:0, Tesla T4
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.
+['<SYS> We introduce a novel approach for image segmentation. Our method uses deep learning to enhance accuracy.<SYS> Experiments demonstrate the effectiveness of our approach.<SYS> Experiments demonstrate the effectiveness of our approach.<SYS> Experiments demonstrate the effectiveness of our approach.<SYS> Experiments demonstrate the effectiveness of our approach.<SYS> Experiments demonstrate the effectiveness of our approach.']
+0.24615384615384614
+WARNING:root:inference device is not set, using cuda:0, Tesla T4
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.
+['\nA new framework for natural language processing is presented. The approach combines rule-based and machine learning techniques.\nComparative analysis with other frameworks is also discussed.']
+0.5142857142857142
+WARNING:root:inference device is not set, using cuda:0, Tesla T4
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.

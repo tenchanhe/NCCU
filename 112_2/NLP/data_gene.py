@@ -13,7 +13,7 @@ def get_data():
             # else:
             #     break
 
-            if 4745 <= i < 10000:  # 读取第101到200行
+            if 9678 <= i < 10000:  # 读取第101到200行
                 data.append(json.loads(line))
             elif i >= 10000:  # 超过200行后停止读取
                 break
